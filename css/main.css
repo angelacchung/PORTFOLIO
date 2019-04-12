@@ -8,6 +8,11 @@ header {
   background-color: white;
 }
 
+.projTitle {
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+}
+
 .intro {
   margin: 5%;
 }
@@ -26,6 +31,12 @@ nav {
 
 .container {
   margin-top: 5%;
+}
+
+.subtitle {
+  font-weight: 600;
+  color: pink;
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */
