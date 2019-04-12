@@ -35,3 +35,19 @@ nav{
     color:pink;
     font-size:2rem;
 }
+nav{
+    li{
+        font-size: 1.1rem;
+        margin-right:5rem;
+    }a{
+        color:black;
+    }
+}
+#aboutPic{
+    width:40%;
+    padding:10%;
+}
+.navbar-light{
+border-color:white;
+}
+@import 'mediaqueries.css';

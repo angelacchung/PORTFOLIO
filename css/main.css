@@ -1,3 +1,4 @@
+@import 'mediaqueries.css';
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
@@ -37,6 +38,23 @@ nav {
   font-weight: 600;
   color: pink;
   font-size: 2rem;
+}
+
+nav li {
+  font-size: 1.1rem;
+  margin-right: 5rem;
+}
+nav a {
+  color: black;
+}
+
+#aboutPic {
+  width: 40%;
+  padding: 10%;
+}
+
+.navbar-light {
+  border-color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
