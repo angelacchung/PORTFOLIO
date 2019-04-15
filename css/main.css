@@ -1,7 +1,9 @@
 @import 'mediaqueries.css';
 body {
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 300;
 }
 
 header {
@@ -10,7 +12,6 @@ header {
 }
 
 .projTitle {
-  font-family: "Roboto", sans-serif;
   font-weight: 600;
 }
 
@@ -56,7 +57,8 @@ textarea {
   color: white;
 }
 .intro h1 .outline {
-  -webkit-text-stroke-width: 0.1px;
+  font-weight: 600;
+  -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: black;
 }
 .intro h3 {
@@ -88,7 +90,7 @@ footer .social-media a {
 
 .subtitle {
   font-weight: 600;
-  color: pink;
+  color: grey;
   font-size: 2rem;
 }
 

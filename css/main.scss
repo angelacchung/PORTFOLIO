@@ -1,13 +1,17 @@
 body{
     margin:0;
-    font-family: 'Roboto', sans-serif;}
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    // font-family: 'Roboto', sans-serif;
+}
 header{
     padding:1%;
     background-color:white;
 
 }
 .projTitle{
-    font-family: 'Roboto', sans-serif;
+    // font-family: 'Roboto', sans-serif;
     font-weight:600;
 }
 a:hover{
@@ -47,7 +51,8 @@ textarea{
         font-size:4rem;
         color:white;
         .outline{
-        -webkit-text-stroke-width: 0.1px;
+        font-weight:600;
+        -webkit-text-stroke-width: 2.5px;
         -webkit-text-stroke-color: black;
         }
     }
@@ -79,7 +84,7 @@ footer{
 }
 .subtitle{
     font-weight:600;
-    color:pink;
+    color:grey;
     font-size:2rem;
 }
 nav{
@@ -90,6 +95,7 @@ nav{
         color:black;
     }
 }
+
 #aboutPic{
     width:40%;
     padding:10%;
