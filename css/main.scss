@@ -17,11 +17,25 @@ header{
 nav{
     display:inline;
 }
+.button{
+    background-color:blue;
+    border-radius:60px;
+    width:100%;
+    color:white;
+    padding: 1% 4% 1% 4%;
+    font-weight:500;
+    font-size:20px;
+}
 .intro{
    
     h1{
-        font-weight:600;
+        font-weight:bold;
         font-size:4rem;
+        color:white;
+        .outline{
+        -webkit-text-stroke-width: 0.1px;
+        -webkit-text-stroke-color: black;
+        }
     }
     h3{
         font-size:2rem;
