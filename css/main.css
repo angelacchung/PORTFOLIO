@@ -14,22 +14,40 @@ header {
   font-weight: 600;
 }
 
+a:hover {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+}
+
 .intro {
   margin: 5%;
 }
 
-nav {
+.smicons {
   display: inline;
 }
 
+.btn {
+  border-radius: 50px;
+}
+
+textarea {
+  height: 400px;
+}
+
 .button {
-  background-color: blue;
+  background-color: red;
   border-radius: 60px;
   width: 100%;
   color: white;
   padding: 1% 4% 1% 4%;
   font-weight: 500;
   font-size: 20px;
+}
+
+.label {
+  float: left;
 }
 
 .intro h1 {
@@ -43,6 +61,25 @@ nav {
 }
 .intro h3 {
   font-size: 2rem;
+}
+
+footer {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  color: white;
+}
+footer .social-media {
+  width: 100%;
+}
+footer .social-media a {
+  color: white;
+  width: 100%;
+}
+
+.socialIcon {
+  color: white;
+  text-decoration: none;
 }
 
 .container {
@@ -66,6 +103,10 @@ nav a {
 #aboutPic {
   width: 40%;
   padding: 10%;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .navbar-light {
