@@ -1,16 +1,56 @@
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) { 
+// VARIABLES
+$pink:#ffe2ff;
+$blue:#4b4dff;
+$black:#1e1e1e;
+$grey:#707070;
 
-   
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+ 
+  .intro{
+    margin-bottom:30%;
   }
+}
   // Medium devices (tablets, 768px and up)
-  @media (min-width: 768px) {
+  @media (max-width: 768px) {
+    .projTitle{
+        font-weight:600;
+        color:$pink;
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: $blue;
+        margin-bottom:5%;
+        font-size:3rem;
+    }
   }
   // Large devices (desktops, 992px and up)
-  @media (min-width: 992px) {
+  @media (max-width: 992px) {
+    .navSize{
+        margin-top:10%;
+        margin-bottom:20%;
+        ul{
+        text-align: center;
+        margin-left:20%;
+            li{
+                
+              font-size:20px;
+              margin-bottom:20px;  
+            }
+        }
+    }
+
+
   }
   // Extra large devices (large desktops, 1200px and up)
-  @media (min-width: 1200px) {
+  @media (max-width: 1200px) {
+      ul{
+          margin-left:auto;
+      }
+   
+
+
+
+
+
   }
    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
    @media screen and (max-height: 450px) {

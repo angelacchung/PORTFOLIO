@@ -1,18 +1,71 @@
 @import 'mediaqueries.css';
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
+  background-color: #ffe2ff;
+}
+
+.info a {
+  border-bottom: 2px solid #000;
+  padding-bottom: 2px;
+  cursor: none;
+}
+
+.list {
+  text-decoration: none;
+  list-style: none;
+}
+
+.grey {
+  color: #707070;
+}
+
+.blue {
+  color: #4b4dff;
+}
+
+.black {
+  color: #1e1e1e;
+}
+
+.direction {
+  color: #4b4dff;
+  font-size: 2rem;
 }
 
 header {
   padding: 1%;
-  background-color: white;
+  background-color: #ffe2ff;
+  border-bottom: 1.5px solid #4b4dff;
+}
+
+#beginning {
+  width: 100%;
+  background-color: #4b4dff;
+  color: white;
+  padding: 2%;
+}
+#beginning h3 {
+  font-size: 3rem;
+}
+
+.medium {
+  font-weight: 600;
 }
 
 .projTitle {
   font-weight: 600;
+  color: #ffe2ff;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #4b4dff;
+  margin-bottom: 5%;
+  font-size: 3rem;
 }
 
 a:hover {
@@ -21,8 +74,15 @@ a:hover {
   color: white;
 }
 
-.intro {
-  margin: 5%;
+#logo {
+  width: 15%;
+}
+#logo .cls-1 {
+  fill: #4b4dff;
+}
+
+#profilePicture {
+  border: 10px solid #4b4dff;
 }
 
 .smicons {
@@ -33,16 +93,28 @@ a:hover {
   border-radius: 50px;
 }
 
-textarea {
-  height: 400px;
+#message {
+  height: 200px;
+  width: 100%;
+}
+
+nav {
+  padding: 0 10% 0 10%;
+}
+
+.square {
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  background-color: #4b4dff;
 }
 
 .button {
-  background-color: red;
+  background-color: #4b4dff;
   border-radius: 60px;
   width: 100%;
   color: white;
-  padding: 1% 4% 1% 4%;
+  padding: 2% 6% 2% 6%;
   font-weight: 500;
   font-size: 20px;
 }
@@ -51,22 +123,26 @@ textarea {
   float: left;
 }
 
+.intro {
+  margin: 5%;
+}
 .intro h1 {
   font-weight: bold;
   font-size: 4rem;
-  color: white;
+  color: #4b4dff;
 }
 .intro h1 .outline {
   font-weight: 600;
+  color: #ffe2ff;
   -webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-color: #4b4dff;
 }
 .intro h3 {
   font-size: 2rem;
 }
 
 footer {
-  background-color: black;
+  background-color: #1e1e1e;
   width: 100%;
   height: auto;
   color: white;
@@ -77,6 +153,11 @@ footer .social-media {
 footer .social-media a {
   color: white;
   width: 100%;
+}
+
+.tag {
+  color: #707070;
+  font-size: 20px;
 }
 
 .socialIcon {
@@ -99,7 +180,7 @@ nav li {
   margin-right: 5rem;
 }
 nav a {
-  color: black;
+  color: #1e1e1e;
 }
 
 #aboutPic {
