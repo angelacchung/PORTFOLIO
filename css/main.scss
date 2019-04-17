@@ -46,26 +46,38 @@ header{
     border-bottom: 1.5px solid $blue;
 
 }
-#beginning{
-    width:100%;
-    background-color:$blue;
-    color:white;
-    padding: 2%;
-    h3{
+
+// .line{
+//     border-bottom:5px solid blue;
+//     padding-bottom:5px;
+//     color:$blue;
+//     font-weight:500;
+//     font-size:3rem;
+//     display:inline;
+// }
+
+.line{
+    color:$blue;
+    font-weight:500;
     font-size:3rem;
+    span{
+        text-decoration: underline solid ;
+        }    
     }
-}
+  
+
 .medium{
     font-weight:600;
  
 }
+
 .projTitle{
     font-weight:600;
     color:$pink;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: $blue;
     margin-bottom:5%;
-    font-size:3rem;
+    font-size:4rem;
 }
 a:hover{
     text-decoration:none;
@@ -77,7 +89,7 @@ a:hover{
     .cls-1{
         fill:$blue;
     }
-    width:15%;
+    width:40px;
 }
 #profilePicture{
     border: 10px solid $blue;
@@ -133,6 +145,10 @@ margin:5%;
         font-size:2rem;
     }
 }
+a{
+    color:$blue;
+  
+}
 footer{
     background-color:$black;
     width:100%;
@@ -160,9 +176,13 @@ footer{
     margin-top:5%;
 }
 .subtitle{
+    margin-top:4rem;
     font-weight:600;
     color:grey;
     font-size:2rem;
+}
+.wComp{
+    // width:80%;
 }
 nav{
     li{

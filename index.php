@@ -1,9 +1,36 @@
+<?php
+
+//perform a delete on a record
+//receive id of record to delete.
+
+$id = $_POST["id"];
+
+//perform database delete using form values;
+$dsn = "mysql:host=localhost;dbname=chunmini_portfolio;charset=utf8mb4";
+$dbusername = "chunmini_mc13md";
+$dbpassword = "JHjG3#53E!g?";
+
+$pdo = new PDO($dsn, $dbusername, $dbpassword);
+
+$stmt = $pdo->prepare("SELECT * FROM `projects`");
+
+$stmt->execute();
+?>
+
+
+
 <!-- DATABASE INFO -->
 <!-- USER:chunmini_mc13md
 PASSWORD:JHjG3#53E!g? -->
 <!DOCTYPE html>
   <html lang="en">
     <head>
+      <!-- favicons -->
+      <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+      <link rel="manifest" href="/site.webmanifest">
+<!--  -->
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -54,88 +81,52 @@ PASSWORD:JHjG3#53E!g? -->
       </div>
     </header>
 
+<main>
+<div class="container">
+    <div class="intro">
+      <h1 class="h1">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
+      <h3 class="grey h3 mt-5 col-10 pl-0"><?php echo($row["title"]);?>I’m a UX/UI Design student, illustrator, taco enthusiast and a fan of good storytelling. I currently reside outside of Toronto, Canada.</h3>
+    </div>
+    <!--  -->
+    <?php
+    while($row=$stmt->fetch())
+    {
+    ?>
+    <div class="row shadow intro p-0">
+      <div class="col-sm pl-0">
+          
+          <h3 class="h3 blue medium"><?php echo($row['title']);?></h3>
+          <p class="tag"><?php echo($row['tag']); ?></p>
+          <div class="mt-4">
+          <p>
+            <?php echo($row['description']); ?>
+          </p>
+          <div class="my-4">
+          <a href="project-<?php echo($row['id']);?>.html" class="button">Read more</a>
+          </div>
+        </div>
+      </div>
+        
+        <div class="col-sm">
+        <img class="img-fluid m-2" alt="Responsive image" src="img/<?php echo($row['photo']); ?>">
+        </div> 
+      </div>
+      <?php
+    }
+      ?>
+  
+            </div>       
+            
+        </div>       
+    
 
-      <main>
-            <div class="container">
-                    <div class="row">
-                            <div class="col-lg mb-5">
-                            <img id="profilePicture" class="img-fluid" alt="Responsive image" src="img/angela-2.jpg">
-                            </div>
-                            <div class="col-lg-5 mt-0">
-                                    <div class="intro mt-0">
-                                            <h1 class="h1 mb-5">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
-                                    
-                                    
-                                    <p class="mt-4">
-                                    I'm a designer with a background in Illustration, Graphic design and am a fan of good storytelling. I'm currently working towards my post graduate education at Sheridan College for Interaction Multimedia Management; a program which is a mix of full-stack web development, UX/UI design, digital media and project management.
-                                    </p>
-                                    <p>I'm currently on the hunt for internships/junior positions.
-                                      You can contact me at: <a href="mailto:mini.cchung@gmail.com">mini.cchung@gmail.com</a>
-                                    </p>
-                                    </div>
-                            </div>
-                          
-                          </div>  
-                            
-                            
-                          </div>
-                        </div>
-                        <div class="container mt-4">
-                        <div class="row">
-                            <div class="col-sm">
-                              <p class="tag medium">People know me to...</p>
-                                <ul class="text-left pl-3">
-                                    <li>
-                                       Be a terrible dancer
-                                    </li>
-                                    <li>
-                                       Always sneeze 3 times in a row
-                                    </li>
-                                    <li>
-                                        Wear only black pants
-                                    </li>
-                                    
-                                </ul>
-                            </div>
-                            <div class="col-sm">
-                                    <p class="tag medium">When I'm not designing, I'm...</p>
-                                    <ul class="text-left pl-3">
-                                        <li>
-                                           Re-watching Howl's Moving Castle
-                                        </li>
-                                        <li>
-                                           Planning a zine
-                                        </li>
-                                        <li>
-                                           Playing Pokemon Go
-                                        </li>
-                                    </ul>
-                              </div>
-                              <div class="col-sm">
-                                    <p class="tag medium">Friends would describe me as...</p>
-                                    <ul class="text-left pl-3">
-                                        <li>
-                                           Honest
-                                        </li>
-                                        <li>
-                                           
-                                        </li>
-                                        <li>
-                                            Wear only black pants
-                                        </li>
-                                    </ul>
-                                </div>
-                   
-                
-                
-                
-                
-            
-            </div>
-            
-            
-            
-            </main>
+    </div>       
+
+</div>
+
+
+
+</main>
           <!--FOOTER  -->
           <footer class="page-footer font-small cyan darken-3">
       

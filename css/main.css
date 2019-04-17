@@ -45,14 +45,13 @@ header {
   border-bottom: 1.5px solid #4b4dff;
 }
 
-#beginning {
-  width: 100%;
-  background-color: #4b4dff;
-  color: white;
-  padding: 2%;
-}
-#beginning h3 {
+.line {
+  color: #4b4dff;
+  font-weight: 500;
   font-size: 3rem;
+}
+.line span {
+  text-decoration: underline solid;
 }
 
 .medium {
@@ -65,7 +64,7 @@ header {
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #4b4dff;
   margin-bottom: 5%;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 a:hover {
@@ -75,7 +74,7 @@ a:hover {
 }
 
 #logo {
-  width: 15%;
+  width: 40px;
 }
 #logo .cls-1 {
   fill: #4b4dff;
@@ -141,6 +140,10 @@ nav {
   font-size: 2rem;
 }
 
+a {
+  color: #4b4dff;
+}
+
 footer {
   background-color: #1e1e1e;
   width: 100%;
@@ -170,6 +173,7 @@ footer .social-media a {
 }
 
 .subtitle {
+  margin-top: 4rem;
   font-weight: 600;
   color: grey;
   font-size: 2rem;
