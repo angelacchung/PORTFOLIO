@@ -26,10 +26,23 @@
     font-size: 20px;
     margin-bottom: 20px;
   }
+
+  .intro {
+    margin-bottom: 30%;
+  }
 }
-@media (max-width: 1200px) {
+@media (min-width: 992px) {
+  .intro {
+    margin-bottom: 30%;
+  }
+}
+@media (min-width: 1200px) {
   ul {
     margin-left: auto;
+  }
+
+  .intro {
+    margin-bottom: 30%;
   }
 }
 /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

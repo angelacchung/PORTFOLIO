@@ -1,3 +1,9 @@
+<!-- 
+ID:  
+PW:pZ_^x;EwSCMP -->
+
+
+
 <?php
 
 //perform a delete on a record
@@ -39,6 +45,46 @@ $stmt->execute();
       <link rel="stylesheet" href="css/main.css">
       <link rel="stylesheet" href="css/mediaqueries.css">
       <title>UX/UI Designer Angela Chung👋</title>
+      <!-- - -- - html5.js for IE less than 9 -- - -- - >
+<!-- - -- - [if lt IE 9]>
+<script
+src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-- - -- - >
+<!-- - -- - css3-- - mediaqueries.js for IE less than 9 -- - -- - >
+<!-- - -- - [if lt IE 9]>
+<script src="http://css3-- - mediaqueries-- - js.googlecode.com/svn/trunk/css3-- -
+mediaqueries.js"></script>
+<![endif]-- - --->
+<meta name = "viewport" content="width=device-width, initial-scale=1" />
+<!-- put this instead your html document head tags -->
+
+<link rel="shortcut icon" href="images/profile_icon.ico" type="image/x-icon" />
+
+<!-- for Google -->
+<meta name="description" content="Angela is a UX Designer + Illustrator based near the Toronto area" />
+<meta name="keywords" content="UX Designer, User Experience, Illustrator, Designer, Toronto, UX/UI, UX/UI Designer, Visual Designers" />
+<meta name="author" content="Angela Chung" />
+<link rel="author" href="https://plus.google.com/u/0/115117216892268610399">
+<meta name="copyright" content="2019" />
+
+
+<!-- for Facebook -->
+<meta property="og:title" content="Angela Chung - UX Designer" />
+<meta property="og:url" content="file:///D:/IMM/RESP-RESUME/angelachung-resume.html" />
+<meta property="og:type" content="UX Design portfolio website" />
+<meta property="og:description" content="Angela Chung is a UX Designer + Illustrator based near the Toronto area" />
+<meta property="og:image" content="http://chunmini.dev.fast.sheridanc.on.ca/responsive-resume/RESP-RESUME/RESP-RESUME/images/fb.png" /> <!-- Facebook recommended: 1200 x 630 - ideal: 1200 x 1200 square image -->
+
+
+<!-- for Twitter -->
+<meta name="twitter:card" content="Angela Chung is a UX Designer + Illustrator based near the Toronto area" />
+<meta name="twitter:title" content="Angela Chung UX Designer" />
+<meta name="twitter:description" content="Angela Chung is a UX Designer and Illustrator based near the Toronto area. She has a solid background in illustration
+and graphic design; a skillset that she developed from her undergraduate education at OCAD University. She is currently working towards a 
+post-graduate education at Sheridan College, where she is learning about UX/UI design and full-stack web development. She is currently looking for an internship
+or junior position in UX design. Angela is passionate about design and is a fan of coffee and tacos, though she would not eat them together.  " />
+<meta name="twitter:url" content="https://twitter.com/_angelachung" />
+<meta name="twitter:image" content="http://chunmini.dev.fast.sheridanc.on.ca/responsive-resume/RESP-RESUME/RESP-RESUME/images/twit.png" />
     </head>
 
   <body>
@@ -80,19 +126,19 @@ $stmt->execute();
 <div class="container">
     <div class="intro">
       <h1 class="h1">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
-      <h3 class="grey h3 mt-5 col-10 pl-0"><?php echo($row["title"]);?>I’m a UX/UI Design student, illustrator, taco enthusiast and a fan of good storytelling. I currently reside outside of Toronto, Canada.</h3>
+      <h3 class="grey pitch h3 mt-5 col-10 pl-0"><?php echo($row["title"]);?>I’m a UX/UI Design student, illustrator, taco enthusiast and a fan of good storytelling. I currently reside outside of Toronto, Canada.</h3>
     </div>
     <!--  -->
     <?php
     while($row=$stmt->fetch())
     {
     ?>
-    <div class="row shadow intro p-0">
-      <div class="col-sm pl-0">
+    <div class="row divDisp">
+      <div class="col-sm mt-4">
           
           <h3 class="h3 blue medium"><?php echo($row['title']);?></h3>
           <p class="tag"><?php echo($row['tag']); ?></p>
-          <div class="mt-4">
+          <div class="mt-4 mb-4">
           <p>
             <?php echo($row['description']); ?>
           </p>
@@ -103,7 +149,7 @@ $stmt->execute();
       </div>
         
         <div class="col-sm">
-        <img class="img-fluid m-2" alt="Responsive image" src="img/<?php echo($row['photo']); ?>">
+        <img class="displayImg img-fluid m-2" alt="Responsive image" src="img/<?php echo($row['photo']); ?>">
         </div> 
       </div>
       <?php
@@ -140,16 +186,16 @@ $stmt->execute();
                 <div class="mb-3 ml-5">
       
                   <!-- Twitter -->
-                  <a class="tw-ic socialIcon" href="#">
+                  <a class="tw-ic socialIcon" href="https://twitter.com/_angelachung">
                     <i class="fab fa-twitter fa-lg white-text mr-5 fa-2x"> </i>
                   </a>
                  
                   <!--Linkedin -->
-                  <a class="li-ic socialIcon" href="#">
+                  <a class="li-ic socialIcon" href="https://www.linkedin.com/in/angelamchung/">
                     <i class="fab fa-linkedin-in fa-lg white-text mr-5 fa-2x"> </i>
                   </a>
                   <!--Instagram-->
-                  <a class="ins-ic socialIcon" href="#">
+                  <a class="ins-ic socialIcon" href="https://www.instagram.com/angela.jung/">
                     <i class="fab fa-instagram fa-lg white-text mr-5 fa-2x"> </i>
                   </a>
                 

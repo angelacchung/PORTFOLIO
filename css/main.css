@@ -69,6 +69,10 @@ header {
   font-weight: 600;
 }
 
+.ok {
+  border-radius: 10px;
+}
+
 .projTitle {
   font-weight: 600;
   color: #ffe2ff;
@@ -132,6 +136,14 @@ nav {
 
 .label {
   float: left;
+}
+
+.displayImg {
+  border-radius: 15px;
+}
+
+.divDisp {
+  margin: 5% 5% 8% 5%;
 }
 
 .intro {

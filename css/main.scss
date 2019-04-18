@@ -79,9 +79,12 @@ header{
 
 .medium{
     font-weight:600;
- 
+    
 }
 
+.ok{
+    border-radius:10px;
+}
 .projTitle{
     font-weight:600;
     color:$pink;
@@ -95,6 +98,7 @@ a:hover{
     cursor:pointer;
     color:white;
 }
+
 
 #logo{
     .cls-1{
@@ -140,6 +144,13 @@ nav{
 .label{
     float:left;
 }  
+.displayImg{
+    border-radius:15px;
+}
+.divDisp{
+    margin:5% 5% 8% 5%;
+    
+}
 .intro{
 margin:5%;
     h1{
@@ -193,9 +204,7 @@ footer{
     color:grey;
     font-size:2rem;
 }
-.wComp{
-    // width:80%;
-}
+
 nav{
     li{
         font-size: 1.1rem;
@@ -216,4 +225,6 @@ html {
 .navbar-light{
 border-color:white;
 }
+
+
 @import 'mediaqueries.css';
