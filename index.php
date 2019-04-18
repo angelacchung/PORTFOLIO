@@ -17,11 +17,6 @@ $stmt = $pdo->prepare("SELECT * FROM `projects`");
 $stmt->execute();
 ?>
 
-
-
-<!-- DATABASE INFO -->
-<!-- USER:chunmini_mc13md
-PASSWORD:JHjG3#53E!g? -->
 <!DOCTYPE html>
   <html lang="en">
     <head>
@@ -67,7 +62,7 @@ PASSWORD:JHjG3#53E!g? -->
           <div class="justify-content-end collapse navbar-collapse navSize" id="navbarTogglerDemo02">
             <ul class="navbar-nav">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">UX/UI</a>
+                <a class="nav-link" href="index.php">UX/UI</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="about.html">About</a>

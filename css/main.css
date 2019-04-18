@@ -27,7 +27,7 @@ body {
 }
 
 .blue {
-  color: #4b4dff;
+  color: #2d54ff;
 }
 
 .black {
@@ -35,19 +35,30 @@ body {
 }
 
 .direction {
-  color: #4b4dff;
+  color: #2d54ff;
   font-size: 2rem;
+}
+
+#mailMe {
+  border: none;
+  background-color: #2d54ff;
+  border-radius: 60px;
+  width: 50%;
+  color: white;
+  padding: 2% 6% 2% 6%;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 header {
   padding: 1%;
   background-color: #ffe2ff;
-  border-bottom: 1.5px solid #4b4dff;
+  border-bottom: 1.5px solid #2d54ff;
 }
 
 .line {
-  color: #4b4dff;
-  font-weight: 500;
+  color: #2d54ff;
+  font-weight: 600;
   font-size: 3rem;
 }
 .line span {
@@ -62,7 +73,7 @@ header {
   font-weight: 600;
   color: #ffe2ff;
   -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #4b4dff;
+  -webkit-text-stroke-color: #2d54ff;
   margin-bottom: 5%;
   font-size: 4rem;
 }
@@ -77,11 +88,11 @@ a:hover {
   width: 40px;
 }
 #logo .cls-1 {
-  fill: #4b4dff;
+  fill: #2d54ff;
 }
 
 #profilePicture {
-  border: 10px solid #4b4dff;
+  border: 10px solid #2d54ff;
 }
 
 .smicons {
@@ -105,11 +116,12 @@ nav {
   height: 25px;
   width: 25px;
   display: inline-block;
-  background-color: #4b4dff;
+  background-color: #2d54ff;
 }
 
 .button {
-  background-color: #4b4dff;
+  border: none;
+  background-color: #2d54ff;
   border-radius: 60px;
   width: 100%;
   color: white;
@@ -128,20 +140,20 @@ nav {
 .intro h1 {
   font-weight: bold;
   font-size: 4rem;
-  color: #4b4dff;
+  color: #2d54ff;
 }
 .intro h1 .outline {
   font-weight: 600;
   color: #ffe2ff;
   -webkit-text-stroke-width: 2.5px;
-  -webkit-text-stroke-color: #4b4dff;
+  -webkit-text-stroke-color: #2d54ff;
 }
 .intro h3 {
   font-size: 2rem;
 }
 
 a {
-  color: #4b4dff;
+  color: #2d54ff;
 }
 
 footer {
