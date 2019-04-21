@@ -16,6 +16,22 @@ body{
     background-color:$pink;
     // font-family: 'Roboto', sans-serif;
 }
+.jobstories{
+    // margin-top:5%;
+    div{
+        // background-color:$blue;
+        // border:1px solid $blue;
+        // color:$black;
+        background-color:white;
+        margin-top:5%;
+        color:$blue;
+        font-weight:600;
+        border-radius:10px;
+    }
+}
+strong{
+    font-weight:600;
+}
 .info{
     a{
     border-bottom: 2px solid #000;
@@ -40,7 +56,18 @@ body{
     color:$blue;
     font-size:2rem;
 }
+.wComp{
+
+        p{
+            width:75%;
+        }
+
+}
+#submitbtn{
+    cursor:pointer;
+}
 #mailMe{
+    cursor:pointer;
     border:none;
     background-color:$blue;
     border-radius:60px;
@@ -107,6 +134,7 @@ a:hover{
     width:40px;
 }
 #profilePicture{
+    width:70%;
     border: 10px solid $blue;
 }
 
