@@ -22,3 +22,6 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+
+ScrollReveal().reveal('.headline', { delay: 400 });

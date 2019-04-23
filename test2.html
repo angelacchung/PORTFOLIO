@@ -1,38 +1,16 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-
-</style>
-</head>
-<body>
-
-<div id="navbar">
-  <a href="#home">Home</a>
-  <a href="#news">News</a>
-  <a href="#contact">Contact</a>
+<link href="bootstrap-lightbox/bootstrap-lightbox.min.css">
+<script src="bootstrap-lightbox/bootstrap-lightbox.js"></script>
+<script src="bootstrap-lightbox/bootstrap-lightbox.min.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+<div id="demoLightbox" class="lightbox hide fade"  tabindex="-1" role="dialog" aria-hidden="true">
+	<div class='lightbox-content'>
+		<img src="img/elicia.png">
+		<div class="lightbox-caption"><p>Your caption here</p></div>
+	</div>
 </div>
-
-  <p><b>This example demonstrates how to hide a navbar when the user starts to scroll the page.</b></p>
-  <p>Scroll down this frame to see the effect!</p>
-  <p>Scroll up to show the navbar.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-  <p>Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-</div>
-
-<script>
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-</script>
-
-</body>
-</html>
+<a data-toggle="lightbox" href="#demoLightbox">Open Lightbox</a>
+<script src="test.js"></script>
+<h1 class="headline">
+  Widget Inc.
+</h1>
