@@ -108,6 +108,9 @@ header{
     font-weight:600;
     
 }
+#groc{
+    width:100%;
+}
 
 .ok{
     border-radius:10px;
@@ -117,7 +120,7 @@ header{
     color:$pink;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: $blue;
-    margin-bottom:5%;
+    // margin-bottom:5%;
     font-size:4rem;
 }
 a:hover{
