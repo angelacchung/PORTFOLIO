@@ -47,6 +47,25 @@ li{
 body{
     background-color:$blue;
 }
+#pdf{
+    background-color:$pink;
+    color:$blue;
+    border-radius:50px;
+    padding:0.5rem;
+    margin:2rem;
+    display:block;
+    text-align:center;
+    border:2px solid $blue;
+    font-weight:600;
+
+}
+#pdf:hover{
+    background-color:$blue;
+    border:2px solid $pink;
+    font-weight:600;
+    color:$pink;
+}
+
 .sectionOne{
     
     background-color:$blue;
@@ -123,6 +142,9 @@ body{
     color:$blue;
     height:100%;
     width:100%;
+    .date{
+        margin-bottom:1rem;
+    }
     h3{
         font-weight:600;
     }
@@ -141,6 +163,10 @@ body{
     strong{
         font-style:italic;
         margin-top:0rem;
+       
+    }
+    .list{
+        margin-top:1rem;
     }
     .date{
     margin-bottom:0;

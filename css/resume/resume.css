@@ -53,6 +53,25 @@ body {
   background-color: #2d54ff;
 }
 
+#pdf {
+  background-color: #ffe2ff;
+  color: #2d54ff;
+  border-radius: 50px;
+  padding: 0.5rem;
+  margin: 2rem;
+  display: block;
+  text-align: center;
+  border: 2px solid #2d54ff;
+  font-weight: 600;
+}
+
+#pdf:hover {
+  background-color: #2d54ff;
+  border: 2px solid #ffe2ff;
+  font-weight: 600;
+  color: #ffe2ff;
+}
+
 .sectionOne {
   background-color: #2d54ff;
   color: #ffe2ff;
@@ -138,6 +157,10 @@ body {
   width: 100%;
 }
 
+.sectionTwo .date {
+  margin-bottom: 1rem;
+}
+
 .sectionTwo h3 {
   font-weight: 600;
 }
@@ -159,6 +182,10 @@ body {
 .sectionTwo strong {
   font-style: italic;
   margin-top: 0rem;
+}
+
+.sectionTwo .list {
+  margin-top: 1rem;
 }
 
 .sectionTwo .date {

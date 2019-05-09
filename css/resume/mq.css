@@ -14,9 +14,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  p {
-    background-color: green;
-  }
   .sectionOne {
     float: left;
     height: 100%;
@@ -47,9 +44,6 @@
 }
 
 @media only screen and (min-width: 992px) {
-  p {
-    background-color: blue;
-  }
   .sectionOne .contactTwo {
     margin-left: 3rem;
   }

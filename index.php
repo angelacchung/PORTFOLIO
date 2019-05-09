@@ -110,7 +110,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
               <a class="nav-link" href="about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resume</a>
+              <a class="nav-link" href="resume.html">Resume</a>
             </li>
           </ul>
         </div>
