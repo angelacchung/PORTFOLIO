@@ -48,10 +48,12 @@ body{
     background-color:$blue;
 }
 .sectionOne{
+    
     background-color:$blue;
     color:$pink;
     height:100%;
     width:100%;
+
     .grid-container {
         display: grid;
         grid-template-columns: 4rem auto;
@@ -105,7 +107,7 @@ body{
         }
         span{
             text-align:center;
-            margin-left:3rem;
+            margin-left:1rem;
             font-size: 1.333em;
             a{
                 margin-bottom:2rem;

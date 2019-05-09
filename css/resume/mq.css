@@ -1,14 +1,29 @@
+@media only screen and (min-width: 500px) {
+  .contactTwo {
+    margin-left: 3rem;
+  }
+}
+
 @media only screen and (min-width: 576px) {
+  .contactTwo {
+    margin-left: 8rem;
+  }
   .sectionOne .social {
     margin-left: 8rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
+  p {
+    background-color: green;
+  }
   .sectionOne {
     float: left;
     height: 100%;
     width: 40%;
+  }
+  .sectionOne .contactTwo {
+    margin-left: 2rem;
   }
   .sectionOne .contact {
     margin-bottom: 2rem;
@@ -31,10 +46,16 @@
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 992px) {
   p {
-    background-color: pink;
+    background-color: blue;
   }
+  .sectionOne .contactTwo {
+    margin-left: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
   .sectionOne {
     float: left;
     height: 100%;

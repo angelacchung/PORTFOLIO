@@ -1,6 +1,16 @@
 
+@media only screen and (min-width: 500px){
+  // p{background-color:grey;}
+  .contactTwo{
+    margin-left:3rem;
+  }
+
+}
 @media only screen and (min-width: 576px){
   // p{background-color:red;}
+  .contactTwo{
+    margin-left:8rem;
+  }
   .sectionOne{
   .social{
     margin-left:8rem;
@@ -10,11 +20,15 @@
 }
 
 @media only screen and (min-width: 768px){
-  // p{background-color:green;}
+  p{background-color:green;}
   .sectionOne{
     float:left;
     height:100%;
     width:40%;
+    .contactTwo{
+      margin-left:2rem;
+
+  }
     .contact{
       margin-bottom:2rem;
       span{
@@ -39,10 +53,16 @@
 }
 @media only screen and (min-width: 992px){
 
-  // p{background-color:blue;}
+  p{background-color:blue;}
+  .sectionOne{
+    .contactTwo{
+      margin-left:3rem;
+
+  }
+  }
 }
 @media only screen and (min-width: 1200px){
-p{background-color:pink;}
+// p{background-color:pink;}
 .sectionOne{
   float:left;
   height:100%;
