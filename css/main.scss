@@ -16,6 +16,9 @@ body{
     background-color:$pink;
     // font-family: 'Roboto', sans-serif;
 }
+.contMargin{
+    margin-top:10rem;
+}
 .jobstories{
     // margin-top:5%;
     div{
@@ -28,6 +31,16 @@ body{
         font-weight:600;
         border-radius:10px;
     }
+}
+#viewResume{
+    cursor:pointer;
+    border:none;
+    background-color:$blue;
+    border-radius:60px;
+    color:white;
+    padding: 2% 9% 2% 9%;
+    font-weight:500;
+    font-size:20px;
 }
 strong{
     font-weight:600;
@@ -71,12 +84,19 @@ strong{
     border:none;
     background-color:$blue;
     border-radius:60px;
-    width:50%;
     color:white;
-    padding: 2% 6% 2% 6%;
+    padding: 2% 9% 2% 9%;
     font-weight:500;
     font-size:20px;
+    
 }
+#mailMe:hover{
+    background-color:white;
+    color:$blue;
+}
+
+
+
 
 header{
     padding:1%;
@@ -84,15 +104,6 @@ header{
     border-bottom: 1.5px solid $blue;
 
 }
-
-// .line{
-//     border-bottom:5px solid blue;
-//     padding-bottom:5px;
-//     color:$blue;
-//     font-weight:500;
-//     font-size:3rem;
-//     display:inline;
-// }
 
 .line{
     color:$blue;
@@ -134,7 +145,7 @@ a:hover{
     .cls-1{
         fill:$blue;
     }
-    width:40px;
+    width:30px;
 }
 #profilePicture{
     width:70%;
@@ -183,7 +194,7 @@ nav{
     
 }
 .intro{
-margin:5%;
+margin:15% 5% 5% 5%;
     h1{
         font-weight:bold;
         font-size:4rem;
@@ -224,10 +235,13 @@ footer{
 .socialIcon{
     color:white;
     text-decoration: none;
+    :hover{
+        color:$blue;
+    }
 }
 
 .container{
-    margin-top:5%;
+    margin-top:10%;
 }
 .subtitle{
     margin-top:4rem;
@@ -256,6 +270,25 @@ html {
 .navbar-light{
 border-color:white;
 }
+// NAV
+#navbar {
+   
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Hide the navbar 50 px outside of the top view */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
 
+  #navbar a:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background:$blue;
+    transition: width .3s;
+  }
+  #navbar a:hover::after {
+    width: 100%;
+  }
 
 @import 'mediaqueries.css';

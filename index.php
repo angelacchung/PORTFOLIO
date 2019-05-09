@@ -1,8 +1,3 @@
-<!-- 
-ID:  
-PW:pZ_^x;EwSCMP -->
-
-
 
 <?php
 
@@ -12,9 +7,10 @@ PW:pZ_^x;EwSCMP -->
 $id = $_POST["id"];
 
 //perform database delete using form values;
-$dsn = "mysql:host=localhost;dbname=chunmini_portfolio;charset=utf8mb4";
-$dbusername = "chunmini_mc13md";
-$dbpassword = "JHjG3#53E!g?";
+$dsn = "mysql:host=localhost;dbname=angetqwk_portfolio;charset=utf8mb4";
+$dbusername = "angetqwk_mc13md";
+$dbpassword = "*;h1g7yo66xp";
+
 
 $pdo = new PDO($dsn, $dbusername, $dbpassword);
 
@@ -106,7 +102,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
         </button>
         
         <div class="justify-content-end collapse navbar-collapse navSize" id="navbarTogglerDemo02">
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ">
             <li class="nav-item active">
               <a class="nav-link" href="index.php">UX/UI</a>
             </li>
@@ -166,30 +162,29 @@ or junior position in UX design. Angela is passionate about design and is a fan 
 </div>
 
 
-
 </main>
           <!--FOOTER  -->
       <footer class="page-footer font-small cyan darken-3">
-      
+
           <!-- Footer Elements -->
           <div class="container">
-      
+
             <!-- Grid row-->
             <div class="row">
               <div class="col-md-12 text-center mt-4">
                 <img src="img/white.png">
                 <h3 class="mt-4 h3">Let's Talk.</h3>
-                
+
               </div>
               <!-- Grid column -->
-              <div class="col-md-8 offset-md-2 py-3 mt-2 text-center">
+              <div class="col-md-8 offset-md-2 mt-3 text-center">
                 <div class="mb-3 ml-5">
-      
+
                   <!-- Twitter -->
                   <a class="tw-ic socialIcon" href="https://twitter.com/_angelachung">
                     <i class="fab fa-twitter fa-lg white-text mr-5 fa-2x"> </i>
                   </a>
-                 
+
                   <!--Linkedin -->
                   <a class="li-ic socialIcon" href="https://www.linkedin.com/in/angelamchung/">
                     <i class="fab fa-linkedin-in fa-lg white-text mr-5 fa-2x"> </i>
@@ -198,58 +193,31 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                   <a class="ins-ic socialIcon" href="https://www.instagram.com/angela.jung/">
                     <i class="fab fa-instagram fa-lg white-text mr-5 fa-2x"> </i>
                   </a>
-                
+
                 </div>
-                <button id="mailMe" class="mt-4">Mail me</button>
+                <div class="mt-5">
+                  <a href="mailto:mini.cchung@gmail.com" id="mailMe">Mail me</a>
+                </div>
                 <p class="text-muted mt-5">Website coded by Angela Chung</p>
               </div>
               <!-- Grid column -->
-      
+
             </div>
-            <!-- Grid row-->
-            <div id="contactForm" class="row">
-      
-                <!-- Grid column -->
-                <div class="col-md-6 offset-md-3 py-2 text-center">
-                  <div class="mb-3 flex-center">
-                      <form action="mailto:someone@example.com" method="post" enctype="text/plain">
-                          <div class="form-group">
-                            <label class="label" for="formGroupExampleInput">Your E-mail</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Your e-mail">
-                          </div>
-                          <div class="form-group">
-                            <label class="label" for="formGroupExampleInput2">Subject</label>
-                            <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Whats this message about?">
-                          </div>
-                          <div class="form-group">
-                              <label class="label" for="formGroupExampleInput2">Another label</label>
-                              <!-- <textarea id="message" rows="8" cols="50" placeholder="Your message here"></textarea> -->
-                              <!-- <input type="textarea" placeholder="Tell me what message you got for me!" name="message" size="50" id="message" class="form-control"> -->
-                              <textarea placeholder="Tell me what message you got for me!" type="text" id="message" name="message"  class="form-control"></textarea>
-                            </div>
-                          <input type="submit" value="Send message" class="button">
-                        </form>
-                    <!--Instagram-->
-                  
-                   
-                  </div>
-                 
-                </div>
-                <!-- Grid column -->
-        
+           
               </div>
           </div>
           <!-- Footer Elements -->
-      
+
           <!-- Copyright -->
           <div class="text-center py-3">
-            
+
           </div>
           <!-- Copyright -->
-      
+
         </footer>
         <!-- Footer -->
-      
+
       <script src="js/main.js"></script>
+
       </body>
       </html>

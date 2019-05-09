@@ -1,0 +1,19 @@
+
+THE PROBLEM: There are over approximately 700 known cannabis strains in the world. This is an overwhelming large number for anyone who wants
+to be a new user. With so many varieties, it will be difficult for new users to understand and know which strains are the 
+right ones for them, especially when you think about the time and effort that would need to go into research.
+
+THE CHALLENGE: How might we design a web app for curious/new cannabis users 
+to by so that
+THE SOLUTION:
+
+
+IN THE BEGINNING
+
+[EMPATHY MAP]
+[USERFLOW]
+[WIREFRAMES]
+[FINAL DESIGNS]
+[WHAT WE STRUGGLED WITH]
+[USER FEEDBACK]
+ 

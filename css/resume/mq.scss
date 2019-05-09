@@ -1,0 +1,56 @@
+
+@media only screen and (min-width: 576px){
+  // p{background-color:red;}
+  .sectionOne{
+  .social{
+    margin-left:8rem;
+
+  }
+}
+}
+
+@media only screen and (min-width: 768px){
+  // p{background-color:green;}
+  .sectionOne{
+    float:left;
+    height:100%;
+    width:40%;
+    .contact{
+      margin-bottom:2rem;
+      span{
+        display:block;
+        margin-bottom:1rem;
+        margin-left:2rem;
+      }
+    }
+    .social{
+      display:inline;
+      margin-left:2rem;
+
+    }
+  }
+  .sectionTwo{
+    float:right;
+    width:60%;
+  }
+  .skills{
+    margin-left:3rem;
+  }
+}
+@media only screen and (min-width: 992px){
+
+  // p{background-color:blue;}
+}
+@media only screen and (min-width: 1200px){
+p{background-color:pink;}
+.sectionOne{
+  float:left;
+  height:100%;
+  width:30%;
+}
+.sectionTwo{
+  float:right;
+  width:70%;
+}
+
+}

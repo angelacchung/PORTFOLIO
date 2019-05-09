@@ -1,0 +1,325 @@
+[07-May-2019 18:10:37 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:10:37 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:10:42 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:10:42 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:11:07 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:11:07 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:11:09 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:11:09 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:11:27 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:11:27 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:11:34 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:11:34 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:11:35 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:11:35 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:11:45 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:11:45 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:12:30 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:12:30 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:14:37 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:14:37 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:14:43 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:14:43 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:17:41 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:17:41 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:18:06 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:18:06 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:18:32 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:18:32 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[28000] [1045] Access denied for user 'chunmini_mc13md'@'localhost' (using password: YES) in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'chunmini_mc13md', 'JHjG3#53E!g?')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:21:15 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:21:15 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:21:25 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 12
+[07-May-2019 18:21:25 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:19
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(19): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 19
+[07-May-2019 18:21:49 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:21:49 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:22:29 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index2.php on line 7
+[07-May-2019 18:22:29 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index2.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index2.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index2.php on line 14
+[07-May-2019 18:23:02 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index2.php on line 7
+[07-May-2019 18:23:02 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index2.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index2.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index2.php on line 14
+[07-May-2019 18:24:47 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:24:47 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:24:47 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:24:47 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:24:48 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:24:48 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:24:48 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:24:48 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:24:48 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:24:48 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:24:48 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:24:48 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:24:48 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:24:48 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:24:49 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:24:49 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:14
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(14): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 14
+[07-May-2019 18:24:59 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 8
+[07-May-2019 18:24:59 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:15
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(15): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 15
+[07-May-2019 18:25:00 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 8
+[07-May-2019 18:25:00 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:15
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(15): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 15
+[07-May-2019 18:25:35 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 9
+[07-May-2019 18:25:35 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:16
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(16): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 16
+[07-May-2019 18:25:37 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 9
+[07-May-2019 18:25:37 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:16
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(16): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 16
+[07-May-2019 18:25:41 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 9
+[07-May-2019 18:25:41 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:16
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(16): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 16
+[07-May-2019 18:26:20 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 9
+[07-May-2019 18:26:20 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:16
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(16): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 16
+[07-May-2019 18:26:22 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 9
+[07-May-2019 18:26:22 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:16
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(16): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 16
+[07-May-2019 18:27:10 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 9
+[07-May-2019 18:27:10 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:16
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(16): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', 'pZ_^x;EwSCMP')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 16
+[07-May-2019 18:32:00 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 8
+[07-May-2019 18:32:00 America/New_York] PHP Fatal error:  Uncaught PDOException: SQLSTATE[42000] [1044] Access denied for user 'angetqwk_mc13md'@'localhost' to database 'chunmini_portfolio' in /home/angetqwk/public_html/index.php:15
+Stack trace:
+#0 /home/angetqwk/public_html/index.php(15): PDO->__construct('mysql:host=loca...', 'angetqwk_mc13md', '*;h1g7yo66xp')
+#1 {main}
+  thrown in /home/angetqwk/public_html/index.php on line 15
+[07-May-2019 18:33:36 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 8
+[07-May-2019 18:33:51 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 8
+[07-May-2019 18:33:51 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 24
+[07-May-2019 18:34:37 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 8
+[07-May-2019 18:34:37 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 24
+[07-May-2019 18:35:22 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:35:22 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 18:35:42 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:35:42 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 18:36:11 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:36:11 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 18:47:41 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:47:41 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 18:48:54 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:48:54 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 18:48:58 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:48:58 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 18:49:39 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:49:39 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 18:49:41 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:49:41 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 18:49:44 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 18:49:44 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 19:17:51 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 19:17:51 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[07-May-2019 19:38:18 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[07-May-2019 19:38:18 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 10:19:10 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 10:19:10 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 12:26:34 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 12:26:34 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 12:26:57 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 12:26:57 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 12:29:08 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 12:29:08 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 12:29:11 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 12:29:11 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 13:53:29 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 13:53:29 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 13:53:43 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 13:53:43 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 13:54:03 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 13:54:03 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 13:57:58 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 13:57:58 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 13:58:21 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 13:58:21 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:06:12 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:06:12 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:06:13 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:06:13 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:06:13 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:06:13 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:13:32 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:13:32 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:24:28 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:24:28 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:24:28 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:24:28 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:24:29 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:24:29 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:32:35 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:32:35 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:39:38 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:39:38 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:41:23 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:41:23 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:42:32 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:42:32 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:45:30 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:45:30 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:50:58 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:50:58 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:51:02 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:51:02 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 14:51:32 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 14:51:32 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 16:38:59 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 16:38:59 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 16:49:09 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 16:49:09 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 16:55:04 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 16:55:04 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 16:58:22 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 16:58:22 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 17:06:14 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 17:06:14 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 17:12:49 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 17:12:49 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 17:49:34 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 17:49:34 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 17:58:40 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 17:58:40 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 18:20:31 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 18:20:31 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 18:23:23 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 18:23:23 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 18:28:42 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 18:28:42 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 19:10:54 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 19:10:54 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 19:11:40 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 19:11:40 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 19:20:12 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 19:20:12 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 19:20:48 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 19:20:48 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125
+[08-May-2019 20:22:35 America/New_York] PHP Notice:  Undefined index: id in /home/angetqwk/public_html/index.php on line 7
+[08-May-2019 20:22:35 America/New_York] PHP Notice:  Undefined variable: row in /home/angetqwk/public_html/index.php on line 125

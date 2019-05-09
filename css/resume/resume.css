@@ -1,0 +1,167 @@
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: futura-pt, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 4.209em;
+}
+
+h2 {
+  font-size: 3.157em;
+}
+
+h3 {
+  font-size: 2.369em;
+}
+
+h4 {
+  font-size: 1.777em;
+}
+
+h5 {
+  font-size: 1.333em;
+}
+
+small, .text_small {
+  font-size: 0.75em;
+}
+
+li {
+  margin-bottom: 1rem;
+}
+
+body {
+  background-color: #2d54ff;
+}
+
+.sectionOne {
+  background-color: #2d54ff;
+  color: #ffe2ff;
+  height: 100%;
+  width: 100%;
+}
+
+.sectionOne .grid-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 4rem auto;
+      grid-template-columns: 4rem auto;
+}
+
+.sectionOne #logo {
+  margin-top: 3rem;
+  width: 40px;
+}
+
+.sectionOne #logo .cls-1 {
+  fill: #ffe2ff;
+}
+
+.sectionOne .positionTitle {
+  font-size: 1.777em;
+}
+
+.sectionOne h2 {
+  font-weight: 600;
+}
+
+.sectionOne h3 {
+  font-weight: 600;
+}
+
+.sectionOne a {
+  text-decoration: none;
+  color: #ffe2ff;
+}
+
+.sectionOne .container {
+  padding: 0 10% 10% 10%;
+}
+
+.sectionOne i {
+  color: #ffe2ff;
+}
+
+.sectionOne .social {
+  display: block;
+  margin-left: 4rem;
+  margin-top: 2rem;
+}
+
+.sectionOne .social i {
+  margin-left: 15%;
+  font-size: 3rem;
+}
+
+.sectionOne .contact p {
+  text-align: center;
+  font-size: 1.333em;
+}
+
+.sectionOne .contact span {
+  text-align: center;
+  margin-left: 3rem;
+  font-size: 1.333em;
+}
+
+.sectionOne .contact span a {
+  margin-bottom: 2rem;
+}
+
+.sectionOne .contact span i {
+  margin-right: 1rem;
+}
+
+.sectionTwo {
+  background-color: #ffe2ff;
+  color: #2d54ff;
+  height: 100%;
+  width: 100%;
+}
+
+.sectionTwo h3 {
+  font-weight: 600;
+}
+
+.sectionTwo h4 {
+  margin-top: 1rem;
+  font-weight: 600;
+  color: #707070;
+}
+
+.sectionTwo p, .sectionTwo li {
+  color: #1e1e1e;
+}
+
+.sectionTwo .container {
+  padding: 1% 10% 10% 10%;
+}
+
+.sectionTwo strong {
+  font-style: italic;
+  margin-top: 0rem;
+}
+
+.sectionTwo .date {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=resume.css.map */

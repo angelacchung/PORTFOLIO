@@ -4,13 +4,39 @@ $blue:#4b4dff;
 $black:#1e1e1e;
 $grey:#707070;
 
+@media (min-width: 450px) {
+
+  .intro{
+    margin-top:15%;
+    // margin-bottom:30%;
+  }
+  #profilePicture{
+    width:40%;
+  }
+
+
+}
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
- 
-  .intro{
-    margin-bottom:30%;
-  }
+
+  .contMargin{
+    margin-top:10rem;
 }
+  .intro{
+    margin-top:15%;
+    // margin-bottom:30%;
+
+  }
+  #profilePicture{
+    width:40%;
+  }
+#profCont{
+  margin-top:40%;
+}
+}
+
+
+
   // Medium devices (tablets, 768px and up)
   @media (max-width: 768px) {
     .projTitle{
@@ -21,35 +47,44 @@ $grey:#707070;
         margin-bottom:5%;
         font-size:3rem;
     }
- 
+    .container{
+      margin-top:20%;
+  }
+
+  #profCont{
+    margin-top:17%;
+  }
+  #profilePicture{
+    width:100%;
+  }
   }
 
   // Large devices (desktops, 992px and up)
   @media (max-width: 992px) {
-    .navSize{
-        margin-top:10%;
-        margin-bottom:20%;
-        ul{
-        text-align: center;
-        margin-left:20%;
-            li{
-                
-              font-size:20px;
-              margin-bottom:20px;  
-            }
-        }
-    }   
+
     .intro{
-      margin-bottom:30%;
+      margin-top:25%;
+      // margin-bottom:30%;
     }
-
-
+    #navbar a:hover::after {
+      width: 0;
+    }
+    .container{
+      margin-top:14%;
+  }
+  .intro{
+    // margin-bottom:30%;
+  }
+  .navbar-nav {
+    margin-left: 22%;
+    text-align:center;
+  }
   }
   @media (min-width: 992px) {
-    .intro{
-      margin-bottom:30%;
-    }
 
+    #profilePicture{
+      width:80%;
+    }
   }
 
   // Extra large devices (large desktops, 1200px and up)

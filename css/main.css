@@ -1,4 +1,4 @@
-@import 'mediaqueries.css';
+@import url(c:\Users\chunmini\Desktop\PORTFOLIO\PORTFOLIO\css\mediaqueries.css);
 html {
   scroll-behavior: smooth;
 }
@@ -11,12 +11,27 @@ body {
   background-color: #ffe2ff;
 }
 
+.contMargin {
+  margin-top: 10rem;
+}
+
 .jobstories div {
   background-color: white;
   margin-top: 5%;
   color: #2d54ff;
   font-weight: 600;
   border-radius: 10px;
+}
+
+#viewResume {
+  cursor: pointer;
+  border: none;
+  background-color: #2d54ff;
+  border-radius: 60px;
+  color: white;
+  padding: 2% 9% 2% 9%;
+  font-weight: 500;
+  font-size: 20px;
 }
 
 strong {
@@ -64,11 +79,15 @@ strong {
   border: none;
   background-color: #2d54ff;
   border-radius: 60px;
-  width: 50%;
   color: white;
-  padding: 2% 6% 2% 6%;
+  padding: 2% 9% 2% 9%;
   font-weight: 500;
   font-size: 20px;
+}
+
+#mailMe:hover {
+  background-color: white;
+  color: #2d54ff;
 }
 
 header {
@@ -82,8 +101,10 @@ header {
   font-weight: 600;
   font-size: 3rem;
 }
+
 .line span {
-  text-decoration: underline solid;
+  -webkit-text-decoration: underline solid;
+          text-decoration: underline solid;
 }
 
 .medium {
@@ -113,8 +134,9 @@ a:hover {
 }
 
 #logo {
-  width: 40px;
+  width: 30px;
 }
+
 #logo .cls-1 {
   fill: #2d54ff;
 }
@@ -172,19 +194,22 @@ nav {
 }
 
 .intro {
-  margin: 5%;
+  margin: 15% 5% 5% 5%;
 }
+
 .intro h1 {
   font-weight: bold;
   font-size: 4rem;
   color: #2d54ff;
 }
+
 .intro h1 .outline {
   font-weight: 600;
   color: #ffe2ff;
   -webkit-text-stroke-width: 2.5px;
   -webkit-text-stroke-color: #2d54ff;
 }
+
 .intro h3 {
   font-size: 2rem;
 }
@@ -199,9 +224,11 @@ footer {
   height: auto;
   color: white;
 }
+
 footer .social-media {
   width: 100%;
 }
+
 footer .social-media a {
   color: white;
   width: 100%;
@@ -217,8 +244,12 @@ footer .social-media a {
   text-decoration: none;
 }
 
-.container {
-  margin-top: 5%;
+.socialIcon :hover {
+  color: #2d54ff;
+}
+
+.contMargin {
+  margin-top: 10rem !important;
 }
 
 .subtitle {
@@ -232,6 +263,7 @@ nav li {
   font-size: 1.1rem;
   margin-right: 5rem;
 }
+
 nav a {
   color: #1e1e1e;
 }
@@ -249,4 +281,29 @@ html {
   border-color: white;
 }
 
+#navbar {
+  position: fixed;
+  /* Make it stick/fixed */
+  top: 0;
+  /* Hide the navbar 50 px outside of the top view */
+  width: 100%;
+  /* Full width */
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  /* Transition effect when sliding down (and up) */
+}
+
+#navbar a:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #2d54ff;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#navbar a:hover::after {
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */

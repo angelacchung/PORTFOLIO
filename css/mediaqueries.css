@@ -1,8 +1,27 @@
-@media (max-width: 576px) {
+@media (min-width: 450px) {
   .intro {
-    margin-bottom: 30%;
+    margin-top: 15%;
+  }
+  #profilePicture {
+    width: 40%;
   }
 }
+
+@media (max-width: 576px) {
+  .contMargin {
+    margin-top: 5rem;
+  }
+  .intro {
+    margin-top: 15%;
+  }
+  #profilePicture {
+    width: 40%;
+  }
+  #profCont {
+    margin-top: 40%;
+  }
+}
+
 @media (max-width: 768px) {
   .projTitle {
     font-weight: 600;
@@ -12,39 +31,41 @@
     margin-bottom: 5%;
     font-size: 3rem;
   }
+  #profCont {
+    margin-top: 17%;
+  }
+  #profilePicture {
+    width: 100%;
+  }
 }
-@media (max-width: 992px) {
-  .navSize {
-    margin-top: 10%;
-    margin-bottom: 20%;
-  }
-  .navSize ul {
-    text-align: center;
-    margin-left: 20%;
-  }
-  .navSize ul li {
-    font-size: 20px;
-    margin-bottom: 20px;
-  }
 
+@media (max-width: 992px) {
   .intro {
-    margin-bottom: 30%;
+    margin-top: 25%;
+  }
+  #navbar a:hover::after {
+    width: 0;
+  }
+  .navbar-nav {
+    margin-left: 22%;
+    text-align: center;
   }
 }
+
 @media (min-width: 992px) {
-  .intro {
-    margin-bottom: 30%;
+  #profilePicture {
+    width: 80%;
   }
 }
+
 @media (min-width: 1200px) {
   ul {
     margin-left: auto;
   }
-
   .intro {
     margin-bottom: 30%;
   }
 }
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
 /*# sourceMappingURL=mediaqueries.css.map */
