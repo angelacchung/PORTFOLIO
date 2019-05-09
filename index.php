@@ -121,8 +121,8 @@ or junior position in UX design. Angela is passionate about design and is a fan 
 <main>
 <div class="container">
     <div class="intro">
-      <h1 class="h1">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
-      <h3 class="grey pitch h3 mt-5 col-10 pl-0"><?php echo($row["title"]);?>I’m a UX/UI Design student, illustrator, taco enthusiast and a fan of good storytelling. I currently reside outside of Toronto, Canada.</h3>
+      <h1 class="h1 headline">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
+      <h3 class="grey pitch h3 mt-5 col-10 pl-0 tagline"><?php echo($row["title"]);?>I’m a UX/UI Designer, illustrator, taco enthusiast and a fan of good storytelling. I currently reside outside of Toronto, Canada.</h3>
     </div>
     <!--  -->
     <?php
@@ -130,7 +130,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
     {
     ?>
     <div class="row divDisp">
-      <div class="col-sm mt-4">
+      <div class="col-sm mt-4 headline">
           
           <h3 class="h3 blue medium"><?php echo($row['title']);?></h3>
           <p class="tag"><?php echo($row['tag']); ?></p>
@@ -145,7 +145,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
       </div>
         
         <div class="col-sm">
-        <img class="displayImg img-fluid m-2" alt="Responsive image" src="img/<?php echo($row['photo']); ?>">
+        <img class="displayImg img-fluid m-2 tagline" alt="Responsive image" src="img/<?php echo($row['photo']); ?>">
         </div> 
       </div>
       <?php
@@ -216,7 +216,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
 
         </footer>
         <!-- Footer -->
-
+        <script src="https://unpkg.com/scrollreveal"></script>
       <script src="js/main.js"></script>
 
       </body>

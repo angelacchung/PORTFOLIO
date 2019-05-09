@@ -13,4 +13,5 @@ window.onscroll = function() {
   prevScrollpos = currentScrollPos;
 }
 // SCROLL
-ScrollReveal().reveal('.headline', { delay: 400 });
+ScrollReveal().reveal('.headline', { delay: 600 });
+ScrollReveal().reveal('.tagline', { delay: 800 });
