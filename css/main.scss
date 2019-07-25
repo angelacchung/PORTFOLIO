@@ -1,6 +1,7 @@
 // VARIABLES
 $pink:#ffe2ff;
 $blue:#2d54ff;
+$darkblue:#1b38bd;
 // $blue:#4b4dff;
 $black:#1e1e1e;
 $grey:#707070;
@@ -35,12 +36,18 @@ body{
 #viewResume{
     cursor:pointer;
     border:none;
+    // border:2px solid $blue;
     background-color:$blue;
     border-radius:60px;
     color:white;
     padding: 2% 9% 2% 9%;
     font-weight:500;
     font-size:20px;
+}
+#viewResume:hover{
+    // border:2px solid $blue;
+    background-color:$darkblue;
+    // color:$blue;
 }
 strong{
     font-weight:600;
@@ -81,6 +88,7 @@ strong{
 }
 #mailMe{
     cursor:pointer;
+    // border:2px solid $blue;
     border:none;
     background-color:$blue;
     border-radius:60px;
@@ -91,8 +99,9 @@ strong{
     
 }
 #mailMe:hover{
-    background-color:white;
-    color:$blue;
+    // border:2px solid $blue;
+    background-color:$darkblue;
+    // color:$blue;
 }
 
 
@@ -137,7 +146,7 @@ header{
 a:hover{
     text-decoration:none;
     cursor:pointer;
-    color:white;
+    color:$darkblue;
 }
 
 
@@ -173,7 +182,7 @@ nav{
     background-color:$blue;
   }
 .button{
-    border:none;
+    // border:2px solid $blue;
     background-color:$blue;
     border-radius:60px;
     width:100%;
@@ -181,6 +190,11 @@ nav{
     padding: 2% 6% 2% 6%;
     font-weight:500;
     font-size:20px;
+}
+.button:hover{
+    // border:2px solid $blue;
+    background-color:$darkblue;
+    color:white;
 }
 
 .label{
@@ -192,6 +206,28 @@ nav{
 .divDisp{
     margin:5% 5% 8% 5%;
     
+}
+.illu{
+    margin:15% 5% 0 5%;
+    font-weight:600;
+    font-size:4rem;
+    .illuTitle{
+        color:$pink;
+        -webkit-text-stroke-width: 2.5px;
+        -webkit-text-stroke-color: $blue;
+    }
+   
+}
+.centered-and-cropped { 
+    width:300px;
+    height:300px;
+    border-radius:0;
+    object-fit: cover;
+    max-width:100%;
+}
+
+.sideMargin{
+    margin:0 5% 0 5%;
 }
 .intro{
 margin:15% 5% 5% 5%;
@@ -239,7 +275,16 @@ footer{
         color:$blue;
     }
 }
-
+.inline{
+    display:inline-block;
+}
+.socAbout{
+    color:$blue;
+    text-decoration:none;
+    :hover{
+        color:$darkblue;
+    }
+}
 .container{
     margin-top:10%;
 }

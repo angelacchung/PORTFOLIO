@@ -15,3 +15,8 @@ window.onscroll = function() {
 // SCROLL
 ScrollReveal().reveal('.headline', { delay: 600 });
 ScrollReveal().reveal('.tagline', { delay: 800 });
+//PROTOTYPE BUTTONS
+//BEEPBEEP
+$( "#viewBeep" ).click(function() {
+  $( "#bpbpPrototype" ).toggle( flip++ % 2 === 0 );
+});

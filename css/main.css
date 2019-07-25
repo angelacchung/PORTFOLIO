@@ -1,4 +1,4 @@
-@import url(c:\Users\chunmini\Desktop\PORTFOLIO\PORTFOLIO\css\mediaqueries.css);
+@import url(c:\xampp\htdocs\PORTFOLIO\css\mediaqueries.css);
 html {
   scroll-behavior: smooth;
 }
@@ -32,6 +32,10 @@ body {
   padding: 2% 9% 2% 9%;
   font-weight: 500;
   font-size: 20px;
+}
+
+#viewResume:hover {
+  background-color: #1b38bd;
 }
 
 strong {
@@ -86,8 +90,7 @@ strong {
 }
 
 #mailMe:hover {
-  background-color: white;
-  color: #2d54ff;
+  background-color: #1b38bd;
 }
 
 header {
@@ -130,7 +133,7 @@ header {
 a:hover {
   text-decoration: none;
   cursor: pointer;
-  color: white;
+  color: #1b38bd;
 }
 
 #logo {
@@ -171,7 +174,6 @@ nav {
 }
 
 .button {
-  border: none;
   background-color: #2d54ff;
   border-radius: 60px;
   width: 100%;
@@ -179,6 +181,11 @@ nav {
   padding: 2% 6% 2% 6%;
   font-weight: 500;
   font-size: 20px;
+}
+
+.button:hover {
+  background-color: #1b38bd;
+  color: white;
 }
 
 .label {
@@ -191,6 +198,31 @@ nav {
 
 .divDisp {
   margin: 5% 5% 8% 5%;
+}
+
+.illu {
+  margin: 15% 5% 0 5%;
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+.illu .illuTitle {
+  color: #ffe2ff;
+  -webkit-text-stroke-width: 2.5px;
+  -webkit-text-stroke-color: #2d54ff;
+}
+
+.centered-and-cropped {
+  width: 300px;
+  height: 300px;
+  border-radius: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+}
+
+.sideMargin {
+  margin: 0 5% 0 5%;
 }
 
 .intro {
@@ -248,8 +280,21 @@ footer .social-media a {
   color: #2d54ff;
 }
 
-.contMargin {
-  margin-top: 10rem !important;
+.inline {
+  display: inline-block;
+}
+
+.socAbout {
+  color: #2d54ff;
+  text-decoration: none;
+}
+
+.socAbout :hover {
+  color: #1b38bd;
+}
+
+.container {
+  margin-top: 10%;
 }
 
 .subtitle {
