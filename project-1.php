@@ -2,7 +2,7 @@
 
     <main>
       <div class="container contMargin">
-        <div class="m-0 mb-5  headline" >
+        <div class="m-0 mb-5" >
         <h1 class="projTitle">CustomHighze</h1>
         <p class="tag medium">UX/UI</p>
         </div>
@@ -12,21 +12,25 @@
               <img  class="img-fluid mb-4" src="img/customhighze/mockup2.png">
             </div>
             <!-- info -->
-            <div class="col-sm mt-0  headline">
-                <h5 class="info"><a>Duration</a></h5>
-                <p class="mt-3">Oct-Nov 2018</p>
+            <div id="info" class="col-sm mt-0">
+              <div>
+                <h5 class="info">Duration</h5>
+                <p class="mt-1">Oct-Nov 2018</p>
+              </div>
               <div class="mt-4">
-                <h5 class="info"><a>Team</a></h5>
-                  <ul class="list p-0 mt-3">
+                <h5 class="info">Team</h5>
+                  <ul class="list p-0 mt-1">
                     <li>Angela Chung</li>
-                    <li><a href="https://www.nakishacohen.com/"  target="_blank">Nakisha Cohen</a></li>
-                    <li><a href="http://chris-ric-browne.com/"  target="_blank">Christopher Browne</a></li>
+                    <li>Nakisha Cohen</li>
+                    <!-- <li><a href="https://www.nakishacohen.com/"  target="_blank">Nakisha Cohen</a></li> -->
+                    <li>Christopher Browne</li>
+                    <!-- <li><a href="http://chris-ric-browne.com/"  target="_blank">Christopher Browne</a></li> -->
                     <li>Leon Liang</li>
                   </ul>
               </div>
               <div class="mt-4">
-                <h5 class="info"><a>Role</a></h5>
-                  <ul class="list p-0 mt-3">
+                <h5 class="info">Role</h5>
+                  <ul class="list p-0 mt-1">
                     <li>Visual Design</li>
                     <li>User flows</li>
                     <li>Wireframing</li>
@@ -35,8 +39,8 @@
                   </ul>
               </div>
               <div class="mt-4">
-                <h5 class="info"><a>Tools</a></h5>
-                  <ul class="list p-0 mt-3">
+                <h5 class="info">Tools</h5>
+                  <ul class="list p-0 mt-1">
                     <li>Adobe XD</li>
                     <li>Adobe Illustrator</li>
                     <li>CSS3</li>
@@ -49,7 +53,7 @@
 
 
 
-    <div class="mt-5 wComp  headline">
+    <div class="wComp">
         <h3 class="h3 subtitle">Summary</h3>
         <p class="mt-2">
           CustomHighze is a collaborative project that helps the user find the most
@@ -59,7 +63,7 @@
         </p>
     </div>
 
-    <div class="wComp  headline">
+    <div class="wComp">
       <h3 class="h3 subtitle">The Problem</h3>
       <p>
         There are over approximately 700 known cannabis strains in the world. This
@@ -67,7 +71,7 @@
         for new users to understand and know which strains are the right ones for them.
       </p>
     </div>
-    <div class="wComp  headline">
+    <div class="wComp">
       <h3 class="h3 subtitle">The Solution</h3>
       <p>
         As a group, we developed the idea to create a survey that is dedicated to
@@ -81,16 +85,16 @@
 </div>
 <!--  -->
 
-  <div class="beginning my-5  headline">
+  <div class="beginning my-5">
 
     <h3 class="h3 my-5 line text-center"><span>In the beginning</span></h3>
   </div>
   <div class="container mt-0">
-    <div class="row">
-      <div class="col-sm-6  headline">
+    <div class="row mb-5">
+      <div class="col-sm-6">
       <img class="img-fluid" src="img/img2.png">
       </div>
-      <div class="col-sm-6  headline">
+      <div class="col-sm-6">
           <h3 class="h3 subtitle">Empathy map</h3>
   <p>We then created an empathy map in order to understand our user better.
     By doing this, we had a solid understanding of who we were designing for and
@@ -99,7 +103,7 @@
   </div>
   </div>
 
-  <div class="wComp  headline">
+  <div class="wComp">
 
     <div class="row">
       <div class="col-lg-6">
@@ -134,15 +138,15 @@
           be included. Discussing this project with our lead developer was important since we could discuss what was going to be hard/not possible
           and catch those obstacles in the early stages of our project. 
           </p>
-    <img class="img-fluid my-5" src="img/img3.png">
+    <img class="img-fluid my-3" src="img/img3.png">
 
-    <img class="img-fluid my-5 headline" src="img/customhighze/customhighze_wireframes.jpg">
+    <img class="img-fluid my-3" src="img/customhighze/customhighze_wireframes.jpg">
 
 
 
     </div>
 
-    <div class="wComp  headline">
+    <div class="wComp">
         <h3 class="h3 subtitle">Final designs</h3>
         <p>
             I then worked with a fellow design team member to finalize and create the mock up designs. 
@@ -150,7 +154,7 @@
             and formal look. We did not want our application to look bland since we found that most cannabis users 
             are in their 20-30s. We wanted to appeal to that demographic.
         </p>
-        <img class="img-fluid my-5" src="img/customhighze/customhighze_mockups.png">
+        <img class="img-fluid my-3" src="img/customhighze/customhighze_mockups.png">
 
       </div>
 
@@ -160,7 +164,7 @@
 
 
 
-          <div class="wComp  headline">
+          <div class="wComp">
 
               <h3 class="h3 subtitle">The Stumbles</h3>
               <p>
@@ -175,7 +179,7 @@
               </p>
             </div>
 
-            <div class="wComp  headline">
+            <div class="wComp">
                 <h3 class="h3 subtitle">Some user feedback</h3>
                 <p>
                     After the final designs were done, we went around Sheridan College and asked students if 
@@ -202,7 +206,7 @@
                 </ul>
               </div>
 
-              <div class="wComp  headline">
+              <div class="wComp">
                   <h3 class="h3 subtitle">Our learned outcomes</h3>
                   <p>
                       From the completion of this project, we now understand how long this process can take. 

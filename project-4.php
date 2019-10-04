@@ -14,13 +14,13 @@
           </div>
           <!-- info -->
           <div class="col-sm mt-0 headline">
-              <h5 class="info"><a>Duration</a></h5>
-              <p class="mt-3">March 2019</p>
+              <h5 class="info">Duration</h5>
+              <p class="mt-1">March 2019</p>
                
         
             <div class="mt-4">
-              <h5 class="info"><a>Role</a></h5>
-                <ul class="list p-0 mt-3">
+              <h5 class="info">Role</h5>
+                <ul class="list p-0 mt-1">
                   <li>Visual Design</li>
                   <li>Ideation</li>
                   <li>Rapid Prototyping</li>
@@ -30,8 +30,8 @@
             </div>
             
             <div class="mt-4">
-              <h5 class="info"><a>Tools</a></h5>
-                <ul class="list p-0 mt-3">
+              <h5 class="info">Tools</h5>
+                <ul class="list p-0 mt-1">
                     <li>Adobe XD</li>
                     <li>Pen and paper</li>
                     <li>Adobe Illustrator</li>
@@ -42,19 +42,19 @@
   </div>
 
        
-    <div class="mt-5 wComp offset-md-4 headline">
+    <div class="mt-5 wComp offset-md-4 ">
         <h3 class="h3 subtitle">XD Prototype</h3>
         <p class="mt-2">
             <iframe width="312" height="390" src="https://xd.adobe.com/embed/0da8e60c-6db1-48c9-6cea-6c3816d65b49-7b99/" frameborder="0" allowfullscreen></iframe>    </div>
 
-    <div class="wComp  headline">
+    <div class="wComp  ">
         <h3 class="h3 subtitle">Summary</h3>
         <p class="mt-2">
           Budget Eye is an Apple Watch app created through rapid prototyping. It helps users keep track of their budget by using a graphical interface, as well 
           as providing a history on the user's spending. 
         </p>
     </div>
-    <div class="wComp  headline">
+    <div class="wComp  ">
         <h3 class="h3 subtitle">The Goal</h3>
         <p class="mt-2">
           Create an effective budget tracking app and utilize the convenience of the Apple Watch, as it is easier to check verses taking out a phone from the pocket. 
@@ -81,13 +81,13 @@
 
 <div class="beginning my-5">
 
-  <h3 class="h3 my-5 line text-center headline"><span>In the beginning</span></h3>
+  <h3 class="h3 my-5 line text-center "><span>In the beginning</span></h3>
 </div>
-<div class="container mt-0 headline">
+<div class="container mt-0 ">
     <h3 class="h3 subtitle">The Userflow</h3>
 <img class="img-fluid" src="img/applewatch/applewatch_userflow.png">
   
-<div class="wComp headline">  
+<div class="wComp ">  
  
     <h3 class="h3 subtitle"></h3>
     <p class="tag medium">How it will connect</p>
@@ -95,7 +95,7 @@
 
 </div>
 
-<div class="wComp headline">  
+<div class="wComp ">  
  
     <h3 class="h3 subtitle">The Wireframes</h3>
     <p class="tag medium">Iterate, iterate, iterate...</p>
@@ -108,8 +108,8 @@
 </div>
 
 
-<h3 class="h3 my-5 line text-center headline"><span>In the end</span></h3>
-  <div class="wComp headline">  
+<h3 class="h3 my-5 line text-center "><span>In the end</span></h3>
+  <div class="wComp ">  
       <h3 class="h3 subtitle">Final designs</h3>
       <p>I then created my style tile and developed the final designs and working prototype. A dark background was used
         in order to save on battery life. 

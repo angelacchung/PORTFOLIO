@@ -8,7 +8,7 @@
   <div class="row">
     <div class="col-md-12 text-center mt-4">
       <img src="img/white.png">
-      <h3 class="mt-4 h3">Let's Talk.</h3>
+      <h3 class="mt-4 h3">Let's connect🤝</h3>
 
     </div>
     <!-- Grid column -->
@@ -33,7 +33,7 @@
       <div class="mt-5">
         <a href="mailto:mini.cchung@gmail.com" id="mailMe">Mail me</a>
       </div>
-      <p class="text-muted mt-5">Website coded by Angela Chung</p>
+      <!-- <p class="text-muted mt-5">Website coded by Angela Chung</p> -->
     </div>
     <!-- Grid column -->
 

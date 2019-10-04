@@ -4,18 +4,18 @@
     <div id="profCont" class="container contMargin headline">
       <div class="row">
         <div class="col-sm-5 mb-5">
-          <img id="profilePicture" class="offset-md-3" alt="Responsive image" src="img/angela-11.jpg">
+          <img id="profilePicture" class="offset-md-3" alt="Responsive image" src="img/me-3.jpg">
         </div>
         <div class="col-sm-7 mt-0">
-          <div class="intro mt-0">
+          <div class="intro mt-0 ml-5">
             <h1 class="h1 mb-5 ">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
             <p class="mt-4">
             I'm a designer with a background in Illustration, Graphic design and am a fan of good storytelling. 
             I recently completed my post graduate education at Sheridan College for Interactive Multimedia Management; a 
             program which is a mix of full-stack web development, UX/UI design, digital media and project management.
             </p>
-            <p>I'm currently on the hunt for internships/junior positions.
-            You can contact me at: <a href="mailto:mini.cchung@gmail.com">mini.cchung@gmail.com</a>
+            <p>I'm currently a UX/UI intern at Idea Theorem.</p>
+            <p>You can contact me at: <a href="mailto:mini.cchung@gmail.com">mini.cchung@gmail.com</a>
             </p>
             <a id="viewResume" href="resume.html">View resume</a>
             <p class="mt-5">I'm also on</p>
@@ -42,6 +42,7 @@
           </div>
         </div>
       </div>  
+      
     </div>  
     <!-- <div class="container my-5 headline">
       <div class="row mx-3">
@@ -88,10 +89,10 @@
           </ul>
         </div>
     </div> -->
- 
+   
 
 
+    
   </main>
 
-  <?php include 'footer.php' ?>
 

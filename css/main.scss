@@ -8,15 +8,41 @@ $grey:#707070;
 
 html {
     scroll-behavior: smooth;
+    font-size: 16px;
   }
 body{
-    margin:0;
     font-family: futura-pt, sans-serif;
     font-style: normal;
     font-weight: 300;
+    line-height: 1.45;
     background-color:$pink;
     // font-family: 'Roboto', sans-serif;
 }
+p {margin-bottom: 1.25em;}
+h1, h2, h3, h4, h5 {
+    margin: 2.75rem 0 1rem;
+    font-family: futura-pt, sans-serif;
+    font-weight: 300;
+    line-height: 1.15;
+  }
+  h1 {
+    margin-top: 0;
+    font-size: 3.052em;
+  }
+  
+  h2 {font-size: 2.441em;}
+  
+  h3 {font-size: 1.953em;}
+  
+  h4 {font-size: 1.563em;}
+  
+  h5 {font-size: 1.25em;}
+  
+  small, .text_small {font-size: 0.8em;}
+//   
+
+
+
 .contMargin{
     margin-top:10rem;
 }
@@ -36,15 +62,16 @@ body{
 #viewResume{
     cursor:pointer;
     border:none;
+    text-decoration:none;
     // border:2px solid $blue;
     background-color:$blue;
     border-radius:60px;
     color:white;
     padding: 2% 9% 2% 9%;
-    font-weight:500;
-    font-size:20px;
+
 }
 #viewResume:hover{
+   text-decoration:none;
     // border:2px solid $blue;
     background-color:$darkblue;
     // color:$blue;
@@ -53,11 +80,10 @@ strong{
     font-weight:600;
 }
 .info{
-    a{
-    border-bottom: 2px solid #000;
-    padding-bottom: 2px;
-    cursor:none;
-    }
+    margin-top:0;
+    margin-bottom:0;
+    text-decoration:underline;
+    // border-bottom: 2px solid #000;
 }
 .list{
     text-decoration:none;
@@ -77,7 +103,7 @@ strong{
     font-size:2rem;
 }
 .wComp{
-
+margin-top:5rem;
         p{
             width:75%;
         }
@@ -94,11 +120,11 @@ strong{
     border-radius:60px;
     color:white;
     padding: 2% 9% 2% 9%;
-    font-weight:500;
-    font-size:20px;
+
     
 }
 #mailMe:hover{
+    text-decoration:none;
     // border:2px solid $blue;
     background-color:$darkblue;
     // color:$blue;
@@ -131,7 +157,9 @@ header{
 #groc{
     width:100%;
 }
-
+.project{
+    margin-bottom: 5rem;
+}
 .ok{
     border-radius:10px;
 }
@@ -141,10 +169,8 @@ header{
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: $blue;
     // margin-bottom:5%;
-    font-size:4rem;
 }
 a:hover{
-    text-decoration:none;
     cursor:pointer;
     color:$darkblue;
 }
@@ -158,7 +184,7 @@ a:hover{
 }
 #profilePicture{
     width:70%;
-    border: 10px solid $blue;
+    // border: 10px solid $blue;
 }
 
 .smicons{
@@ -189,10 +215,11 @@ nav{
     color:white;
     padding: 2% 6% 2% 6%;
     font-weight:500;
-    font-size:20px;
+    font-size:16px;
 }
 .button:hover{
     // border:2px solid $blue;
+    text-decoration:none;
     background-color:$darkblue;
     color:white;
 }
@@ -203,10 +230,7 @@ nav{
 .displayImg{
     border-radius:15px;
 }
-.divDisp{
-    margin:5% 5% 8% 5%;
-    
-}
+
 .illu{
     margin:15% 5% 0 5%;
     font-weight:600;
@@ -229,8 +253,11 @@ nav{
 .sideMargin{
     margin:0 5% 0 5%;
 }
+.h3{
+    margin-top:0;
+}
 .intro{
-margin:15% 5% 5% 5%;
+margin-bottom:30%;
     h1{
         font-weight:bold;
         font-size:4rem;
@@ -241,12 +268,15 @@ margin:15% 5% 5% 5%;
         -webkit-text-stroke-width: 2.5px;
         -webkit-text-stroke-color: $blue;
         }
-    }
-    h3{
-        font-size:2rem;
+
     }
 }
+.tagline{
+    color:$grey;
+    width:80%;
+}
 a{
+    text-decoration:none;
     color:$blue;
   
 }
@@ -255,10 +285,15 @@ footer{
     width:100%;
     height:auto;
     color:white;
+    // position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
    
    .social-media{
        width:100%;
        a{
+           text-decoration:none;
            color:white;
            width:100%;
        }
@@ -285,11 +320,10 @@ footer{
         color:$darkblue;
     }
 }
-.container{
-    margin-top:10%;
-}
+.intro{
+    margin-top:9rem;
+  }
 .subtitle{
-    margin-top:4rem;
     font-weight:600;
     color:grey;
     font-size:2rem;
@@ -298,7 +332,7 @@ footer{
 nav{
     li{
         font-size: 1.1rem;
-        margin-right:5rem;
+        margin-right:4rem;
     }a{
         color:$black;
     }
@@ -309,9 +343,7 @@ nav{
     width:40%;
     padding:10%;
 }
-html {
-    scroll-behavior: smooth;
-  }
+
 .navbar-light{
 border-color:white;
 }
@@ -324,7 +356,7 @@ border-color:white;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
 
-  #navbar a:after {
+  #navbar .nav-link:after {
     content: '';
     display: block;
     width: 0;
@@ -332,7 +364,7 @@ border-color:white;
     background:$blue;
     transition: width .3s;
   }
-  #navbar a:hover::after {
+  #navbar .nav-link:hover::after {
     width: 100%;
   }
 

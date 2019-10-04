@@ -6,10 +6,6 @@ $grey:#707070;
 
 @media (min-width: 450px) {
 
-  .intro{
-    margin-top:15%;
-    // margin-bottom:30%;
-  }
   #profilePicture{
    
     width:80%;
@@ -23,11 +19,7 @@ $grey:#707070;
   .contMargin{
     margin-top: 8rem !important;
 }
-  .intro{
-    margin-top:15%;
-    // margin-bottom:30%;
 
-  }
   .mb-5{
     margin-bottom:0 !important;
   }
@@ -44,6 +36,7 @@ $grey:#707070;
 
   // Medium devices (tablets, 768px and up)
   @media (max-width: 768px) {
+
     .projTitle{
         font-weight:600;
         color:$pink;
@@ -52,9 +45,7 @@ $grey:#707070;
         margin-bottom:5%;
         font-size:3rem;
     }
-    .container{
-      margin-top:20%;
-  }
+
 
   #profCont{
     margin-top:17%;
@@ -67,16 +58,15 @@ $grey:#707070;
   // Large devices (desktops, 992px and up)
   @media (max-width: 992px) {
 
-    .intro{
-      margin-top:25%;
-      // margin-bottom:30%;
-    }
+.tagline{
+  width:100%;
+  color:$grey;
+}
+
     #navbar a:hover::after {
       width: 0;
     }
-    .container{
-      margin-top:14%;
-  }
+
 
   .navbar-nav {
     margin-left: 22%;
@@ -95,9 +85,8 @@ $grey:#707070;
       ul{
           margin-left:auto;
       }
-      .intro{
-        margin-bottom:30%;
-      }
+ 
+
   }
 
    /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */

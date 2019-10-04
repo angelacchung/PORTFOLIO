@@ -1,14 +1,51 @@
 @import url(c:\xampp\htdocs\PORTFOLIO\css\mediaqueries.css);
 html {
   scroll-behavior: smooth;
+  font-size: 16px;
 }
 
 body {
-  margin: 0;
   font-family: futura-pt, sans-serif;
   font-style: normal;
   font-weight: 300;
+  line-height: 1.45;
   background-color: #ffe2ff;
+}
+
+p {
+  margin-bottom: 1.25em;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-family: futura-pt, sans-serif;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.052em;
+}
+
+h2 {
+  font-size: 2.441em;
+}
+
+h3 {
+  font-size: 1.953em;
+}
+
+h4 {
+  font-size: 1.563em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
+small, .text_small {
+  font-size: 0.8em;
 }
 
 .contMargin {
@@ -26,15 +63,15 @@ body {
 #viewResume {
   cursor: pointer;
   border: none;
+  text-decoration: none;
   background-color: #2d54ff;
   border-radius: 60px;
   color: white;
   padding: 2% 9% 2% 9%;
-  font-weight: 500;
-  font-size: 20px;
 }
 
 #viewResume:hover {
+  text-decoration: none;
   background-color: #1b38bd;
 }
 
@@ -42,10 +79,10 @@ strong {
   font-weight: 600;
 }
 
-.info a {
-  border-bottom: 2px solid #000;
-  padding-bottom: 2px;
-  cursor: none;
+.info {
+  margin-top: 0;
+  margin-bottom: 0;
+  text-decoration: underline;
 }
 
 .list {
@@ -70,6 +107,10 @@ strong {
   font-size: 2rem;
 }
 
+.wComp {
+  margin-top: 5rem;
+}
+
 .wComp p {
   width: 75%;
 }
@@ -85,11 +126,10 @@ strong {
   border-radius: 60px;
   color: white;
   padding: 2% 9% 2% 9%;
-  font-weight: 500;
-  font-size: 20px;
 }
 
 #mailMe:hover {
+  text-decoration: none;
   background-color: #1b38bd;
 }
 
@@ -118,6 +158,10 @@ header {
   width: 100%;
 }
 
+.project {
+  margin-bottom: 5rem;
+}
+
 .ok {
   border-radius: 10px;
 }
@@ -127,11 +171,9 @@ header {
   color: #ffe2ff;
   -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: #2d54ff;
-  font-size: 4rem;
 }
 
 a:hover {
-  text-decoration: none;
   cursor: pointer;
   color: #1b38bd;
 }
@@ -146,7 +188,6 @@ a:hover {
 
 #profilePicture {
   width: 70%;
-  border: 10px solid #2d54ff;
 }
 
 .smicons {
@@ -180,10 +221,11 @@ nav {
   color: white;
   padding: 2% 6% 2% 6%;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .button:hover {
+  text-decoration: none;
   background-color: #1b38bd;
   color: white;
 }
@@ -194,10 +236,6 @@ nav {
 
 .displayImg {
   border-radius: 15px;
-}
-
-.divDisp {
-  margin: 5% 5% 8% 5%;
 }
 
 .illu {
@@ -225,8 +263,12 @@ nav {
   margin: 0 5% 0 5%;
 }
 
+.h3 {
+  margin-top: 0;
+}
+
 .intro {
-  margin: 15% 5% 5% 5%;
+  margin-bottom: 30%;
 }
 
 .intro h1 {
@@ -242,11 +284,13 @@ nav {
   -webkit-text-stroke-color: #2d54ff;
 }
 
-.intro h3 {
-  font-size: 2rem;
+.tagline {
+  color: #707070;
+  width: 80%;
 }
 
 a {
+  text-decoration: none;
   color: #2d54ff;
 }
 
@@ -255,6 +299,9 @@ footer {
   width: 100%;
   height: auto;
   color: white;
+  left: 0;
+  bottom: 0;
+  text-align: center;
 }
 
 footer .social-media {
@@ -262,6 +309,7 @@ footer .social-media {
 }
 
 footer .social-media a {
+  text-decoration: none;
   color: white;
   width: 100%;
 }
@@ -293,12 +341,11 @@ footer .social-media a {
   color: #1b38bd;
 }
 
-.container {
-  margin-top: 10%;
+.intro {
+  margin-top: 9rem;
 }
 
 .subtitle {
-  margin-top: 4rem;
   font-weight: 600;
   color: grey;
   font-size: 2rem;
@@ -306,7 +353,7 @@ footer .social-media a {
 
 nav li {
   font-size: 1.1rem;
-  margin-right: 5rem;
+  margin-right: 4rem;
 }
 
 nav a {
@@ -316,10 +363,6 @@ nav a {
 #aboutPic {
   width: 40%;
   padding: 10%;
-}
-
-html {
-  scroll-behavior: smooth;
 }
 
 .navbar-light {
@@ -338,7 +381,7 @@ html {
   /* Transition effect when sliding down (and up) */
 }
 
-#navbar a:after {
+#navbar .nav-link:after {
   content: '';
   display: block;
   width: 0;
@@ -348,7 +391,7 @@ html {
   transition: width .3s;
 }
 
-#navbar a:hover::after {
+#navbar .nav-link:hover::after {
   width: 100%;
 }
 /*# sourceMappingURL=main.css.map */

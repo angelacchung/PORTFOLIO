@@ -11,27 +11,28 @@
           <img class="img-fluid mb-4 tagline" src="img/dominos/proj-3.png">
         </div>
         <div class="col-sm mt-0 headline">
-          <h5 class="info"><a>Duration</a></h5>
-          <p class="mt-3">Oct 2018</p>
+          <h5 class="info">Duration</h5>
+          <p class="mt-1">Oct 2018</p>
         <div class="mt-4">
-          <h5 class="info"><a>Team</a></h5>
-          <ul class="list p-0 mt-3">
+          <h5 class="info">Team</h5>
+          <ul class="list p-0 mt-1">
             <li>Angela Chung</li>
-            <li><a href="http://eliciang.com/" target="_blank">Elicia Ng</a></li>
+            <li>Elicia Ng</li>
+            <!-- <li><a href="http://eliciang.com/" target="_blank">Elicia Ng</a></li> -->
             <li><a>Elena Race</a></li>
           </ul>
         </div>
         <div class="mt-4">
-          <h5 class="info"><a>Role</a></h5>
-          <ul class="list p-0 mt-3">
+          <h5 class="info">Role</h5>
+          <ul class="list p-0 mt-1">
             <li>Wireframing</li>
             <li>User testing</li>
             <li>Competitive analysis</li>
           </ul>
         </div>
         <div class="mt-4">
-          <h5 class="info"><a>Tools</a></h5>
-          <ul class="list p-0 mt-3">
+          <h5 class="info">Tools</h5>
+          <ul class="list p-0 mt-1">
             <li>Adobe Illustrator</li>
             <li>Pen and paper</li>
           </ul>
@@ -143,7 +144,7 @@
       <img class="img-fluid" src="img/dominos/userflow-revised.png">
     </div>
 
-  <div class="wComp headline">  
+  <div class="wComp">  
         <h3 class="h3 subtitle">Low-fidelity wireframes</h3>
 
             <p>I was tasked with creating the wireframes for the re-design. Based on the gathered information, I developed
@@ -166,7 +167,7 @@
         </div>
   </div>
   
-  <div class="wComp headline">  
+  <div class="wComp">  
     <h3 class="h3 mb-3 subtitle">Wireframes</h3>
     <p>
     Thanks to the user feedback and revised user flow, I was able to understand what we were aiming to 

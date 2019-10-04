@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+html {
+  font-size: 16px;
+}
+
+body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.45;
+  color: #1e1e1e;
+}
+
+li {
+  font-size: 17px;
+  line-height: 1.80rem;
+  margin-top: .5rem;
+}
+
+p {
+  margin-bottom: 1em;
+  color: #1e1e1e;
+  font-size: 17px;
+  line-height: 1.80rem;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 2.75rem 0 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.15;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 2.488em;
+}
+
+h2 {
+  font-size: 2.074em;
+}
+
+h3 {
+  font-size: 1.728em;
+}
+
+h4 {
+  font-size: 1.44em;
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+small, .text_small {
+  font-size: 0.833em;
+}
+
+small, .text_small {
+  font-size: 0.889em;
+}
+
+#navbar {
+  background-color: white;
+  -webkit-box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navbar-nav .nav-item {
+  padding: 5px;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.button {
+  background-color: #2d54ff;
+  color: white;
+  padding: 10px 20px 10px 20px;
+  border-radius: 50px;
+}
+
+.button:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #1b38bd;
+}
+
+.outlineTitle {
+  font-weight: 800;
+  color: #2d54ff;
+}
+
+.outline {
+  color: white;
+  -webkit-text-stroke-width: 1.5px;
+  -webkit-text-stroke-color: #2d54ff;
+}
+
+#header {
+  margin-top: 7%;
+}
+
+#header #tagline {
+  color: #AEAEAE;
+  max-width: 18rem;
+  font-size: 1.2em;
+}
+
+#header .viewResume p {
+  color: #2d54ff;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#header .viewResume i {
+  position: relative;
+  top: 5px;
+  font-size: 1.8rem;
+}
+
+.subtitle {
+  color: #2d54ff;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+#projects {
+  margin-top: 40%;
+}
+
+#projects p {
+  color: #AEAEAE;
+  font-weight: 700;
+}
+
+#projects .card {
+  background-color: white;
+  padding: 10px;
+  -webkit-box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+          box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+  border-style: none;
+}
+
+.container h2 {
+  margin-top: 1rem;
+}
+
+.container .category {
+  color: #AEAEAE;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.container .section {
+  margin-top: 2.5rem;
+}
+
+.bulleted {
+  list-style: circle;
+  list-style-position: inside;
+}
+/*# sourceMappingURL=new_css.css.map */

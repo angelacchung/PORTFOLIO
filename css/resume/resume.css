@@ -35,10 +35,12 @@ h3 {
 
 h4 {
   font-size: 1.777em;
+  font-weight: 600;
 }
 
 h5 {
   font-size: 1.333em;
+  font-weight: 600;
 }
 
 small, .text_small {
@@ -54,11 +56,12 @@ body {
 }
 
 #pdf {
+  text-decoration: none;
   background-color: #ffe2ff;
   color: #2d54ff;
   border-radius: 50px;
   padding: 0.5rem;
-  margin: 2rem;
+  margin-top: 1rem;
   display: block;
   text-align: center;
   border: 2px solid #2d54ff;
@@ -79,11 +82,33 @@ body {
   width: 100%;
 }
 
+.sectionOne .positionTitle {
+  font-weight: 600;
+  margin-top: 0;
+}
+
 .sectionOne .grid-container {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 4rem auto;
       grid-template-columns: 4rem auto;
+}
+
+.sectionOne #contactOptions {
+  font-size: 1.1rem;
+}
+
+.sectionOne #contactOptions a {
+  text-decoration: none;
+  font-size: 1.333rem;
+}
+
+.sectionOne #contactOptions span {
+  margin-right: 1rem;
+}
+
+.sectionOne #contactOptions i {
+  margin-right: 0.5rem;
 }
 
 .sectionOne #logo {
@@ -95,12 +120,16 @@ body {
   fill: #ffe2ff;
 }
 
-.sectionOne .positionTitle {
-  font-size: 1.777em;
+.sectionOne #contactInfo {
+  margin-top: 2rem;
 }
 
-.sectionOne h2 {
-  font-weight: 600;
+.sectionOne #contactInfo p a {
+  font-size: 1.333rem;
+}
+
+.sectionOne #leftInfo {
+  margin-top: 2rem;
 }
 
 .sectionOne h3 {
@@ -108,7 +137,6 @@ body {
 }
 
 .sectionOne a {
-  text-decoration: none;
   color: #ffe2ff;
 }
 
@@ -121,19 +149,16 @@ body {
 }
 
 .sectionOne .social {
-  display: block;
-  margin-left: 4rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .sectionOne .social i {
-  margin-left: 15%;
-  font-size: 3rem;
+  margin-right: 2rem;
+  font-size: 2rem;
 }
 
 .sectionOne .contact p {
   text-align: center;
-  font-size: 1.333em;
 }
 
 .sectionOne .contact span {
@@ -144,10 +169,19 @@ body {
 
 .sectionOne .contact span a {
   margin-bottom: 2rem;
+  font-size: 1.1rem;
 }
 
 .sectionOne .contact span i {
   margin-right: 1rem;
+}
+
+.role {
+  margin: 0;
+}
+
+.margin-top-2 {
+  margin-top: 2rem;
 }
 
 .sectionTwo {
@@ -157,16 +191,16 @@ body {
   width: 100%;
 }
 
-.sectionTwo .date {
-  margin-bottom: 1rem;
-}
-
-.sectionTwo h3 {
-  font-weight: 600;
+.sectionTwo a {
+  color: #2d54ff;
 }
 
 .sectionTwo h4 {
-  margin-top: 1rem;
+  color: #2d54ff;
+}
+
+.sectionTwo h5 {
+  margin-top: .10rem;
   font-weight: 600;
   color: #707070;
 }

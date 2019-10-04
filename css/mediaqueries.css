@@ -1,7 +1,4 @@
 @media (min-width: 450px) {
-  .intro {
-    margin-top: 15%;
-  }
   #profilePicture {
     width: 80%;
   }
@@ -10,9 +7,6 @@
 @media (max-width: 576px) {
   .contMargin {
     margin-top: 8rem !important;
-  }
-  .intro {
-    margin-top: 15%;
   }
   .mb-5 {
     margin-bottom: 0 !important;
@@ -35,9 +29,6 @@
     margin-bottom: 5%;
     font-size: 3rem;
   }
-  .container {
-    margin-top: 20%;
-  }
   #profCont {
     margin-top: 17%;
   }
@@ -47,14 +38,12 @@
 }
 
 @media (max-width: 992px) {
-  .intro {
-    margin-top: 25%;
+  .tagline {
+    width: 100%;
+    color: #707070;
   }
   #navbar a:hover::after {
     width: 0;
-  }
-  .container {
-    margin-top: 14%;
   }
   .navbar-nav {
     margin-left: 22%;
@@ -71,9 +60,6 @@
 @media (min-width: 1200px) {
   ul {
     margin-left: auto;
-  }
-  .intro {
-    margin-bottom: 30%;
   }
 }
 

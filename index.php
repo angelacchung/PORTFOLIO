@@ -3,15 +3,15 @@
 <div class="container">
     <div class="intro">
       <h1 class="h1 headline">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
-      <h3 class="grey pitch h3 mt-5 col-10 pl-0 tagline"><?php echo($row["title"]);?>I’m a UX/UI designer, illustrator, dog enthusiast and a fan of good storytelling. I currently reside outside of Toronto, Canada.</h3>
+      <h3 class="tagline"><?php echo($row["title"]);?>I’m a UX/UI designer, illustrator, dog enthusiast and a fan of good storytelling. I currently reside outside of Toronto, Canada.</h3>
     </div>
     <!--  -->
     <?php
     while($row=$stmt->fetch())
     {
     ?>
-    <div class="row divDisp">
-      <div class="col-sm mt-4 headline">
+    <div class="row project">
+      <div class="col-sm">
           
           <h3 class="h3 blue medium"><?php echo($row['title']);?></h3>
           <p class="tag"><?php echo($row['tag']); ?></p>

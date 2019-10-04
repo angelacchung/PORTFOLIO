@@ -1,1 +1,29 @@
-.centered-and-cropped { object-fit: cover }
+.leftt {
+  background-color: red;
+  float: left;
+  width: 40%;
+  height: 100%;
+  padding: 1rem;
+}
+
+.rightt {
+  background-color: green;
+  float: right;
+  width: 60%;
+  height: 100%;
+  padding: 1rem;
+}
+
+@media (max-width: 992px) {
+  .leftt {
+    position: relative;
+    background-color: pink;
+    width: 100%;
+  }
+  .rightt {
+    position: relative;
+    background-color: blue;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=test.css.map */
