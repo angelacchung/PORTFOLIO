@@ -169,4 +169,9 @@ small, .text_small {
   list-style: circle;
   list-style-position: inside;
 }
+
+.storyTitle {
+  display: block;
+  text-align: center;
+}
 /*# sourceMappingURL=new_css.css.map */
