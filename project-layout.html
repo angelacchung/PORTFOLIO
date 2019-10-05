@@ -73,9 +73,9 @@ or junior position in UX design. Angela is passionate about design and is a fan 
 
 <body>
     <!-- Garbage code made by Angela Chung  -->
-    <header id="navbar" class=" sticky-top shadow">
+    <header id="navbar" class=" p-1 sticky-top">
         <div class="container mt-0">
-            <nav class="navbar navbar-expand-lg  navbar-light">
+            <nav class="navbar navbar-expand-lg  p-1 navbar-light">
                 <a href="https://www.angelachung.me">
                     <svg id="logo" class="m-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.04 123.54">
                         <defs>
@@ -102,7 +102,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                     </svg>
                 </a>
 
-                <button class="navbar-toggler border-0 px-2" type="button" data-toggle="collapse"
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
                     data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -186,7 +186,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                         </p>
                         <p>
                             We saw that users were dropping off the most from the following screens:
-                            <ul>
+                            <ul class="bulleted">
                                 <li>
                                     Articles screen (home screen)
                                 </li>
@@ -208,111 +208,78 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                         <p>My next step was to watch some recordings from UX Cam and see how users behave. A few
                             observations and UX issues that I found were:
                             <div class="row mt-5">
-                                <div class="col">
-                                    <img class="img-fluid" src="img/YDO/ux_issues/1.png">
+                                <div class="col-sm-6">
+                                    <img class="img-fluid card" src="img/YDO/ux_issues/uxcam.png">
                                 </div>
-                                <div class="col">
-
-                                    <p class="bold">In the chatroom, users were tapping on the doctor’s profile picture.
-                                    </p>
-
-                                </div>
-                            </div>
-                            <!--  -->
-                            <div class="row mt-5">
-                                <div class="col">
-                                    <img class="img-fluid" src="img/YDO/ux_issues/1.png">
-                                </div>
-                                <div class="col">
-
-                                    <p class="bold">Doctors often have to ask their users to elaborate on their medical
-                                        issue.
-                                    </p>
-
-                                </div>
-                            </div>
-                            <!--  -->
-                            <div class="row mt-5">
-                                <div class="col">
-                                    <img class="img-fluid" src="img/YDO/ux_issues/1.png">
-                                </div>
-                                <div class="col">
-
-                                    <p class="bold">Adding a dosage for medicine is confusing. Here, UX Cam shows that
-                                        the user is rage tapping the screen.
-                                    </p>
-
+                                <div class="col-sm-6">
+                                    <ul class="bulleted">
+                                        <li>
+                                            In the chatroom, users were tapping on the doctor’s profile picture.
+                                        </li>
+                                        <li>
+                                            Doctors often have to ask their users to elaborate on their medical issue
+                                        </li>
+                                        <li>
+                                            Adding a dosage for medicine is confusing. It is not clear to the user what
+                                            gestures are to be used in order to fill this form. It is also not clear
+                                            what is a text field.
+                                        </li>
+                                        <li>
+                                            Un-editable fields and editable fields have the same design. They all look
+                                            like they can be pressed.
+                                        </li>
+                                        <li>
+                                            Doctors are often asking patients to elaborate on their medical issue,
+                                            making the user have to explain their symptoms again.
+                                        </li>
+                                    </ul>
                                 </div>
                             </div>
+
                             <!--  -->
                         </p>
                     </div>
                     <!-- end UX cam -->
                     <div class="section">
-                        <p class="subtitle">Analyzing for UX issues</p>
+                        <p class="subtitle">ANALYZING FOR UX ISSUES</p>
                         <p>For phase 2, I analyzed for UX and UI issues on both Android and iOs devices. I found that:
-                            <div class="row mt-5">
-                                <div class="col">
-                                    <img class="img-fluid" src="img/YDO/ux_issues/1.png">
-                                </div>
-                                <div class="col">
-                                    <p class="bold">Blog posts may be irrelevant to users’ needs and interests. As a
-                                        result, it’s hard for the user to identify the content they would want to read.
-                                    </p>
-                                </div>
-                            </div>
-                            <!--  -->
-                            <div class="row mt-5">
-                                <div class="col">
-                                    <img class="img-fluid" src="img/YDO/ux_issues/1.png">
-                                </div>
-                                <div class="col">
-                                    <p class="bold">There is no clear indication that the user is being onboarded to
-                                        chatting with a doctor.
-
-                                    </p>
-                                </div>
-                            </div>
-                            <!--  -->
-                            <div class="row mt-5">
-                                <div class="col">
-                                    <img class="img-fluid" src="img/YDO/ux_issues/1.png">
-                                </div>
-                                <div class="col">
-                                    <p class="bold">Medication: If a user puts in a medication that is not from the drop
-                                        down list (ex: Advil), it looks like it has been added to the list but the
-                                        button turns into a loading animation and just keeps looping.
-                                    </p>
-                                </div>
-                            </div>
-                            <!--  -->
-                            <div class="row mt-5">
-                                <div class="col">
-                                    <img class="img-fluid" src="img/YDO/ux_issues/1.png">
-                                </div>
-                                <div class="col">
-                                    <p class="bold">‘Connecting you with a doctor’ popup can be exited but it takes you
-                                        out of the queue which is unexpected. </p>
-                                </div>
-                            </div>
-                            <!--  -->
-                            <div class="row mt-5">
-                                <div class="col">
-                                    <img class="img-fluid" src="img/YDO/ux_issues/1.png">
-                                </div>
-                                <div class="col">
-                                    <p class="bold">Lack of giving the user a sense of progress being made
-                                    </p>
-                                </div>
-                            </div>
-                            <!--  -->
                         </p>
+                        <div class="row mt-5">
+                            <div class="col-sm-6">
+                                <img class="img-fluid card" src="img/YDO/ux_issues/uxanalysis.png">
+                            </div>
+                            <div class="col-sm-6">
+                                <ul class="bulleted">
+                                    <li>
+                                        In the chatroom, users were tapping on the doctor’s profile picture.
+                                    </li>
+                                    <li>
+                                        Doctors often have to ask their users to elaborate on their medical issue
+                                    </li>
+                                    <li>
+                                        Adding a dosage for medicine is confusing. It is not clear to the user what
+                                        gestures are to be used in order to fill this form. It is also not clear
+                                        what is a text field.
+                                    </li>
+                                    <li>
+                                        Un-editable fields and editable fields have the same design. They all look
+                                        like they can be pressed.
+                                    </li>
+                                    <li>
+                                        Doctors are often asking patients to elaborate on their medical issue,
+                                        making the user have to explain their symptoms again.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <!-- END ANALYZING FOR UX ISSUES -->
                     <div class="section">
                         <p class="subtitle">COMPETITOR ANALYSIS</p>
-                        <p>I then researched other apps that were in the same category. I looked into HealthTap, Doctors
-                            on Demand, Ada and Maple. The insights from this research helped me prepare recommendations
+                        <p>I then researched other apps that were in the same category. I looked into HealthTap,
+                            Doctors
+                            on Demand, Ada and Maple. The insights from this research helped me prepare
+                            recommendations
                             on how the app could be improved.
                         </p>
                         <div class="row mt-5">
@@ -325,7 +292,8 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                                 </p>
                                 <p class="mt-0">
                                     A virtual care platform where users are connected to doctors via
-                                    on-demand/appointment by video, audio, or text-chat and by asynchronous message.
+                                    on-demand/appointment by video, audio, or text-chat and by asynchronous
+                                    message.
                                     The app also acts as a forum for doctors and patients.
 
                                 </p>
@@ -340,7 +308,8 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                                     they save.
                                 </li>
                                 <li>
-                                    Users can make a detailed health record of themselves such as adding allergies,
+                                    Users can make a detailed health record of themselves such as adding
+                                    allergies,
                                     vaccinations, lifestyles, etc.
                                 </li>
                                 <li>
@@ -352,15 +321,16 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                         <!-- END OF HEALTHTAP -->
                         <div class="row mt-5">
                             <div class="col-md-6">
-                                <img class="img-fluid card" src="img/YDO/healthtap.png">
+                                <img class="img-fluid card" src="img/YDO/dod.png">
                             </div>
                             <div class="col-md-6">
 
-                                <p class="bold mb-0 mt-3">HealthTap
+                                <p class="bold mb-0 mt-3">Doctors On Demand
                                 </p>
                                 <p class="mt-0">
                                     A virtual care platform where users are connected to doctors via
-                                    on-demand/appointment by video, audio, or text-chat and by asynchronous message.
+                                    on-demand/appointment by video, audio, or text-chat and by asynchronous
+                                    message.
                                     The app also acts as a forum for doctors and patients.
 
                                 </p>
@@ -375,7 +345,8 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                                     they save.
                                 </li>
                                 <li>
-                                    Users can make a detailed health record of themselves such as adding allergies,
+                                    Users can make a detailed health record of themselves such as adding
+                                    allergies,
                                     vaccinations, lifestyles, etc.
                                 </li>
                                 <li>
@@ -387,15 +358,16 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                         <!-- END OF DOCTORSONDEMAND -->
                         <div class="row mt-5">
                             <div class="col-md-6">
-                                <img class="img-fluid card" src="img/YDO/healthtap.png">
+                                <img class="img-fluid card" src="img/YDO/ada.png">
                             </div>
                             <div class="col-md-6">
 
-                                <p class="bold mb-0 mt-3">HealthTap
+                                <p class="bold mb-0 mt-3">Ada
                                 </p>
                                 <p class="mt-0">
                                     A virtual care platform where users are connected to doctors via
-                                    on-demand/appointment by video, audio, or text-chat and by asynchronous message.
+                                    on-demand/appointment by video, audio, or text-chat and by asynchronous
+                                    message.
                                     The app also acts as a forum for doctors and patients.
 
                                 </p>
@@ -410,7 +382,8 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                                     they save.
                                 </li>
                                 <li>
-                                    Users can make a detailed health record of themselves such as adding allergies,
+                                    Users can make a detailed health record of themselves such as adding
+                                    allergies,
                                     vaccinations, lifestyles, etc.
                                 </li>
                                 <li>
@@ -422,15 +395,16 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                         <!-- END OF ADA -->
                         <div class="row mt-5">
                             <div class="col-md-6">
-                                <img class="img-fluid card" src="img/YDO/healthtap.png">
+                                <img class="img-fluid card" src="img/YDO/maple.png">
                             </div>
                             <div class="col-md-6">
 
-                                <p class="bold mb-0 mt-3">HealthTap
+                                <p class="bold mb-0 mt-3">Maple
                                 </p>
                                 <p class="mt-0">
                                     A virtual care platform where users are connected to doctors via
-                                    on-demand/appointment by video, audio, or text-chat and by asynchronous message.
+                                    on-demand/appointment by video, audio, or text-chat and by asynchronous
+                                    message.
                                     The app also acts as a forum for doctors and patients.
 
                                 </p>
@@ -445,7 +419,8 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                                     they save.
                                 </li>
                                 <li>
-                                    Users can make a detailed health record of themselves such as adding allergies,
+                                    Users can make a detailed health record of themselves such as adding
+                                    allergies,
                                     vaccinations, lifestyles, etc.
                                 </li>
                                 <li>
@@ -455,153 +430,185 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                             </ul>
                         </div>
                         <!-- END OF MAPLE -->
-                        <div class="section">
-                            <p class="subtitle">RECOMMENDATIONS</p>
-                            <p>Moving on, I researched into features and solutions to how the client could improve their
-                                user retention rate as well as the overall experience and interest of the mobile app.
+                    </div>
+                    <h2 class="storyTitle"><span class="outline outlineTitle">In the end</span></h2>
+                    <!-- RECOMMENDATIONS -->
+                    <div class="section">
+                        <p class="subtitle">RECOMMENDATIONS</p>
+                        <p>Moving on, I researched into features and solutions to how the client could
+                            improve their
+                            user retention rate as well as the overall experience and interest of the mobile
+                            app.
+                        </p>
+                    </div>
+                    <div class="section">
+                        <p class="mb-0 subtitle">TO IMPROVE USER RETENTION</p>
+                        <div>
+                            <p class="bold mt-0">Functionality and first impressions: Ensure a high
+                                quality app
                             </p>
-                            <div>
-                                <p class="mb-0 subtitle">TO IMPROVE USER RETENTION</p>
-                                <div>
-                                    <p class="bold mt-0">Functionality and first impressions: Ensure a high quality app
-                                    </p>
-                                    <ul class="bulleted">
-                                        <li>
-                                            Splash screen image shifts
-                                        </li>
-                                        <li>
-                                            ‘Meds’ takes a while to load
-                                        </li>
-                                        <li>
-                                            Grammar issues
-                                        </li>
-                                        <li>
-                                            Android back button not working for a few screens
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--  -->
-                                <div>
-                                    <p class="bold mt-0">Use push notifications to remind the user of your app
-                                    </p>
-                                    <ul class="bulleted">
-                                        <li>
-                                            Splash screen image shifts
-                                        </li>
-                                        <li>
-                                            ‘Meds’ takes a while to load
-                                        </li>
-                                        <li>
-                                            Grammar issues
-                                        </li>
-                                        <li>
-                                            Android back button not working for a few screens
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--  -->
-                                <div>
-                                    <p class="bold mt-0">Include user personalization to create a more unique and
-                                        relevant experience
-                                    </p>
-                                    <ul class="bulleted">
-                                        <li>
-                                            Splash screen image shifts
-                                        </li>
-                                        <li>
-                                            ‘Meds’ takes a while to load
-                                        </li>
-                                        <li>
-                                            Grammar issues
-                                        </li>
-                                        <li>
-                                            Android back button not working for a few screens
-                                        </li>
-                                    </ul>
-                                </div>
-                                <!--  -->
-                            </div>
-                            <!-- END IMPROVE USER RETENTION -->
-                            <div>
-                                <p class="mb-0 subtitle">OTHER RECOMMENDATIONS</p>
-                                <ul class="bulleted">
-                                    <li>
-                                        Let users choose if they want to chat with a doctor right away once they
-                                        register
-                                    </li>
-                                    <li>
-                                        Give users the ability to create a medical profile for themselves
-                                    </li>
-                                    <li>
-                                        Ability to let users stay in queue when they exit the popup </li>
-                                    <li>
-                                        Let users access the chat history, but not open the chat logs if they are not a
-                                        pro member
-                                    </li>
-                                </ul>
-                            </div>
-                            <!-- END OTHER RECOMMENDATIONS -->
+                            <ul class="bulleted">
+                                <li>
+                                    Splash screen image shifts
+                                </li>
+                                <li>
+                                    ‘Meds’ takes a while to load
+                                </li>
+                                <li>
+                                    Grammar issues
+                                </li>
+                                <li>
+                                    Android back button not working for a few screens
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  -->
+                        <div>
+                            <p class="bold mt-0">Use push notifications to remind the user of your app
+                            </p>
+                            <ul class="bulleted">
+                                <li>
+                                    Splash screen image shifts
+                                </li>
+                                <li>
+                                    ‘Meds’ takes a while to load
+                                </li>
+                                <li>
+                                    Grammar issues
+                                </li>
+                                <li>
+                                    Android back button not working for a few screens
+                                </li>
+                            </ul>
                         </div>
 
+                        <!--  -->
+                        <div>
+                            <p class="bold mt-0">Include user personalization to create a more unique
+                                and
+                                relevant experience
+                            </p>
+                            <ul class="bulleted">
+                                <li>
+                                    Splash screen image shifts
+                                </li>
+                                <li>
+                                    ‘Meds’ takes a while to load
+                                </li>
+                                <li>
+                                    Grammar issues
+                                </li>
+                                <li>
+                                    Android back button not working for a few screens
+                                </li>
+                            </ul>
+                        </div>
+                        <!--  -->
                     </div>
-                    <!-- END OF COMPETITOR'S ANALYSIS -->
+                    <!-- END IMPROVE USER RETENTION -->
+                    <div class="section">
+                        <p class="mb-0 subtitle">OTHER RECOMMENDATIONS</p>
+                        <ul class="bulleted">
+                            <li>
+                                Let users choose if they want to chat with a doctor right away once they
+                                register
+                            </li>
+                            <li>
+                                Give users the ability to create a medical profile for themselves
+                            </li>
+                            <li>
+                                Ability to let users stay in queue when they exit the popup </li>
+                            <li>
+                                Let users access the chat history, but not open the chat logs if they
+                                are not a
+                                pro member
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- END OTHER RECOMMENDATIONS -->
+                    <div class="row mt-5">
+                        <div class="col-sm-6">
+                            <img class="img-fluid" src="img/YDO/ydo_png.png">
+                        </div>
+                        <div class="col-sm-6">
+                            <p>The last deliverable for the client was a mockup design that I created to show
+                                what the mobile app could look like in the future.
+                            </p>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="section">
+                        <p class="subtitle">THE OUTCOMES</p>
+                        <p>After the UX audit was presented, the client applied a few of the recommendations
+                            that I had made and saw that they had an increase in user retention from 30% to 50%.
+                        </p>
+                    </div>
+                    <!--  -->
+                    <div class="section">
+                        <p class="subtitle">THE STRUGGLES</p>
+                        <p>It was challenging to conduct an analysis of the mobile app when I could not talk to
+                            their users. There were times when I was watching the UX Cam recordings and wished
+                            that I could ask the user why they did what they did. It was also a challenge for me
+                            to look into their Google analytics data since I had never done that before.
+                        </p>
+                    </div>
                 </div>
+                <!-- END OF COMPETITOR'S ANALYSIS -->
             </div>
-            <!-- END CONTAINER -->
-        </div>
+            <div>
+                <h2 class="storyTitle"><span class="outline outlineTitle">Thanks for reading!</span>✌️</h2>
+                <div class="row text-center direction">
+                    <a href="project-4.php" class="col-sm-6 p-0">
+                        <p class="backarrow"> <i class="material-icons">
+                                arrow_back</i>Previous project</p>
+                    </a>
+
+                    <a href="project-2.php" class="col-sm-6 p-0">
+                        <p class="nextarrow">Next project <i class="material-icons">
+                                arrow_forward</i></p>
+                    </a>
+
+                </div>
+                <!-- FOOTER -->
+                <footer class=" mt-4 mb-5">
+                    <!-- Footer Elements -->
+                    <!-- Grid row-->
+                    <div class="row">
+                        <div class="col text-center">
+                            <img id="footer-img" src="img/fav.png">
+                            <h3 class="mt-2">Let's connect🤝</h3>
+                            <!-- Grid column -->
+                            <div class="mb-3 mt-4">
+
+                                <!-- Twitter -->
+                                <a class="tw-ic socialIcon" target="_blank" href="https://twitter.com/_angelachung">
+                                    <i class="fab fa-twitter fa-lg white-text ml-4 fa-2x"> </i>
+                                </a>
+
+                                <!--Linkedin -->
+                                <a class="li-ic socialIcon" target="_blank"
+                                    href="https://www.linkedin.com/in/angelamchung/">
+                                    <i class="fab fa-linkedin-in fa-lg white-text ml-4 fa-2x"> </i>
+                                </a>
+                                <!--Instagram-->
+                                <a class="ins-ic socialIcon" target="_blank"
+                                    href="https://www.instagram.com/angela.jung/">
+                                    <i class="fab fa-instagram fa-lg white-text ml-4 fa-2x"> </i>
+                                </a>
+                                <div class="mt-5">
+                                    <a class="mail-btn" href="mailto:mini.cchung@gmail.com">Mail me</a>
+                                </div>
+                            </div>
+
+                            <!-- <p class="text-muted mt-5">Website coded by Angela Chung</p> -->
+                        </div>
+                    </div>
+                </footer>
+
+                <!-- END FOOTER -->
+                <!-- END CONTAINER -->
+            </div>
     </main>
-
-
-
-
-
-
-
-    <!--FOOTER  -->
-    <footer class="page-footer font-small cyan darken-3">
-
-        <!-- Footer Elements -->
-        <div class="container">
-
-            <!-- Grid row-->
-            <div class="row">
-                <div class="col-md-12 text-center mt-4">
-                    <img src="img/white.png">
-                    <h3 class="mt-4 h3">Let's connect🤝</h3>
-
-                </div>
-                <!-- Grid column -->
-                <div class="col-md-8 offset-md-2 mt-3 text-center">
-                    <div class="mb-3 ml-5">
-
-                        <!-- Twitter -->
-                        <a class="tw-ic socialIcon" target="_blank" href="https://twitter.com/_angelachung">
-                            <i class="fab fa-twitter fa-lg white-text mr-5 fa-2x"> </i>
-                        </a>
-
-                        <!--Linkedin -->
-                        <a class="li-ic socialIcon" target="_blank" href="https://www.linkedin.com/in/angelamchung/">
-                            <i class="fab fa-linkedin-in fa-lg white-text mr-5 fa-2x"> </i>
-                        </a>
-                        <!--Instagram-->
-                        <a class="ins-ic socialIcon" target="_blank" href="https://www.instagram.com/angela.jung/">
-                            <i class="fab fa-instagram fa-lg white-text mr-5 fa-2x"> </i>
-                        </a>
-
-                    </div>
-                    <div class="mt-5">
-                        <a class="button" href="mailto:mini.cchung@gmail.com">Mail me</a>
-                    </div>
-                    <!-- <p class="text-muted mt-5">Website coded by Angela Chung</p> -->
-                </div>
-                <!-- Grid column -->
-
-            </div>
-
-        </div>
-        </div>
-    </footer>
-    <!-- END FOOTER -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
         crossorigin="anonymous"></script>

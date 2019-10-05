@@ -80,11 +80,14 @@ small, .text_small {
   font-weight: 700;
 }
 
-.button {
+.mail-btn {
   background-color: #2d54ff;
   color: white;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 70px 10px 70px;
+  height: auto;
+  max-width: 100%;
   border-radius: 50px;
+  text-align: center;
 }
 
 .button:hover {
@@ -102,6 +105,19 @@ small, .text_small {
   color: white;
   -webkit-text-stroke-width: 1.5px;
   -webkit-text-stroke-color: #2d54ff;
+}
+
+.socialIcon {
+  color: #2d54ff;
+}
+
+#logo {
+  width: 25px;
+  height: auto;
+}
+
+#logo .cls-1 {
+  fill: #2d54ff;
 }
 
 #header {
@@ -124,6 +140,34 @@ small, .text_small {
 #header .viewResume i {
   position: relative;
   top: 5px;
+  font-size: 1.8rem;
+}
+
+.backarrow {
+  color: #2d54ff;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.backarrow i {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  top: 7px;
+  font-size: 1.8rem;
+}
+
+.nextarrow {
+  color: #2d54ff;
+  display: block;
+  font-size: 1.2rem;
+}
+
+.nextarrow i {
+  position: relative;
+  display: inline-block;
+  margin-right: 5px;
+  top: 7px;
   font-size: 1.8rem;
 }
 
@@ -173,5 +217,10 @@ small, .text_small {
 .storyTitle {
   display: block;
   text-align: center;
+}
+
+#footer-img {
+  max-width: 25%;
+  height: auto;
 }
 /*# sourceMappingURL=new_css.css.map */
