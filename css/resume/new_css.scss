@@ -3,8 +3,7 @@ $pink:#ffe2ff;
 $blue:#2d54ff;
 $darkblue:#1b38bd;
 $black:#1e1e1e;
-// $grey: #AEAEAE;
-$grey: #9E9E9E;
+$grey: #AEAEAE;
 $white:white;
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
 
@@ -63,20 +62,33 @@ align-items:center;
 .bold{
     font-weight:700;
 }
-.mail-btn{
+.btn{
     background-color:$blue;
     color:$white;
-    padding:10px 70px 10px 70px;
+    padding:10px 50px 10px 50px;
     height:auto;
-    max-width:100%;
+    max-width:80%;
     border-radius:50px;
     text-align:center;
+    position:relative;
+    display:block;
+    a{
+        color:white;
+    }
 }
 .button:hover{
     text-decoration:none;
     color:$white;
     background-color:$darkblue;
 
+}
+.bulleted{
+    list-style: circle;
+text-decoration:none;
+li{
+    list-style-position: outside;
+
+}
 }
 .outlineTitle{
     font-weight:800;
@@ -90,8 +102,15 @@ align-items:center;
 .socialIcon{
     color:$blue;
 }
-.aboutSocialList{
-    display:inline-flex;
+.socials{
+   ul{
+       display:inline-flex;
+       margin-top:0;
+   }
+}
+#email{
+    color:$blue;
+    text-decoration: underline;
 }
 #logo{
     .cls-1{
@@ -100,71 +119,13 @@ align-items:center;
     width:25px;
     height:auto;
 }
-#header{
-margin-top:7%;
-    #tagline{
-        color:$grey;
-        max-width:18rem;
-        font-size:1.2em;
-    }
-   
-}
-.viewResume{
-    p{
-        color:$blue;
-        display:inline;
-        font-size:1.2rem;
-        font-weight:500;
-    }
 
-    i{
-        position:relative;
-        top:6px;
-        font-size:1.8rem;
-    }
-}
-.backarrow{
-    color:$blue;
-            display:block;
-            font-size:1.2rem;
-    i{
-        position:relative;
-        display:inline-block;
-        margin-right:5px;
-        top:7px;
-        font-size:1.8rem;    }
-}
-.nextarrow{
-    color:$blue;
-            display:block;
-            font-size:1.2rem;
-    i{
-        position:relative;
-        display:inline-block;
-        margin-right:5px;
-        top:7px;
-        font-size:1.8rem;    }
-}
 .subtitle{
     color:$grey;
     font-weight:600;
     margin-bottom:0;
 }
-#projects{
-    margin-top:40%;
-    p{
-        color:$grey;
-        font-weight:700;
-    }
-    .card{
-        background-color:$white;
-        padding:10px;
-        box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.10);
-        border-radius: 0;
-        border-style: none;
-    }
 
-}
 .container{
     h2{
         margin-top:1rem;
@@ -182,10 +143,3 @@ margin-top:7%;
 list-style: circle;
 list-style-position: inside;
 }
-.storyTitle{
-    display:block;
-    text-align:center;
-}
-#footer-img{
-    max-width:25%;
-    height:auto;}

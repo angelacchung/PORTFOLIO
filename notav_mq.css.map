@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAcE,MAAM,EAAE,SAAS,EAAE,KAAK;EACtB,AAAA,EAAE,CAAA;IAAC,KAAK,EAAC,MAAM;GAAG;;;AAYnB,iIAAiI",
+    "sources": [
+        "notav_mq.scss"
+    ],
+    "names": [],
+    "file": "notav_mq.css"
+}
