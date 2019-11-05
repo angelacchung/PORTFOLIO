@@ -1,19 +1,20 @@
 // VARIABLES
-$pink:#ffe2ff;
+$pink:#F45D58;
 $blue:#2d54ff;
-$darkblue:#1b38bd;
+$darkblue:#0846A6;
 $black:#1e1e1e;
 // $grey: #AEAEAE;
 $grey: #9E9E9E;
+$lightgrey:#F8F8F8;
 $white:white;
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
 html {font-size: 16px;}
 
 body {
   background-color: white;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;  font-weight: 400;
   line-height: 1.45;
   color: $black;
 }
@@ -24,12 +25,14 @@ li{
 }
 p {margin-bottom: 1em;
 color:$black;
-font-size:17px;
-line-height: 1.80rem;}
+font-size:20px;
+line-height: 1.90rem;}
 
 h1, h2, h3, h4, h5 {
     margin: 2.75rem 0 1rem;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Playfair Display', serif;
+
+    // font-family: 'Montserrat', sans-serif;  font-weight: 400;
     font-weight: 400;
     line-height: 1.15;
   }
@@ -79,13 +82,19 @@ align-items:center;
 
 }
 .outlineTitle{
-    font-weight:800;
-    color:$blue;
+    font-weight:600;
+    font-family: 'Playfair Display', serif;
+    color:$darkblue;
+}
+.link{
+    color:$darkblue;
+    text-decoration:underline;
+    font-weight:700;
 }
 .outline{
     color:$white;
-    -webkit-text-stroke-width: 1.5px;
-    -webkit-text-stroke-color: $blue;
+    -webkit-text-stroke-width: 1.25px;
+    -webkit-text-stroke-color: $darkblue;
 }
 .socialIcon{
     color:$blue;
@@ -101,31 +110,29 @@ align-items:center;
     height:auto;
 }
 #header{
-margin-top:7%;
+margin-top:15%;
     #tagline{
         color:$grey;
-        max-width:18rem;
+        max-width:90%;
         font-size:1.2em;
     }
    
 }
 .viewResume{
     p{
-        color:$blue;
-        display:inline;
-        font-size:1.2rem;
-        font-weight:500;
-    }
-
-    i{
-        position:relative;
-        top:6px;
-        font-size:1.8rem;
+    border-radius:5px;
+    background-color:$pink;
+    color:white;
+    display:inline;
+    text-align:center;
+    font-weight:500;
+    max-width:100%;
+    padding:10px 15px 10px 15px;
     }
 }
 .backarrow{
-    color:$blue;
-            display:block;
+    color:$darkblue;
+    display:block;
             font-size:1.2rem;
     i{
         position:relative;
@@ -146,16 +153,28 @@ margin-top:7%;
         font-size:1.8rem;    }
 }
 .subtitle{
-    color:$grey;
-    font-weight:600;
+    // font-family: 'Alice', serif;
+    font-family: 'Playfair Display', serif;
+    color:$darkblue;
+    font-weight:800;
     margin-bottom:0;
 }
+
 #projects{
-    margin-top:40%;
-    p{
-        color:$grey;
+    #work{
         font-weight:700;
+        color:$grey;
     }
+    margin-top:25%;
+    h3{
+        color:$darkblue;
+        font-weight:600;
+    }
+    .projCat{
+        font-weight:700;
+        color:$grey;
+    }
+
     .card{
         background-color:$white;
         padding:10px;
@@ -163,16 +182,33 @@ margin-top:7%;
         border-radius: 0;
         border-style: none;
     }
+    a{
+        display:block;
+        text-decoration:underline $pink; 
+        .readProj{
+            color:$pink;
+            font-weight:700;
+            display:block;
+            i{
+                top:5px;
+                position:relative;
+            }
+        }
+    }
+   
 
 }
+
 .container{
     h2{
         margin-top:1rem;
     }
     .category{
         color:$grey;
-        font-weight:500;
+        font-weight:700;
         margin-top:1rem;
+        font-family: 'Montserrat', sans-serif;
+
     }
     .section{
         margin-top:2.5rem;
@@ -189,3 +225,6 @@ list-style-position: inside;
 #footer-img{
     max-width:25%;
     height:auto;}
+footer{
+    background-color:$lightgrey;
+}
