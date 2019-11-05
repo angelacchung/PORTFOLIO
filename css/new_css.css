@@ -97,7 +97,7 @@ small, .text_small {
 }
 
 .outlineTitle {
-  font-weight: 600;
+  font-weight: 800;
   font-family: 'Playfair Display', serif;
   color: #0846A6;
 }
@@ -133,7 +133,7 @@ small, .text_small {
   fill: #2d54ff;
 }
 
-#header {
+#header #pitchMargin {
   margin-top: 15%;
 }
 
@@ -141,6 +141,10 @@ small, .text_small {
   color: #9E9E9E;
   max-width: 90%;
   font-size: 1.2em;
+}
+
+.viewResume {
+  text-decoration: none;
 }
 
 .viewResume p {
@@ -151,7 +155,7 @@ small, .text_small {
   text-align: center;
   font-weight: 500;
   max-width: 100%;
-  padding: 10px 15px 10px 15px;
+  padding: 10px 25px 10px 25px;
 }
 
 .backarrow {
@@ -190,7 +194,7 @@ small, .text_small {
 }
 
 #projects {
-  margin-top: 25%;
+  margin-top: 15%;
 }
 
 #projects #work {
@@ -266,5 +270,13 @@ small, .text_small {
 
 footer {
   background-color: #F8F8F8;
+}
+
+footer h3 {
+  font-weight: 700;
+}
+
+footer img {
+  max-width: 10%;
 }
 /*# sourceMappingURL=new_css.css.map */

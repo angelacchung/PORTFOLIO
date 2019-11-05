@@ -82,7 +82,7 @@ align-items:center;
 
 }
 .outlineTitle{
-    font-weight:600;
+    font-weight:800;
     font-family: 'Playfair Display', serif;
     color:$darkblue;
 }
@@ -110,7 +110,9 @@ align-items:center;
     height:auto;
 }
 #header{
-margin-top:15%;
+#pitchMargin{
+    margin-top:15%;
+}
     #tagline{
         color:$grey;
         max-width:90%;
@@ -127,8 +129,9 @@ margin-top:15%;
     text-align:center;
     font-weight:500;
     max-width:100%;
-    padding:10px 15px 10px 15px;
+    padding:10px 25px 10px 25px;
     }
+    text-decoration:none;
 }
 .backarrow{
     color:$darkblue;
@@ -165,7 +168,7 @@ margin-top:15%;
         font-weight:700;
         color:$grey;
     }
-    margin-top:25%;
+    margin-top:15%;
     h3{
         color:$darkblue;
         font-weight:600;
@@ -227,4 +230,10 @@ list-style-position: inside;
     height:auto;}
 footer{
     background-color:$lightgrey;
+    h3{
+        font-weight:700;
+    }
+    img{
+        max-width:10%;
+    }
 }
