@@ -1,3 +1,23 @@
+<?php
+
+//perform a delete on a record
+//receive id of record to delete.
+
+$id = $_POST["id"];
+
+//perform database delete using form values;
+$dsn = "mysql:host=localhost;dbname=angetqwk_portfolio;charset=utf8mb4";
+$dbusername = "angetqwk_mc13md";
+$dbpassword = "*;h1g7yo66xp";
+
+
+$pdo = new PDO($dsn, $dbusername, $dbpassword);
+
+$stmt = $pdo->prepare("SELECT * FROM `projects`");
+
+$stmt->execute();
+?>
+<!--  -->
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,14 +29,23 @@
     <link rel="manifest" href="/site.webmanifest">
     <!--  -->
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/resume/reset.css">
-    <link rel="stylesheet" href="css/resume/resume.css">
-    <link rel="stylesheet" href="css/resume/mq.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/new_css.css">
+    <link rel="stylesheet" href="css/mq.css">
+
+    <!-- <link rel="stylesheet" href="css/new_mq.css"> -->
     <title>UX/UI Designer Angela Chung👋</title>
     <!-- - -- - html5.js for IE less than 9 -- - -- - >
 <!-- - -- - [if lt IE 9]>
@@ -65,207 +94,149 @@ or junior position in UX design. Angela is passionate about design and is a fan 
         content="http://chunmini.dev.fast.sheridanc.on.ca/responsive-resume/RESP-RESUME/RESP-RESUME/images/twit.png" />
 </head>
 
+
 <body>
-    <main>
-        <section class="sectionOne">
-            <div class="container">
-                <div class="grid-container">
-                    <div class="grid-item">
-                        <svg id="logo" class="m-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.04 123.54">
-                            <defs>
-                                <style>
-                                    .cls-1 {
-                                        fill: #2b2b2b;
-                                    }
-                                </style>
-                            </defs>
-                            <title>Asset 2</title>
-                            <g id="Layer_2" data-name="Layer 2">
-                                <g id="Layer_1-2" data-name="Layer 1">
-                                    <path class="cls-1"
-                                        d="M49.63,63.13,42.74,47.49H18.68l-7,15.64H1.26L30.67,0,60,63.13ZM22.33,39.28H39.26L33,25.43c-.36-.89-.74-1.9-1.12-3.05s-.78-2.43-1.17-3.84c-.33,1.33-.68,2.57-1.05,3.71s-.76,2.21-1.14,3.18Z" />
-                                    <path class="cls-1"
-                                        d="M51.39,76a30.31,30.31,0,0,0-8.85-5.35,27.21,27.21,0,0,0-9.81-1.78q-10,0-16.2,6.38T10.29,91.76q0,9.84,6.07,16.22a20.25,20.25,0,0,0,15.33,6.39A28,28,0,0,0,42,112.46a32.67,32.67,0,0,0,9.35-5.76v11.15a29.11,29.11,0,0,1-8.67,4.28,35.09,35.09,0,0,1-10.16,1.41,35.48,35.48,0,0,1-12.88-2.28,30.3,30.3,0,0,1-17.21-17,34.25,34.25,0,0,1,0-25.14,30.16,30.16,0,0,1,6.9-10.3A30.53,30.53,0,0,1,19.66,62a34.35,34.35,0,0,1,12.65-2.3A33.19,33.19,0,0,1,42.52,61.3,35.61,35.61,0,0,1,51.93,66Z" />
-                                    <path class="cls-1"
-                                        d="M33.54,105a6,6,0,0,1-6-6h2.8a3.19,3.19,0,0,0,6.38,0h2.8A6,6,0,0,1,33.54,105Z" />
-                                    <rect class="cls-1" x="31.78" y="90.52" width="2.8" height="3.89" />
-                                    <circle class="cls-1" cx="21.02" cy="89.11" r="4.22" />
-                                    <circle class="cls-1" cx="46.34" cy="89.11" r="4.22" />
-                                </g>
+    <!-- Garbage code made by Angela Chung  -->
+    <header id="navbar" class=" p-1 sticky-top">
+        <div class="container mt-0">
+            <nav class="navbar navbar-expand-lg  p-1 navbar-light">
+                <a href="https://www.angelachung.me">
+                    <svg id="logo" class="m-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.04 123.54">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #2b2b2b;
+                                }
+                            </style>
+                        </defs>
+                        <title>Homepage</title>
+                        <g id="Layer_2" data-name="Layer 2">
+                            <g id="Layer_1-2" data-name="Layer 1">
+                                <path class="cls-1"
+                                    d="M49.63,63.13,42.74,47.49H18.68l-7,15.64H1.26L30.67,0,60,63.13ZM22.33,39.28H39.26L33,25.43c-.36-.89-.74-1.9-1.12-3.05s-.78-2.43-1.17-3.84c-.33,1.33-.68,2.57-1.05,3.71s-.76,2.21-1.14,3.18Z" />
+                                <path class="cls-1"
+                                    d="M51.39,76a30.31,30.31,0,0,0-8.85-5.35,27.21,27.21,0,0,0-9.81-1.78q-10,0-16.2,6.38T10.29,91.76q0,9.84,6.07,16.22a20.25,20.25,0,0,0,15.33,6.39A28,28,0,0,0,42,112.46a32.67,32.67,0,0,0,9.35-5.76v11.15a29.11,29.11,0,0,1-8.67,4.28,35.09,35.09,0,0,1-10.16,1.41,35.48,35.48,0,0,1-12.88-2.28,30.3,30.3,0,0,1-17.21-17,34.25,34.25,0,0,1,0-25.14,30.16,30.16,0,0,1,6.9-10.3A30.53,30.53,0,0,1,19.66,62a34.35,34.35,0,0,1,12.65-2.3A33.19,33.19,0,0,1,42.52,61.3,35.61,35.61,0,0,1,51.93,66Z" />
+                                <path class="cls-1"
+                                    d="M33.54,105a6,6,0,0,1-6-6h2.8a3.19,3.19,0,0,0,6.38,0h2.8A6,6,0,0,1,33.54,105Z" />
+                                <rect class="cls-1" x="31.78" y="90.52" width="2.8" height="3.89" />
+                                <circle class="cls-1" cx="21.02" cy="89.11" r="4.22" />
+                                <circle class="cls-1" cx="46.34" cy="89.11" r="4.22" />
                             </g>
-                        </svg>
-                    </div>
-                    <div class="grid-item">
-                        <h3>Angela Chung</h3>
-                        <div id="contactInfo">
-                            <h5 class="positionTitle">UX/UI Designer and Illustrator</h5>
-                            <p><a href="https://www.angelachung.me/" target="_blank">www.angelachung.me</a></p>
-                            <div id="contactOptions">
-                                <span style="text-align:start"><i class="fas fa-mobile-alt"></i><a
-                                        href="tel:6479909091">Call me</a></span>
-                                <span style="text-align:start"><i class="fas fa-envelope"></i><a
-                                        href="mailto:mini.cchung@gmail.com">E-mail</a></span>
-                            </div>
-                            <div class="social">
-                                <a href="https://www.linkedin.com/in/angelamchung/" target="_blank"><i
-                                        class="fab fa-linkedin"></i></a>
-                                <a href="https://twitter.com/_angelachung" target="_blank"><i
-                                        class="fab fa-twitter"></i></a>
-                            </div>
-                            <a id="pdf" href="img/Angela-Chung.pdf" target="_blank">View PDF</a>
-                        </div>
+                        </g>
+                    </svg>
+                </a>
 
-                    </div>
+                <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="bt-burg-icon"><i class="material-icons">
+                            menu
+                        </i></span>
+                </button>
 
-
-                </div>
-                <div id="leftInfo">
-                    <h4>Skills</h4>
-                    <ul>
-                        <li>User-centered Design</li>
-                        <li>User Research</li>
-                        <li>Wireframing</li>
-                        <li>Design Thinking</li>
-                        <li>Visual Design</li>
-                        <li>Sketching</li>
-                        <li>Illustration</li>
-                    </ul>
-
-                    <h4>Toolbox</h4>
-                    <ul>
-                        <li>Illustrator</li>
-                        <li>Adobe XD</li>
-                        <li>InVision</li>
-                        <li>Photoshop</li>
-                        <li>After Effects</li>
-                        <li>InDesign</li>
-                        <li>Pen and Paper</li>
-                    </ul>
-
-                    <h4>Code</h4>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>JavaScript</li>
-                        <li>CSS3</li>
-                        <li>PHP</li>
-                        <li>SQL</li>
-                    </ul>
-                </div>
-
-
-
-        </section>
-
-        <section class="sectionTwo">
-            <div class="container">
-                <h4>Education</h4>
-                <div>
-                    <h5>Sheridan College</h5>
-                    <p>Sept 2018 - April 2019</p>
-                    <p class="role">Post Graduate Certificate: Interactive Media Management</p>
-
-                    <ul>
-                        <li>UX/UI Design</li>
-                        <li>Full-stack Web Development</li>
-                    </ul>
-                    <div class="margin-top-2">
-                        <h5>OCAD University</h5>
-                        <p>Sept 2013 - April 2018</p>
-                        <p>Bachelor of Design, Illustration</p>
-                        <p>Graphic Design Minor</p>
-                    </div>
-
-                </div>
-                <div>
-                    <h4>Work Experience</h4>
-                    <p class="role"><strong>UI/UX Intern at Idea Theorem</strong></p>
-
-                    <p class="date">Jun 2019 - present</p>
-                    <ul class="list">
-                        <li>Produced wireframes, mockups, prototypes and other UX/UI centered assets to clients while
-                            handling a tight deadline</li>
-                        <li>Collaborated in 5 UX/UI projects with team members by providing designs for responsive web
-                            and mobile app projects</li>
-                        <li>Lead 2 web-based projects from the start of ideation to completion</li>
-                        <li>Developed a UX assessment for a mobile app in which UX assets such as user personas,
-                            user journey maps, competitive analysis and recommendations were presented to the client
+                <div class="justify-content-end collapse navbar-collapse navSize" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="https://www.angelachung.me">UX/UI</a>
                         </li>
-                    </ul>
-                    <p class="role margin-top-2"><strong>Freelance Illustrator</strong></p>
-
-                    <p class="date ">Apr 2018 - present</p>
-                    <ul class="list">
-                        <li>Successfully planned and painted a mural for a tea shop
-                            in Toronto called “Labothery”</li>
-                        <li>Designed and created personal merchandise from
-                            scratch such as paintings, zines, and prints in order to
-                            be sold at art fairs</li>
-                    </ul>
-                </div>
-                <h4>Projects</h4>
-                <div>
-                    <div>
-                        <h5><a href="project-3.php">Beep Beep Ride-Sharing App</a></h5>
-                        <p class="role"><strong>Designer and Front-end Developer</strong></p>
-                        <p class="date">Jan - Apr 2019</p>
-                        <ul class="list">
-                            <li>
-                                Produced user flow chart and working prototype using
-                                Adobe XD in a timely manner
-                            </li>
-                            <li>
-                                Participated in ideation sessions with 3 other team
-                                members in order to create a user-centered design
-                                for the app
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="margin-top-2">
-                        <h5><a href="project-1.php">CustomHighze</a></h5>
-                        <p class="role"><strong>Designer and Front-end Developer</strong></p>
-
-                        <p class="date">Oct 2018 - Dec 2018</p>
-                        <ul class="list">
-                            <li>
-                                Collaborated efficiently on a team of 3 members
-                                through ideation sessions and producing solutions
-                            </li>
-                            <li>
-                                Developed an empathy map with team members in
-                                order to better empathize with the user
-                            </li>
-                            <li>
-                                Created the user flow chart, wireframes and final
-                                designs
-                            </li>
-                            <li>
-                                Conducted 4 user interviews in order to pinpoint
-                                areas of improvement for the application
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="margin-top-2">
-                    <h5><a href="project-2.php">Domino's UX Case Study</a></h5>
-                    <p class="role"><strong>Researcher and Designer</strong></p>
-
-                    <p class="date">Nov 2018</p>
-                    <ul class="list">
-                        <li>
-                            Video recorded a user during a user-testing session
-                            and documented all reactions and feedback as data
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.php">About</a>
                         </li>
-                        <li>
-                            Re-designed and developed mid fidelity wireframes
-                            of Domino’s online web ordering application based on
-                            the collected user feedback
+                        <li class="nav-item">
+                            <a class="nav-link" href="resume.html">Resume</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.instagram.com/mini.juung/"
+                                target="_blank">Illustrations</a>
                         </li>
                     </ul>
                 </div>
-
-
+            </nav>
+        </div>
+    </header>
+    <!--  -->
+    <main>
+        <div class="container">
+            <h1 class="outlineTitle">Angela
+                <span class="outline">Chung</span><span role="image" aria-label="wave hand">👋</span></h1>
+            <p id="tagline" class="mb-4">
+                UX/UI Designer + Illustrator</p>
+            <span style="text-align:start"><i class="fas fa-envelope"></i><a
+                    href="mailto:mini.cchung@gmail.com">mini.cchung@gmail.com</a></span>
+            <div>
+                <a href="https://www.linkedin.com/in/angelamchung/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://twitter.com/_angelachung" target="_blank"><i class="fab fa-twitter"></i></a>
             </div>
-        </section>
+            <a href="img/Angela-Chung.pdf" target="_blank" class="link">View PDF <img
+                    src="https://img.icons8.com/office/30/000000/pdf-2.png"></a>
+            <h4 class="subtitle">Skills</h4>
+            <ul>
+                <li>User-centered Design</li>
+                <li>User Research</li>
+                <li>Wireframing</li>
+                <li>Design Thinking</li>
+                <li>Visual Design</li>
+                <li>Sketching</li>
+                <li>Illustration</li>
+            </ul>
+
+            <h4 class="subtitle">Toolbox</h4>
+            <ul>
+                <li>Illustrator</li>
+                <li>Adobe XD</li>
+                <li>InVision</li>
+                <li>Photoshop</li>
+                <li>After Effects</li>
+                <li>InDesign</li>
+                <li>Pen and Paper</li>
+            </ul>
+
+            <h4 class="subtitle">Code</h4>
+            <ul>
+                <li>HTML5</li>
+                <li>JavaScript</li>
+                <li>CSS3</li>
+                <li>PHP</li>
+                <li>SQL</li>
+            </ul>
+            <h4 class="subtitle">Education</h4>
+            <h5>Sheridan College</h5>
+            <p>Sept 2018 - April 2019</p>
+            <p class="role">Post Graduate Certificate: Interactive Media Management</p>
+
+            <ul>
+                <li>UX/UI Design</li>
+                <li>Full-stack Web Development</li>
+            </ul>
+            <h5>OCAD University</h5>
+            <p>Sept 2013 - April 2018</p>
+            <p>Bachelor of Design, Illustration</p>
+            <p>Graphic Design Minor</p>
+            <h4 class="subtitle">Work Experience</h4>
+            <p>UI/UX Intern at Idea Theorem</p>
+
+            <p>Jun 2019 - present</p>
+            <ul class="list">
+                <li>Produced wireframes, mockups, prototypes and other UX/UI centered assets to clients while
+                    handling a tight deadline</li>
+                <li>Collaborated in 5 UX/UI projects with team members by providing designs for responsive web
+                    and mobile app projects</li>
+                <li>Lead 2 web-based projects from the start of ideation to completion</li>
+                <li>Developed a UX assessment for a mobile app in which UX assets such as user personas,
+                    user journey maps, competitive analysis and recommendations were presented to the client
+                </li>
+            </ul>
+            <p><strong>Freelance Illustrator</strong></p>
+
+            <p>Apr 2018 - present</p>
+            <ul class="list">
+                <li>Successfully planned and painted a mural for a tea shop
+                    in Toronto called “Labothery”</li>
+                <li>Designed and created personal merchandise from
+                    scratch such as paintings, zines, and prints in order to
+                    be sold at art fairs</li>
+            </ul>
+        </div>
     </main>
 
 </body>

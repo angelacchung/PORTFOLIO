@@ -1,212 +1,224 @@
+<!-- CUSTOMHIGHZE -->
 <?php include 'nav.php' ?>
-
-  <main>
-    <div class="container contMargin">
-      <div class="m-0 mb-5 headline">
-      <h1 class="projTitle">Beep Beep</h1>
-      <p class="tag medium">UI/UX</p>
-      </div>
+<main class="mainMargin">
+    <div class="container">
         <div class="row">
-          <!-- img -->
-          <div class="col-lg-8 mb-5 tagline">
-          <img id="groc" src="img/beepbeep-display.png">
-          </div>
-          <!-- info -->
-          <div class="col-sm mt-0 headline">
-              <h5 class="info">Duration</h5>
-              <p class="mt-1">January - April 2019</p>
-               
-            <div class="mt-4">
-                    <h5 class="info">Team</h5>
-                      <ul class="list p-0 mt-1">
-                        <li>Angela Chung</li>
-                        <li>Wren Chen</li>
-                        <li>Alicia Martin</li>
-                        <li>Ngoc To</li>
-                        <!-- <li><a href="http://wrenchen.com/"  target="_blank">Wren Chen</a></li>
-                        <li><a href="https://aliciamartin.ca/"  target="_blank">Alicia Martin</a></li>
-                        <li><a href="http://ngocto.com/"  target="_blank">Ngoc To (our fabulous lead developer)</li> -->
-                      </ul>
-                  </div>
-            <div class="mt-4">
-              <h5 class="info">Role</h5>
-                <ul class="list p-0 mt-1">
-                  <li>Visual Design</li>
-                  <li>Ideation</li>
-                  <li>App research</li>
-                  <li>Prototyping</li>
-                  <li>User flow</li>
-                  <li>Wireframing</li>
-                  <li>Front-end Development</li>
-                </ul>
+            <div class="col-md-5">
+            <h1 class="outlineTitle mt-2 tagline">Custom Highze</h1>
+                <h4 class="category punchine">UX / UI / Web Development</h4>
             </div>
-            
-            <div class="mt-4">
-              <h5 class="info">Tools</h5>
-                <ul class="list p-0 mt-1">
-                  <li>Adobe XD</li>
-                  <li>Pen and paper</li>
-                  <li>Whiteboard</li>
-                  <li>Adobe Illustrator</li>
-                </ul>
+            <div class="col-md-7">
+            <img src="img/customhighze/chfront.png" class="img-fluid headline mt-3">
+
             </div>
-           
         </div>
-  </div>
+        <!-- END OF TOP INFO -->
+        <div class="mt-5">
+            <div class="row">
+                <div class="col-md-4">
+                    <p class="subtitle">ROLE</p>
+                    <p>UI Design, Wireframing, Userflows</p>
+                </div>
 
-  <div>
+                <div class="col-md-4">
+                    <p class="subtitle">TOOLS</p>
+                    <p>Adobe Illustrator, Pen + Paper, Whiteboard, CSS3, HTML5, Javascript</p>
+                </div>
+                <div class="col-md-4">
+                    <p class="subtitle">DURATION</p>
+                    <p>4 weeks</p>
+                </div>
 
-    <div class="wComp">
-        <h3 class="h3 subtitle">Summary</h3>
-        <p class="mt-2">
-          Beep Beep is a mobile carpooling app where users themselves can negotiate the trip, including the price. 
-          The app characterizes itself as being a more environmentally friendly and inexpensive solution compared 
-          to competing ride-sharing apps.
-        </p>
-    </div>
-  </div>
-    <div class="wComp">
-        <h3 class="h3 subtitle">The Problem</h3>
-        <p class="mt-2">
-          There are too many single car drivers on the road everyday and there needs to be a more affordable solution for carpooling. 
-          Though public transportation and ride-sharing apps such as Uber and Lyft offer similar transit opportunities, they are expensive. 
-        </p>
-    </div>
-    <div class="wComp">
-      <h3 class="h3 subtitle">The Goal</h3>
-      <p class="mt-2">
-        The goal is to significantly reduce the number of single passenger cars on the road as well as pair up riders with drivers. 
-        We wanted to create a service that is not only economically beneficial for the users but also environmentally beneficial.  
-      </p>
-  </div>
-
-<!--  -->
-
-<div class="beginning my-5">
-
-  <h3 class="h3 my-5 line text-center"><span>The Research</span></h3>
-</div>
-<div class="container wComp">
-    <h3 class="h3 subtitle">Competitive Analysis</h3>
-    <p>We analyzed other ride-sharing apps in order to further fuel our own ideas and understand the business of ride-sharing apps.
-
-        We took a look at Uber and Lyft.</p>
-  <div class="row mt-5">
-
-    <div class="col-md headline">
-      <img style="max-width:60%; height:auto;" src="img/beepbeep/uber.jpg">
-      <ul class="mt-4">
-        <li>Uber provides a discounted carpooling option called uberPOOL to lower the price, as well as other types of vehicles such as luxury and size </li>
-      </ul>
-      <ul>
-        <li>Drivers can now rate you as a passenger</li>
-      </ul>
-      <ul>
-        <li>Can see uber driver’s cars on the map that is nearest to the user</li>
-      </ul>
-    </div>
-    <div class="col-md headline">
-        <img style="max-width:50%; height:auto;" src="img/beepbeep/lyft.png">
-      <ul class="mt-4">
-        <li>Describes itself as budget friendly and safe. Lyft drivers go through two types of background checks</li>
-      </ul>
-      <ul>
-        <li>Accessible options</li>
-      </ul>
-      <ul>
-        <li>Has a fare estimate calculator</li>
-      </ul>
-    </div>
-  </div>
-
-  <div class="wComp headline">  
-      <h3 class="h3 subtitle">The Userflow</h3>
-      <p>After discussion on how we wanted our app to work, we created the user flow chart.</p>
-      <img class="img-fluid" src="img/beepbeep/userflow.jpg">
-    
-    </div>
-    
-
-
-<div class="wComp">  
-  <h3 class="h3 subtitle">Don't wire alone</h3>
-  <p>My team members and I then came together and actively further discussed features of the app while creating the low-fidelity wireframes.
-    This was a good opportunity for us to flesh out our app and find problems such as why something would not work, how difficult it would be
-    to code a certain component and how the database would be structured. 
-  </p>
-  <img class="img-fluid" src="img/beepbeep/whiteboard.jpg">
-</div>
-
-      <h3 class="h3 my-5 line text-center"><span>In the end</span></h3>
-
-      
-      <div class="wComp">  
-          <h3 class="h3 subtitle">Style tiles</h3>
-          <p>I then created some style tiles for the group to decide on. Using Google's color accessibility tool, I made sure that all the color palettes used were 
-            accessible. We decided to go with the lighter green and blue style tile. 
-          </p>
-          <img style="max-width:100%;" src="img/beepbeep/styletiles.png">
-      </div>
-
-      <div class="wComp">  
-          <h3 class="h3 subtitle">Final designs</h3>
-          <div class="row">
-          <div class="col-md-6">
-            <img class="img-fluid" src="img/beepbeep/mockup.png">
-          </div>
-          <div class="col-md-6">
-          <img style="max-width:50%;" src="img/beepbeep/menu-gif.gif">
-          </div>
-          </div>
-      </div>
-    
-      <div class="wComp">  
-        <h3 class="h3 subtitle">The Stumbles</h3>
-        <p>
-          One of the stumbles we faced was confusion on what the app was and its features. There was a slight miscommunication on that part, which was resolved once we got to doing the low-fidelity wireframes together. For me, it was a realization on how important it is to 
-          have everyone on the team together, discussing, fleshing out ideas and making sure that everyone understood the app. Another obstacle was time management and using a PHP framework that we were unfamiliar with.  
-        </p>
-      </div>
-      <div class="wComp">  
-        <h3 class="h3 subtitle">Our learned outcomes</h3>
-        <p>
-          As a group, this project was a huge learning experience. We got to work with an unfamiliar framework and research into how to get certain components working such as the Google API. 
-          As for me, I gained an opportunity to think critically and research into what sort of content was requried when it came to designing a ride-sharing app. This also gave me the challenge of how I would
-          go about designing an app where a user could be both the rider and the driver. 
-        </p>
-      </div>
-      <h1 class="text-center my-5"><span class="projTitle">Thanks for reading!</span>✌️</h1>
-              
-              </div>
             </div>
-          </div>
+
+        </div>
+        <!-- SUMMARY PROBLEM SOLUTION -->
+        <div>
+            <div class="section">
+                <p class="subtitle">SUMMARY</p>
+                <p> CustomHighze is a collaborative project that helps the user find the most appropriate
+                    cannabis strain for them, based on their answers to the survey provided. We thought about
+                    this idea when we knew that recreational use of cannabis was going to be legal in Ontario.
+                </p>
+            </div>
+            <div class="section">
+                <p class="subtitle">THE PROBLEM</p>
+                <p>There are over approximately 700 known cannabis strains in the world. This is an overwhelming
+                    large number. With so many varieties, it will be difficult for new users to understand and
+                    know which strains are the right ones for them.
+                </p>
+            </div>
+            <div class="section">
+                <p class="subtitle">THE SOLUTION</p>
+                <p>As a group, we developed the idea to create a survey that is dedicated to providing the most
+                    fitting strain for the user, based on their answers. The web application also provides basic
+                    information on strains, accessories and a link which leads to the official Ontario
+                    government website about cannabis use. This is because our primary demographic aim is users
+                    that are new/super casual.
+                </p>
+            </div>
+            <div class="section headline">
+                <p class="subtitle">THE PROCESS</p>
+                <div class="process card mt-2">
+
+                    <div class="row">
+                        <div class="col-sm-3 text-center">
+                            <img src="img/icons/interview.svg">
+                            <p>1. Emphasize with the user</p>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <img src="img/icons/sitemap.svg">
+                            <p>2. Structure</p>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <img src="img/icons/computer.svg">
+                            <p>3. UI Designs</p>
+                        </div>
+                        <div class="col-sm-3 text-center">
+                            <img src="img/icons/checklist.svg">
+                            <p>4. Test</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="storyTitle my-5"><span class="outline outlineTitle">In the beginning</span></h2>
+            <div class="section">
+                <p class="subtitle">PHASE 1: EMPATHY MAP</p>
+                <p>We then created an empathy map in order to understand our user better. By doing this, we had
+                    a solid understanding of who we were designing for and what to look out for such as the pain
+                    points. This became a guide on how we should design our web app. This also helped the team
+                    further flesh out our web app idea.
+                </p>
+                <img src="img/img2.png" class="img-fluid headline">
+            </div>
+            <!-- end Phase1 -->
+            <div class="section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="subtitle">PHASE 2: USER FLOW
+                        </p>
+                        <p>A userflow was then created after collaborating with my team members. For marketing purposes,
+                            the
+                            user can sign up for an
+                            account in order to be eligible for special offers such as discounts to local dispensaries.
+                            They can also send themselves their results in order to remember for next time, if they
+                            would like to try out the strain.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/img1.png" class="img-fluid headline">
+                    </div>
+                </div>
+
+                <!-- <img src="img/img1.png" class="img-fluid card"> -->
+                <img src="img/customhighze/userflow.png" class="img-fluid card headline">
+
+            </div>
+            <!-- end Phase2 -->
+            <h2 class="storyTitle my-5"><span class="outline outlineTitle">The structure</span></h2>
+
+            <div class="section">
+                <p class="subtitle">PHASE 3: Wireframes</p>
+                <p> then created a user flow of the shopping experience. This online store would have two
+                    shopping experiences: the 3D house and the regular shopping option. This is so if the user
+                    is not interested in the 3D house, they can still shop regularly.
+                </p>
+                <img src="img/img3.png" class="img-fluid card mb-2 headline">
+                <img src="img/customhighze/customhighze_wireframes.jpg" class="img-fluid card headline">
+            </div>
+            <!-- END PHASE 3 -->
+            <div class="section headline">
+                <p class="subtitle">PHASE 4: UI DESIGNS</p>
+
+                <div>
+                    <p>
+                        I then worked with a fellow design team member to finalize and create the mock up
+                        designs. We chose to go with a dominant red color and modern feel in order to stray away
+                        from the traditional and formal look. We did not want our application to look bland
+                        since we found that most cannabis users are in their 20-30s. We wanted to appeal to that
+                        demographic.
+
+                    </p>
+                </div>
+                <div>
+                    <img src="img/customhighze/ui.png" class="img img-fluid card headline">
+
+                </div>
+
+            </div>
+            <!-- END PHASE 6  -->
+            <h2 class="storyTitle my-5"><span class="outline outlineTitle">In the end</span></h2>
+
+            <div class="section">
+                <p class="mb-0 subtitle">SOME USER FEEDBACK</p>
+                <p>
+                    After the final designs were done, we went around Sheridan College and asked students if they
+                    would like to participate in our user testing. It was important for us to test this, in order to
+                    gain insights on our design. We asked them how the interface felt and gave them tasks to complete.
+                </p>
+                <ul class="bulleted">
+                    <li>
+                        Half of the users experienced difficulty reading the content due to contrast and color
+                    </li>
+                    <li>
+                        A few expressed confusion on the survey questions and their relevance to the recommended
+                        strains
+                    </li>
+                    <li>
+                        Some also showed appreciation for the modern look and told us that they judge a website by
+                        how it looks; they would be less likely to continue staying on a web app if it looked boring
+                        or old
+                    </li>
+                </ul>
+            </div>
+            <!-- FEEDBACK -->
+            <div class="section">
+                <p class="subtitle">THE STUMBLES</p>
+                <p>One of the problems we faced was definitely time. Everyone in our group except for one, had no
+                    experience in web development prior to entering this program. Although we had many ideas we
+                    wanted to include in the beginning, some of it had to be cut out. One of them was the tier 2
+                    version of the survey. We later realized that the creation of the survey took longer than
+                    expected, as well as the CSS of the website, due to most of us being inexperienced. From this
+                    experience, we definitely learned a lot about web development.
+                </p>
+            </div>
+
+            <!-- END -->
+
+            <div class="section">
+                <p class="subtitle">LEARNED OUTCOMES</p>
+                <p>From the completion of this project, we now understand how long this process can take. We will
+                    now be more ready to tackle the next website project! We learned that it is important to make
+                    sure that the colors used - especially for text, are clearly legible and are accessible for
+                    color blindness.
+                </p>
+                <div class="text-center">
+                    <a href="https://drive.google.com/open?id=1e5OgX3BKZgMssdGBR_pLEFLn1a-YIHW6" target="_blank"
+                        class="link text-center">View images in Google Drive <img src="img/icons/google-drive.png"></a>
+                </div>
+            </div>
+            <!-- LEARNED OUTCOMES -->
+            <div class="mt-4">
+                <h2 class="storyTitle my-5"><span class="outline outlineTitle">Thanks for reading!</span>✌️</h2>
+                <div class="row text-center direction">
+                    <a href="project-2.php" class="col-sm-6 p-0">
+                        <p class="backarrow"> <i class="material-icons">
+                                arrow_back</i>Previous project</p>
+                    </a>
+
+                    <a href="project-1.php" class="col-sm-6 p-0">
+                        <p class="nextarrow">Next project <i class="material-icons">
+                                arrow_forward</i></p>
+                    </a>
+
+                </div>
+                <!-- FOOTER -->
 
 
-</div>
-    <!--  -->
-<div class="container mt-4">
-  <div class="row text-center direction">
-      <a href="project-2.php" class="col-lg-6">
-        <p><i class="fas fa-arrow-left mr-4"></i>Previous project</p>
-      </a> 
-      
-      <a href="project-4.php" class="col-lg-6"> 
-        <p>Next project<i class="fas fa-arrow-right ml-4"></i></p>
-     </a>
-      
-    </div>
-     
-
-</div>
-
-
-    
-    </div>
-    
-    
-    
-
-
-
-  </main>
-  <?php include 'footer.php' ?>
+                <!-- END FOOTER -->
+                <!-- END CONTAINER -->
+            </div>
+</main>
+<?php include 'footer.php' ?>

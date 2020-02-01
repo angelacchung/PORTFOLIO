@@ -1,98 +1,81 @@
-<?php include 'nav.php' ?>
+<?php include 'nav.php'?>
+<main>
+    <div class="container margintop">
+        <div class="row mt-4">
+            <div class="col-sm-6">
+                <img class="img-fluid tagline mb-3" src="img/me-5.jpg">
+            </div>
+            <div class="col-sm-6 tagline">
+                <h3 class="outlineTitle headline mt-0"><span class="outline">Hi, I'm </span>Angela<span role="image"
+                        aria-label="wave hand">👋</span></h3>
+                <p>
+                    I'm a designer with a background in Illustration and graphic design.
+                    I completed my post graduate education at Sheridan College for Interactive Multimedia
+                    Management; a
+                    program which is a mix of full-stack web development, UX/UI design, digital media and project
+                    management.
+                </p>
+                <p>You can contact me at: <a href="mailto:mini.cchung@gmail.com" class="link">mini.cchung@gmail.com</a>
+                </p>
+                <a href="#" target="_blank" class="button mt-2">
+                    View Resume
+                </a>
 
-  <main>
-    <div id="profCont" class="container contMargin headline">
-      <div class="row">
-        <div class="col-sm-5 mb-5">
-          <img id="profilePicture" class="offset-md-3" alt="Responsive image" src="img/me-3.jpg">
-        </div>
-        <div class="col-sm-7 mt-0">
-          <div class="intro mt-0 ml-5">
-            <h1 class="h1 mb-5 ">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
-            <p class="mt-4">
-            I'm a designer with a background in Illustration, Graphic design and am a fan of good storytelling. 
-            I recently completed my post graduate education at Sheridan College for Interactive Multimedia Management; a 
-            program which is a mix of full-stack web development, UX/UI design, digital media and project management.
-            </p>
-            <p>I'm currently a UX/UI intern at Idea Theorem.</p>
-            <p>You can contact me at: <a href="mailto:mini.cchung@gmail.com">mini.cchung@gmail.com</a>
-            </p>
-            <a id="viewResume" href="resume.html">View resume</a>
-            <p class="mt-5">I'm also on</p>
-            <ul class="p-0">
-              <li class="list inline"><a class="tw-ic socAbout" target="_blank" href="https://twitter.com/_angelachung">
-              <i class="fab fa-twitter fa-lg white-text fa-2x"> </i>
-              </a></li>
-              <li class="list inline">
-              <a class="li-ic socAbout" target="_blank" href="https://www.linkedin.com/in/angelamchung/">
-          <i class="fab fa-linkedin-in fa-lg white-text ml-4 fa-2x"> </i>
-        </a>
-              </li>
-              <li class="list inline">
-              <a class="ins-ic socAbout" target="_blank" href="https://www.instagram.com/angela.jung/">
-          <i class="fab fa-instagram fa-lg white-text ml-4 fa-2x"> </i>
-        </a>
-              </li>
-              <li class="list inline">
-              <a class="ins-ic socAbout" target="_blank" href="https://www.behance.net/minichung">
-              <i class="fab fa-behance fa-lg white-text fa-2x ml-4"></i>       
-             </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>  
-      
-    </div>  
-    <!-- <div class="container my-5 headline">
-      <div class="row mx-3">
-        <div class="col-sm">
-          <p class="tag medium">People know me to...</p>
-          <ul class="text-left pl-3">
-            <li>
-            Be a terrible dancer
-            </li>
-            <li>
-            Always sneeze 3 times in a row
-            </li>
-            <li>
-            Wear only black pants
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm">
-          <p class="tag medium">When I'm not designing, I'm...</p>
-          <ul class="text-left pl-3">
-            <li>
-            Re-watching Howl's Moving Castle
-            </li>
-            <li>
-            Planning+drawing a zine
-            </li>
-            <li>
-            Playing Pokemon Go
-            </li>
-          </ul>
-        </div>
-        <div class="col-sm">
-          <p class="tag medium">Friends would describe me as...</p>
-          <ul class="text-left pl-3">
-            <li>
-            Honest
-            </li>
-            <li>
-            A little shy
-            </li>
-            <li>
-            A team player
-            </li>
-          </ul>
-        </div>
-    </div> -->
-   
+                <p class="mt-4 mb-0">You can find me on:</p>
+                <ul class="aboutSocialList mb-5">
+                    <li><a class="tw-ic" target="_blank" href="https://twitter.com/_angelachung">
+                            <i class="fab fa-twitter fa-lg white-text fa-2x"> </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="li-ic" target="_blank" href="https://www.linkedin.com/in/angelamchung/">
+                            <i class="fab fa-linkedin-in fa-lg white-text ml-4 fa-2x"> </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="ins-ic" target="_blank" href="https://www.instagram.com/angela.jung/">
+                            <i class="fab fa-instagram fa-lg white-text ml-4 fa-2x"> </i>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="ins-ic" target="_blank" href="https://www.behance.net/minichung">
+                            <i class="fab fa-behance fa-lg white-text fa-2x ml-4"></i>
+                        </a>
+                    </li>
+                </ul>
 
-
-    
-  </main>
-
-
+            </div>
+        </div>
+        <div class="my-5">
+            <h2 class="headline outlineTitle mb-4">Get to know me 💁‍♀️</h2>
+            <div class="row">
+                <div class="col-md-4 mr-2 mb-3">
+                    <p class="mb-1 subtitle">When not designing, I'm</p>
+                    <ul>
+                        <li>Digitally drawing</li>
+                        <li>Figuring out my next zine</li>
+                        <li>Saving recipies on Buzzfeed's Tasy app and not cooking them</li>
+                        <li>Hoarding tabs in my browser and not using them</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mr-2 mb-3">
+                    <p class="mb-1 subtitle">Things I'm into</p>
+                    <ul>
+                        <li>Listening to Brockhampton and BTS</li>
+                        <li>Karaoke</li>
+                        <li>Watching Bojack Horseman</li>
+                        <li>Trying out new cafes and their coffee</li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mr-2 mb-3">
+                    <p class="mb-1 subtitle">What I'm known for</p>
+                    <ul>
+                        <li>Wearing black clothes and hats a lot</li>
+                        <li>Unable to dance decently</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- END CONTAINER -->
+    </div>
+</main>

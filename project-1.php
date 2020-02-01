@@ -1,252 +1,264 @@
+<!-- ECOMMERCE -->
 <?php include 'nav.php' ?>
-
-    <main>
-      <div class="container contMargin">
-        <div class="m-0 mb-5" >
-        <h1 class="projTitle">CustomHighze</h1>
-        <p class="tag medium">UX/UI</p>
-        </div>
-          <div class="row">
-            <!-- img -->
-            <div class="col-lg-8 mb-5 tagline">
-              <img  class="img-fluid mb-4" src="img/customhighze/mockup2.png">
-            </div>
-            <!-- info -->
-            <div id="info" class="col-sm mt-0">
-              <div>
-                <h5 class="info">Duration</h5>
-                <p class="mt-1">Oct-Nov 2018</p>
-              </div>
-              <div class="mt-4">
-                <h5 class="info">Team</h5>
-                  <ul class="list p-0 mt-1">
-                    <li>Angela Chung</li>
-                    <li>Nakisha Cohen</li>
-                    <!-- <li><a href="https://www.nakishacohen.com/"  target="_blank">Nakisha Cohen</a></li> -->
-                    <li>Christopher Browne</li>
-                    <!-- <li><a href="http://chris-ric-browne.com/"  target="_blank">Christopher Browne</a></li> -->
-                    <li>Leon Liang</li>
-                  </ul>
-              </div>
-              <div class="mt-4">
-                <h5 class="info">Role</h5>
-                  <ul class="list p-0 mt-1">
-                    <li>Visual Design</li>
-                    <li>User flows</li>
-                    <li>Wireframing</li>
-                    <li>Prototyping</li>
-                    <li>Front-end Development</li>
-                  </ul>
-              </div>
-              <div class="mt-4">
-                <h5 class="info">Tools</h5>
-                  <ul class="list p-0 mt-1">
-                    <li>Adobe XD</li>
-                    <li>Adobe Illustrator</li>
-                    <li>CSS3</li>
-                    <li>HTML5</li>
-                    <li>Javascript</li>
-                  </ul>
-              </div>
-          </div>
-    </div>
-
-
-
-    <div class="wComp">
-        <h3 class="h3 subtitle">Summary</h3>
-        <p class="mt-2">
-          CustomHighze is a collaborative project that helps the user find the most
-          appropriate cannabis strain for them, based on their answers to the survey
-          provided. We thought about this idea when we knew that recreational use of
-          cannabis was going to be legal in Ontario.
-        </p>
-    </div>
-
-    <div class="wComp">
-      <h3 class="h3 subtitle">The Problem</h3>
-      <p>
-        There are over approximately 700 known cannabis strains in the world. This
-        is an overwhelming large number. With so many varieties, it will be difficult
-        for new users to understand and know which strains are the right ones for them.
-      </p>
-    </div>
-    <div class="wComp">
-      <h3 class="h3 subtitle">The Solution</h3>
-      <p>
-        As a group, we developed the idea to create a survey that is dedicated to
-        providing the most fitting strain for the user, based on their answers. The
-        web application also provides basic information on strains, accessories and
-        a link which leads to the official Ontario government website about cannabis
-         use. This is because our primary demographic aim is users that are new/super casual.
-      </p>
-    </div>
-<!-- end of first container -->
-</div>
-<!--  -->
-
-  <div class="beginning my-5">
-
-    <h3 class="h3 my-5 line text-center"><span>In the beginning</span></h3>
-  </div>
-  <div class="container mt-0">
-    <div class="row mb-5">
-      <div class="col-sm-6">
-      <img class="img-fluid" src="img/img2.png">
-      </div>
-      <div class="col-sm-6">
-          <h3 class="h3 subtitle">Empathy map</h3>
-  <p>We then created an empathy map in order to understand our user better.
-    By doing this, we had a solid understanding of who we were designing for and
-    what to look out for such as the pain points. This became a guide on how we should
-    design our web app. This also helped the team further flesh out our web app idea. </p>
-  </div>
-  </div>
-
-  <div class="wComp">
-
-    <div class="row">
-      <div class="col-lg-6">
-          <h3 class="h3 subtitle">The userflow chart</h3>
-
-          <p>
-              This is the user flow that I created. For marketing purposes, the user can sign
-              up for an account in order to be eligible for special offers such as discounts to
-              local dispensaries. They can also send themselves their results in order to remember
-               for next time, if they would like to try out the strain.
-            </p>
-
-      </div>
-      <div class="col-lg-6">
-          <img style="width:90%; float:right;"src="img/img1.png">
-          
-          
-          
-      </div>
-
-  </div>
-  <img class="img-fluid my-5 headline" src="img/proj1-userflow.png">
-   
-
-  </div>
-
-  <div class="wComp  headline">
-      <h3 class="h3 subtitle">The Wireframes</h3>
-      <p>
-          As a team, we created the low-fidelity wireframes together. Though this took a chunk of our time, it was a good opportunity
-          for everyone to be on the same page of how this would get developed, where the problems lie and what needs or doesn't need to 
-          be included. Discussing this project with our lead developer was important since we could discuss what was going to be hard/not possible
-          and catch those obstacles in the early stages of our project. 
-          </p>
-    <img class="img-fluid my-3" src="img/img3.png">
-
-    <img class="img-fluid my-3" src="img/customhighze/customhighze_wireframes.jpg">
-
-
-
-    </div>
-
-    <div class="wComp">
-        <h3 class="h3 subtitle">Final designs</h3>
-        <p>
-            I then worked with a fellow design team member to finalize and create the mock up designs. 
-            We chose to go with a dominant red color and modern feel in order to stray away from the traditional 
-            and formal look. We did not want our application to look bland since we found that most cannabis users 
-            are in their 20-30s. We wanted to appeal to that demographic.
-        </p>
-        <img class="img-fluid my-3" src="img/customhighze/customhighze_mockups.png">
-
-      </div>
-
-
-
-        <h3 class="h3 my-5 line text-center headline"><span>In the end</span></h3>
-
-
-
-          <div class="wComp">
-
-              <h3 class="h3 subtitle">The Stumbles</h3>
-              <p>
-                  One of the problems we faced was definitely time. Everyone
-                  in our group except for one, had no experience in web development
-                  prior to entering this program. Although we had many ideas we wanted
-                  to include in the beginning, some of it had to be cut out. One of
-                  them was the tier 2 version of the survey. We later realized that the
-                  creation of the survey took longer than expected, as well as the CSS
-                  of the website, due to most of us being inexperienced. From this experience,
-                   we definitely learned a lot about web development.
-              </p>
-            </div>
-
-            <div class="wComp">
-                <h3 class="h3 subtitle">Some user feedback</h3>
-                <p>
-                    After the final designs were done, we went around Sheridan College and asked students if 
-                    they would like to participate in our user testing. It was important for us to test this, 
-                    in order to see if our web application would make a user go “huh? what?”. That would tell us 
-                    what kind of changes needed to be made. We asked them how the interface felt and gave them 
-                    tasks to complete.
-                </p>
-                <p>Our findings</p>
-                <ul class="pl-3 m-0" style="width:75%;">
-                  <li>
-                      Half of the users experienced difficulty reading the content due to contrast and color
-                  </li>
-                  <li>
-                      Many explained that they would not give in their e-mail  or create an account, since the rewards were not worth it
-                  </li>
-                  <li>
-                      A few expressed confusion on the survey questions and their relevance to the recommended strains
-                  </li>
-                  <li>
-                      Some also showed appreciation for the modern look and told us that they judge a website by how it looks; 
-                      they would be less likely to continue staying on a web app if it looked boring or old.
-                  </li>
-                </ul>
-              </div>
-
-              <div class="wComp">
-                  <h3 class="h3 subtitle">Our learned outcomes</h3>
-                  <p>
-                      From the completion of this project, we now understand how long this process can take. 
-                      We will now be more ready to tackle the next website project! We learned that it is important 
-                      to make sure that the colors used - especially for text, are clearly legible and are accessible 
-                      for color blindness. 
-                  </p>
+<main class="mainMargin">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-6">
+            <h1 class="outlineTitle mt-2 tagline">Ecommerce Website</h1>
+                <h4 class="category punchline">UX/UI</h4>
                 </div>
-                <h1 class="text-center my-5  headline"><span class="projTitle">Thanks for reading!</span>✌️</h1>
+                <div class="col-md-6">
+                    <img src="img/ecom/Frame 4.png" class="img-fluid headline mt-3">
+                </div>
+               
+            </div>
+            <!-- END OF TOP INFO -->
+            <div class="mt-5">
                 <div class="row">
-                  <div class="col-md-12 text-center">
-                <img style="max-width:50%;" src="img/customhighze/mockup1.png">
-                  </div>
+                    <div class="col-sm-4">
+                        <p class="subtitle">ROLE</p>
+                        <p>UI Design, Wireframing, Wireflows, Sitemapping, Prototyping, User Personas, User Journey Mapping</p>
+                    </div>
+
+                    <div class="col-sm-4">
+                        <p class="subtitle">TOOLS</p>
+                        <p>Sketch, Whimsical, Invision, Craft Invision</p>
+                    </div>
+                    <div class="col-sm-4">
+                        <p class="subtitle">DURATION</p>
+                        <p>4 weeks</p>
+                    </div>
                 </div>
-              </div>
-           
 
+            </div>
+            <!-- SUMMARY PROBLEM SOLUTION -->
+            <div>
+                <div class="section">
+                    <p class="subtitle">SUMMARY</p>
+                    <p> 
+                      I designed an ecommerce site for a client where I took the project from 
+                    </p>
+                </div>
+                <div class="section headline">
+                    <p class="subtitle">THE PROCESS</p>
+                    <div class="process card mt-2">
 
-</div>
-      <!--  -->
-<div class="container mt-4">
-    <div class="row text-center direction">
-        <a href="project-4.php" class="col-lg-6">
-          <p><i class="fas fa-arrow-left mr-4"></i>Previous project</p>
-        </a>
+                        <div class="row">
+                            <div class="col-sm-4 text-center">
+                                <img src="img/icons/interview.svg">
+                                <p>1. Stakeholder Interviews</p>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <img src="img/icons/group.svg">
+                                <p>2. User Research</p>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <img src="img/icons/sitemap.svg">
+                                <p>3. Structure</p>
+                            </div>
 
-        <a href="project-2.php" class="col-lg-6">
-          <p>Next project<i class="fas fa-arrow-right ml-4"></i></p>
-       </a>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-sm-4 text-center">
+                                <img src="img/icons/computer.svg">
+                                <p>4. UI Design</p>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <img src="img/icons/prototype.svg">
+                                <p>5. Prototype</p>
+                            </div>
+                            <div class="col-sm-4 text-center">
+                                <img src="img/icons/checklist.svg">
+                                <p>6. Usability Testing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="section">
+                <p class="subtitle">THE TIMELINE</p>
+                <img class="img-fluid card headline" src="img/ecom/timeline.png">
+                </div> -->
+                <div class="section">
+                    <p class="subtitle">THE CHALLENGE</p>
+                    <p>The client wanted to integrate a <strong>3-D house or 3-D rooms into the shopping experience.</strong> This
+                        3-D feature would not be the primary shopping experience, but rather for the purpose of letting
+                        users browse new technology, learn more about them and make a purchase. This project was a
+                        huge challenge for me, as I’ve never designed a project at this scale alone.
+                    </p>
+                </div>
+            </div>
+            <!-- <h2 class="storyTitle my-5"><span class="outline outlineTitle">In The Beginning</span></h2>
+            <div class="section">
+                <p class="subtitle">PERSONAS</p>
+                <p>In order to understand who the targeted users were, I created 3 user personas based on the
+                    information that the client provided. These user personas were visual guides that helped me
+                    comprehend who I was designing for.
+                </p>
+                <img src="img/ecom/personas.png" class="img-fluid headline">
+            </div>
 
-      </div>
+            <div class="section">
+                <p class="subtitle">USER JOURNEY MAPS
+                </p>
+                <p>The next step I took was taking these personas and creating user journey maps. These user
+                    journey maps were based off of typical ecommerce shopping experiences. I used these as
+                    visual maps in order to find and show the client where pain points are found. I also showed
+                    them possible opportunities that could be implemented in each stage of the user journey
+                    maps.
+                </p>
+                <img src="img/ecom/Frame 5.png" class="img-fluid headline">
+            </div> -->
 
+            <div class="section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="subtitle">THE TONE</p>
+                        <p>The aim for this ecommerce website was to have a tone that reflected a <strong>comfortable, welcoming
+                            and
+                            warm feel.</strong> I made sure to reflect this tone and also implemented moments that showed the
+                            organization that they were 'curators'.
+                        </p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/ecom/gif2.gif" class="img-fluid card headline">
+                    </div>
+                </div>
+            </div>
 
-</div>
+            <!-- <h2 class="storyTitle my-5"><span class="outline outlineTitle">The Structure</span></h2> -->
 
+            <!-- <div class="section">
+                        <p class="subtitle">PHASE 3: USER FLOW</p>
+                        <p> then created a user flow of the shopping experience. This online store would have two
+                            shopping experiences: the 3D house and the regular shopping option. This is so if the user
+                            is not interested in the 3D house, they can still shop regularly.
+                        </p>
+                        <img src="img/ecom/sitemap.png" class="img-fluid card">
+                    </div> -->
+            <!-- END PHASE 3 -->
+            <!-- <div class="section">
+                <p class="subtitle">SITE MAPPING</p>
+                <p>Based off of the user flow, I created a site map of the ecommerce store. This helped me keep
+                    track of what screens will be in the site.
+                </p>
+                <img src="img/ecom/sitemap.png" class="img-fluid card headline">
+            </div> -->
+            <!-- END OF PHASE 4 -->
+            <!-- <div class="section mt-5">
+                <p class="subtitle">WIREFLOWS</p>
+                <p>
+                    Once I had the user flow approved, I made the wireframes which I then turned into wireflows.
+                    This was just to show to the client so they could have a visual map of how the ecommerce
+                    store would work.
+                </p>
+                <img src="img/ecom/wireflows.png" class="img-fluid card headline">
+            </div> -->
+            <!-- END OF PHASE 5 -->
+            <div class="section mt-5">
+                <p class="subtitle">UI DESIGNS</p>
 
+                <p>
+                   <!--  -->
+                </p>
+                <img src="img/ecom/Frame 22.png" class="img-fluid card headline">
+                <!-- <img src="img/ecom/Frame 2.png" class="img-fluid card"> -->
+            </div>
+            <!-- END PHASE 6  -->
+            <!-- <h2 class="storyTitle my-5"><span class="outline outlineTitle">In The End</span></h2>
+            <div class="section">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="subtitle">PROTOTYPE</p>
+                        <p>A prototype of the 3D rooms was created, since that was a feature that the client was
+                            concerned about the most and wanted to test for. For this prototype, I used Invision.
+                        </p>
+                        <div class="mb-4">
+                            <a class="link" href="https://invis.io/YZUVEVRSC8J#/393322695_Homepage_Carousel1"
+                                target="blank">
 
-      </div>
+                                View Invision prototype
+                                <img src="img/icons/invision.png">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="img/ecom/gif1.gif" style="max-width:90%" class="headline">
+                    </div>
+                </div>
+            </div> -->
+            <!-- <div class="section row">
+                <div class="col-sm-6">
+                <p class="subtitle">USABILITY TESTING</p>
+                <p>
+                    10 testers who fit within the persona molds were chosen for the usability test. This was
+                    a good opportunity for me to get feedback on the 3D rooms shopping experience as well as
+                    to catch anything I was missing. 
+                </p>
+                <ul class="bulleted">
+                    <li>
+                        Testers valued the 3D rooms because they could see the products and get a sense of scale
+                        and how it could look in their homes.
+                    </li>
+                    <li>
+                        All testers understood what products were clickable because of the orange markings.
+                    </li>
+                    <li>
+                        Testers wanted to know technical information and what would come with the purchase.
+                    </li>
+                </ul>
+                </div>
+                <div class="col-sm-6">
+                <img class="img-fluid card headline" src="img/ecom/result.png">
+                <p class="caption">Usability report snippet</p>
+                </div>
+            </div> -->
+            <!-- END PHASE 8 -->
+            <div class="section">
+                <p class="subtitle">THE STUMBLES</p>
+                <p>
+                    A problem that I faced in this project was that user research was not properly conducted.
+                    The information that I gathered for my user personas was based off of what the client
+                    provided, as well as research that I did online. Other stumbles included keeping track of the
+                    designed screens since I was working on this alone.
 
+                </p>
+            </div>
+            <div class="section">
+                <p class="subtitle">LEARNED OUTCOMES</p>
+                <p>At the end of this project, I further developed my skills and
+                    understanding on how to work with Invision. Something new that I
+                    learned was how to work with a client on further ideating the
+                    idea and changing the project outlines mid-way.  This was also a good challenge for me to take on since this is the first
+                    time that I've ever worked on a project at this scale.
+                </p>
+                <p><strong>I also learned that 
+                    exporting over 300 artboards onto Invision is not a good idea. </strong>
+                    </p>
+            </div>
+            <!-- END STUMBLES -->
 
-
-      </main>
-      <?php include 'footer.php' ?>
+            <!-- <div class="section">
+                <div class="text-center">
+                    <a href="https://drive.google.com/open?id=1e5OgX3BKZgMssdGBR_pLEFLn1a-YIHW6" target="_blank"
+                        class="link text-center">View images in Google Drive <img src="img/icons/google-drive.png"></a>
+                </div>
+            </div> -->
+            <!-- LEARNED OUTCOMES -->
+            <div></div>
+            <h2 class="storyTitle my-5"><span class="outline outlineTitle">Thanks for reading!</span>✌️</h2>
+            <div class="row text-center">
+                <a href="project-4.php" class="col-sm-6 p-0">
+                    <p class="backarrow"> <i class="material-icons">
+                            arrow_back</i>Previous project</p>
+                </a>
+                <a href="project-2.php" class="col-sm-6 p-0">
+                    <p class="nextarrow">Next project <i class="material-icons">
+                            arrow_forward</i></p>
+                </a>
+            </div>
+        </div>
+        <!-- FOOTER -->
+        <!-- END CONTAINER -->
+        </div>
+    </main>
+    <?php include 'footer.php' ?>

@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 html {
-  font-size: 16px;
+  font-size: 20px;
+}
+
+body, html {
+  height: 100%;
 }
 
 body {
@@ -12,52 +16,49 @@ body {
 }
 
 li {
-  font-size: 17px;
-  line-height: 1.80rem;
+  font-size: 18px;
+  line-height: 1.20rem;
   margin-top: .5rem;
 }
 
 p {
   margin-bottom: 1em;
   color: #1e1e1e;
-  font-size: 20px;
-  line-height: 1.90rem;
+  font-size: 18px;
+  line-height: 1.45rem;
 }
 
 h1, h2, h3, h4, h5 {
   margin: 2.75rem 0 1rem;
   font-family: 'Playfair Display', serif;
-  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
   line-height: 1.15;
 }
 
 h1 {
   margin-top: 0;
-  font-size: 2.488em;
+  font-size: 3.052em;
 }
 
 h2 {
-  font-size: 2.074em;
+  font-size: 2.441em;
 }
 
 h3 {
-  font-size: 1.728em;
+  font-size: 1.953em;
 }
 
 h4 {
-  font-size: 1.44em;
+  font-size: 1.563em;
 }
 
 h5 {
-  font-size: 1.2em;
+  font-size: 1.25em;
 }
 
 small, .text_small {
-  font-size: 0.833em;
-}
-
-small, .text_small {
-  font-size: 0.889em;
+  font-size: 0.8em;
 }
 
 #navbar {
@@ -78,6 +79,10 @@ small, .text_small {
 
 .bold {
   font-weight: 700;
+}
+
+strong {
+  font-weight: 800;
 }
 
 .mail-btn {
@@ -103,9 +108,18 @@ small, .text_small {
 }
 
 .link {
-  color: #0846A6;
+  position: relative;
+  display: inline-block;
+  color: #F45D58;
   text-decoration: underline;
   font-weight: 700;
+}
+
+.link img {
+  max-width: 1.2rem;
+  position: relative;
+  top: 4px;
+  margin-left: 5px;
 }
 
 .outline {
@@ -115,6 +129,10 @@ small, .text_small {
 }
 
 .socialIcon {
+  color: white;
+}
+
+.socialIcon:hover {
   color: #2d54ff;
 }
 
@@ -124,38 +142,65 @@ small, .text_small {
   display: inline-flex;
 }
 
+.aboutSocialList a {
+  color: #0846A6;
+}
+
+.aboutSocialList a:hover {
+  color: #2d54ff;
+}
+
 #logo {
   width: 25px;
   height: auto;
 }
 
 #logo .cls-1 {
-  fill: #2d54ff;
+  fill: #0846A6;
 }
 
-#header #pitchMargin {
+#header .pitchMargin {
   margin-top: 15%;
 }
 
 #header #tagline {
-  color: #9E9E9E;
+  color: #1e1e1e;
   max-width: 90%;
   font-size: 1.2em;
 }
 
-.viewResume {
+.button {
   text-decoration: none;
-}
-
-.viewResume p {
   border-radius: 5px;
   background-color: #F45D58;
   color: white;
-  display: inline;
+  display: inline-block;
   text-align: center;
   font-weight: 500;
   max-width: 100%;
   padding: 10px 25px 10px 25px;
+}
+
+.mainMargin {
+  margin-top: 4rem;
+}
+
+.button:hover {
+  color: white;
+  background-color: #ED4E49;
+}
+
+#bt-burg-icon {
+  background-image: none;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+}
+
+.navbar-toggler-icon i {
+  font-size: 40px;
+  color: #0846A6;
 }
 
 .backarrow {
@@ -169,11 +214,16 @@ small, .text_small {
   display: inline-block;
   margin-right: 5px;
   top: 7px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+}
+
+.caption {
+  font-size: 14px;
+  color: #9E9E9E;
 }
 
 .nextarrow {
-  color: #2d54ff;
+  color: #0846A6;
   display: block;
   font-size: 1.2rem;
 }
@@ -183,18 +233,57 @@ small, .text_small {
   display: inline-block;
   margin-right: 5px;
   top: 7px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
 }
 
 .subtitle {
   font-family: 'Playfair Display', serif;
-  color: #0846A6;
+  color: #ED4E49;
   font-weight: 800;
   margin-bottom: 0;
 }
 
+#navbar {
+  position: fixed;
+  /* Make it stick/fixed */
+  top: 0;
+  /* Hide the navbar 50 px outside of the top view */
+  width: 100%;
+  /* Full width */
+  -webkit-transition: top 0.3s;
+  transition: top 0.3s;
+  /* Transition effect when sliding down (and up) */
+}
+
+#navbar .nav-link:after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 3px;
+  background: #0846A6;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#navbar .nav-link:hover::after {
+  width: 100%;
+}
+
+.margintop {
+  margin-top: 6rem !important;
+}
+
+.card {
+  padding: 10px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.08);
+          box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.08);
+  border-radius: 0;
+  border: none;
+}
+
 #projects {
-  margin-top: 15%;
+  margin-top: 10%;
 }
 
 #projects #work {
@@ -208,17 +297,9 @@ small, .text_small {
 }
 
 #projects .projCat {
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   color: #9E9E9E;
-}
-
-#projects .card {
-  background-color: white;
-  padding: 10px;
-  -webkit-box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
-  border-radius: 0;
-  border-style: none;
 }
 
 #projects a {
@@ -238,6 +319,24 @@ small, .text_small {
   position: relative;
 }
 
+.process {
+  padding: 1rem;
+  position: relative;
+  text-align: center;
+}
+
+.process .row .col-sm-4 img {
+  max-width: 30%;
+}
+
+.process .row .col-sm-3 img {
+  max-width: 30%;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
 .container h2 {
   margin-top: 1rem;
 }
@@ -254,8 +353,9 @@ small, .text_small {
 }
 
 .bulleted {
-  list-style: circle;
-  list-style-position: inside;
+  list-style: disc;
+  list-style-position: outside;
+  margin-left: 1rem;
 }
 
 .storyTitle {
@@ -269,14 +369,15 @@ small, .text_small {
 }
 
 footer {
-  background-color: #F8F8F8;
+  background-color: #0846A6;
 }
 
 footer h3 {
+  color: white;
   font-weight: 700;
 }
 
 footer img {
-  max-width: 10%;
+  max-width: 5rem;
 }
 /*# sourceMappingURL=new_css.css.map */

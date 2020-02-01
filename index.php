@@ -1,47 +1,53 @@
-<?php include 'nav.php' ?>
+<?php include 'nav.php'?>
+<!--  -->
 <main>
-<div class="container">
-    <div class="intro">
-      <h1 class="h1 headline">Hi, I'm<span class="outline"> Angela</span><span role="image" aria-label="wave hand">👋</span></h1>
-      <h3 class="tagline"><?php echo($row["title"]);?>I’m a UX/UI designer, illustrator, dog enthusiast and a fan of good storytelling. I currently reside outside of Toronto, Canada.</h3>
-    </div>
-    <!--  -->
-    <?php
-    while($row=$stmt->fetch())
-    {
-    ?>
-    <div class="row project">
-      <div class="col-sm">
-          
-          <h3 class="h3 blue medium"><?php echo($row['title']);?></h3>
-          <p class="tag"><?php echo($row['tag']); ?></p>
-          <div class="mt-4 mb-4">
-          <p>
-            <?php echo($row['description']); ?>
-          </p>
-          <div class="my-4">
-          <a href="project-<?php echo($row['id']);?>.php" class="button">Read more</a>
-          </div>
+    <div class="container mb-4">
+        <div id="header" class="row">
+            <div class="col-sm-7 headline pitchMargin">
+                <h1 class="outlineTitle">
+                    <span class="outline">Hi, I'm </span>
+                    <span style="display:block;">Angela <span role="image" aria-label="wave hand">👋</span></span>
+                </h1>
+                <p id="tagline" class="mb-4">
+                    I’m a UX/UI designer and illustrator based
+                    outside of Toronto, Canada.</p>
+            </div>
+            <div class="col-sm-5 pitchMargin tagline">
+                <img src="img/me-5.jpg" class="img-fluid">
+            </div>
         </div>
-      </div>
-        
-        <div class="col-sm">
-        <img class="displayImg img-fluid m-2 tagline" alt="Responsive image" src="img/<?php echo($row['photo']); ?>">
-        </div> 
-      </div>
-      <?php
-    }
-      ?>
-  
-            </div>       
-            
-        </div>       
-    
+        <!-- END HEADER -->
+        <div id="projects">
+            <p id="work">WORK</p>
+            <?php
+while ($row = $stmt->fetch()) {
+    ?>
+            <div>
 
-    </div>       
+                <div class="row mb-5">
+                    <div class="col-sm-6">
+                        <img alt="Responsive image" src="img/<?php echo ($row['photo']); ?>" class="img-fluid headline">
+                    </div>
+                    <div class="col-sm-6 tagline">
+                        <h3 class="mt-0 mb-1"><?php echo ($row['title']); ?></h3>
+                        <h5 class='projCat mt-3'><?php echo ($row['tag']); ?></h5>
+                        <!-- <p class="projCat ">UX/UI</p> -->
+                        <p><?php echo ($row['description']); ?></p>
+                        <a href="project-<?php echo ($row['id']); ?>.php">
+                            <h5 class="readProj mt-2">Read Project
+                                <i class="material-icons">
+                                    arrow_forward</i>
+                            </h5>
+                        </a>
+                    </div>
+                </div>
+                <?php
+}
+?>
+            </div>
+        </div>
 
-</div>
-
-
+        <!-- END CONTAINER -->
+    </div>
 </main>
-<?php include 'footer.php' ?>
+<?php include 'footer.php'?>

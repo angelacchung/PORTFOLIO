@@ -1,5 +1,6 @@
 // VARIABLES
 $pink:#F45D58;
+$darkpink:#ED4E49;
 $blue:#2d54ff;
 $darkblue:#0846A6;
 $black:#1e1e1e;
@@ -10,8 +11,10 @@ $white:white;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
 
-html {font-size: 16px;}
-
+html {font-size: 20px;}
+body, html {
+    height: 100%;
+  }
 body {
   background-color: white;
   font-family: 'Montserrat', sans-serif;  font-weight: 400;
@@ -19,39 +22,38 @@ body {
   color: $black;
 }
 li{
-    font-size:17px;
-    line-height:1.80rem;
+    font-size:18px;
+    line-height: 1.20rem;
     margin-top:.5rem;
 }
 p {margin-bottom: 1em;
 color:$black;
-font-size:20px;
-line-height: 1.90rem;}
+font-size:18px;
+line-height: 1.45rem;
+}
 
 h1, h2, h3, h4, h5 {
     margin: 2.75rem 0 1rem;
     font-family: 'Playfair Display', serif;
-
-    // font-family: 'Montserrat', sans-serif;  font-weight: 400;
-    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
     line-height: 1.15;
   }
   
   h1 {
     margin-top: 0;
-    font-size: 2.488em;
+    font-size: 3.052em;
   }
   
-  h2 {font-size: 2.074em;}
+  h2 {font-size: 2.441em;}
   
-  h3 {font-size: 1.728em;}
+  h3 {font-size: 1.953em;}
   
-  h4 {font-size: 1.44em;}
+  h4 {font-size: 1.563em;}
   
-  h5 {font-size: 1.2em;}
+  h5 {font-size: 1.25em;}
   
-  small, .text_small {font-size: 0.833em;}
-  small, .text_small {font-size: 0.889em;}
+  small, .text_small {font-size: 0.8em;}
 // CSS
 #navbar{
     background-color:white;
@@ -65,6 +67,10 @@ align-items:center;
 
 .bold{
     font-weight:700;
+}
+strong{
+    font-weight:800;
+    // color:$darkblue;
 }
 .mail-btn{
     background-color:$blue;
@@ -87,9 +93,17 @@ align-items:center;
     color:$darkblue;
 }
 .link{
-    color:$darkblue;
+    position:relative;
+    display:inline-block;
+    color:$pink;
     text-decoration:underline;
     font-weight:700;
+    img{
+        max-width:1.2rem;
+        position:relative;
+        top:4px;
+        margin-left:5px;
+    }
 }
 .outline{
     color:$white;
@@ -97,41 +111,72 @@ align-items:center;
     -webkit-text-stroke-color: $darkblue;
 }
 .socialIcon{
+    color:white;
+    // color:$blue;
+
+}
+.socialIcon:hover{
     color:$blue;
 }
+
 .aboutSocialList{
     display:inline-flex;
+    a{
+        color:$darkblue;
+    }
+    a:hover{
+        color:$blue;
+    }
 }
 #logo{
     .cls-1{
-        fill:$blue;
+        fill:$darkblue;
     }
     width:25px;
     height:auto;
 }
 #header{
-#pitchMargin{
+.pitchMargin{
     margin-top:15%;
 }
     #tagline{
-        color:$grey;
+        color:$black;
         max-width:90%;
         font-size:1.2em;
     }
    
 }
-.viewResume{
-    p{
+.button{
+    text-decoration:none;
     border-radius:5px;
     background-color:$pink;
     color:white;
-    display:inline;
+    display:inline-block;
     text-align:center;
     font-weight:500;
     max-width:100%;
     padding:10px 25px 10px 25px;
+
+}
+.mainMargin{
+    margin-top:4rem;
+}
+.button:hover{
+    color:white;
+    background-color:$darkpink;
+}
+a:hover{
+    // text-decoration: none;
+}
+#bt-burg-icon{
+    background-image:none;
+}
+.navbar-toggler-icon{
+    background-image: none;
+    i{
+        font-size:40px;
+        color:$darkblue;
     }
-    text-decoration:none;
 }
 .backarrow{
     color:$darkblue;
@@ -142,10 +187,14 @@ align-items:center;
         display:inline-block;
         margin-right:5px;
         top:7px;
-        font-size:1.8rem;    }
+        font-size:1.5rem;    }
+}
+.caption{
+    font-size:14px;
+    color:$grey;
 }
 .nextarrow{
-    color:$blue;
+    color:$darkblue;
             display:block;
             font-size:1.2rem;
     i{
@@ -153,38 +202,70 @@ align-items:center;
         display:inline-block;
         margin-right:5px;
         top:7px;
-        font-size:1.8rem;    }
+        font-size:1.5rem;    }
 }
 .subtitle{
     // font-family: 'Alice', serif;
     font-family: 'Playfair Display', serif;
-    color:$darkblue;
+    // color:$darkblue;
+    color:$darkpink;
     font-weight:800;
     margin-bottom:0;
 }
+#navbar {
+    position: fixed;
+    /* Make it stick/fixed */
+    top: 0;
+    /* Hide the navbar 50 px outside of the top view */
+    width: 100%;
+    /* Full width */
+    -webkit-transition: top 0.3s;
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+  }
+  
+  #navbar .nav-link:after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: $darkblue;
+    -webkit-transition: width .3s;
+    transition: width .3s;
+  }
+  
+  #navbar .nav-link:hover::after {
+    width: 100%;
+  }
+  .margintop{
+      margin-top:6rem!important;
+  }
+.card{
+    padding:10px;
+    background: #FFFFFF;
+    box-shadow: 1px 3px 14px rgba(0, 0, 0, 0.08);
+    border-radius: 0;
+    border:none;
 
+}
 #projects{
+    margin-top:10%;
     #work{
         font-weight:700;
         color:$grey;
     }
-    margin-top:15%;
+
     h3{
         color:$darkblue;
         font-weight:600;
     }
     .projCat{
+        font-family: 'Montserrat', sans-serif;
         font-weight:700;
         color:$grey;
     }
 
-    .card{
-        background-color:$white;
-        padding:10px;
-        box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.10);
-        border-radius: 0;
-        border-style: none;
-    }
+   
     a{
         display:block;
         text-decoration:underline $pink; 
@@ -201,8 +282,26 @@ align-items:center;
    
 
 }
+.process{
+    padding:1rem;
+    position:relative;
+    text-align:center;
+.row{
+    .col-sm-4{
+        img{
+            max-width:30%;
+        }
+    }
 
+    .col-sm-3{
+        img{
+            max-width:30%;
+        }
+    }
+}
+}
 .container{
+    margin-top:2rem;
     h2{
         margin-top:1rem;
     }
@@ -218,9 +317,12 @@ align-items:center;
     }
 }
 .bulleted{
-list-style: circle;
-list-style-position: inside;
+list-style: disc;
+list-style-position:outside;
+margin-left:1rem;
+
 }
+
 .storyTitle{
     display:block;
     text-align:center;
@@ -229,11 +331,12 @@ list-style-position: inside;
     max-width:25%;
     height:auto;}
 footer{
-    background-color:$lightgrey;
+    background-color:$darkblue;
     h3{
+        color:white;
         font-weight:700;
     }
     img{
-        max-width:10%;
+        max-width:5rem;
     }
 }

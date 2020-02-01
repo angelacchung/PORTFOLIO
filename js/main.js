@@ -15,6 +15,7 @@ window.onscroll = function() {
 // SCROLL
 ScrollReveal().reveal('.headline', { delay: 600 });
 ScrollReveal().reveal('.tagline', { delay: 800 });
+ScrollReveal().reveal('.punchline', { delay: 1100 });
 //PROTOTYPE BUTTONS
 //BEEPBEEP
 $( "#viewBeep" ).click(function() {
