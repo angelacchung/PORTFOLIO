@@ -1,22 +1,3 @@
-<?php
-
-//perform a delete on a record
-//receive id of record to delete.
-
-$id = $_POST["id"];
-
-//perform database delete using form values;
-$dsn = "mysql:host=localhost;dbname=angetqwk_portfolio;charset=utf8mb4";
-$dbusername = "angetqwk_mc13md";
-$dbpassword = "*;h1g7yo66xp";
-
-
-$pdo = new PDO($dsn, $dbusername, $dbpassword);
-
-$stmt = $pdo->prepare("SELECT * FROM `projects`");
-
-$stmt->execute();
-?>
 <!--  -->
 <!DOCTYPE html>
 <html lang="en">
@@ -157,24 +138,86 @@ or junior position in UX design. Angela is passionate about design and is a fan 
     <!--  -->
     <main class="mainMargin">
         <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
+            <!-- CODED STUFF -->
+            <div>
+                <h3 style="margin-top:6rem">Coded</h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <a href="Physics/seesaw_index.html" target="_blank">
+                            <img src="Physics/coverphoto.png" class="img-fluid">
+                        </a>
+                        <p>
+                            A small game made collaboratively with ZIM.js.
+                        </p>
+                        <a href="Physics/seesaw_index.html" target="_blank" class="button mb-5">Play<i
+                                class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <a href="ZIM-game/index.html" target="_blank">
+                            <img src="ZIM-game/coverphoto.png" class="img-fluid">
+                        </a>
+                        <p>A cursor driven game using ZIM.js.</p>
+                        <a href="ZIM-game/index.html" target="_blank" class="button">Play<i
+                                class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img class="img-fluid" src="P.U.P./coverphoto.png">
+                        <p>An interactive using three.js</p>
+                        <a href="ZIM-game/index.html" target="_blank" class="button">Play<i
+                                class="fas fa-external-link-alt ml-2"></i></a>
+                    </div>
+                    <div class="col-sm-6">
+                        <img class="img-fluid" src="P.U.P./coverphoto.png">
+                    </div>
+                </div>
+            </div>
+            <!-- Animations -->
+            <div>
+                <h3>Motion</h3>
+                    <div class="row">
+                      <div class="col-sm-4">
+                          <h5 class="subtitle">The Night Market</h5>
+                      </div>
+                    <div class="col-sm-8">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dJHCZXBkCGk" frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    </div>
+                    <div>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/dJHCZXBkCGk" frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>                    </div>
+
+            </div>
+            <!-- GIFS -->
+            <div>
+                <h4>GIFs</h4>
+                <div class="row">
+                    <div class="col-sm-6">
                         <img src="img/gifs/yellowscenee.gif" class="img-fluid">
                     </div>
-                <div class="col-sm-3">
-                    <img src="img/gifs/flowerhead.gif" class="img-fluid">
+                    <div class="col-sm-6">
+                        <img src="img/gifs/flowerhead.gif" class="img-fluid">
+                    </div>
+
                 </div>
-                <div class="col-sm-3">
-                    <img src="img/gifs/squid.gif" class="img-fluid">
-                </div>
-                <div class="col-sm-3">
-                    <img src="img/gifs/walk.gif" class="img-fluid">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img src="img/gifs/squid.gif" class="img-fluid">
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="img/gifs/walk.gif" class="img-fluid">
+                    </div>
                 </div>
             </div>
-            <div class="row mt-3">
-                <div class="col-sm-3">
-                </div>
-            </div>
+
+
+
+            <!-- END CONTAINER -->
+        </div>
     </main>
 
 </body>

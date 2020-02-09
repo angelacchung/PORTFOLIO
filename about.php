@@ -68,10 +68,12 @@
                     </ul>
                 </div>
                 <div class="col-md-3 mr-2 mb-3">
-                    <p class="mb-1 subtitle">What I'm known for</p>
+                    <p class="mb-1 subtitle">I'm not fond of</p>
                     <ul>
-                        <li>Wearing black clothes and hats a lot</li>
-                        <li>Unable to dance decently</li>
+                        <li>Winter</li>
+                        <li>Apathy</li>
+                        <li>Cats the movie</li>
+                        <li>UX dark patterns</li>
                     </ul>
                 </div>
             </div>

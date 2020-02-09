@@ -1,0 +1,497 @@
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>PUP</title>
+<link rel="manifest" href="manifest.json">
+<link href="https://fonts.googleapis.com/css?family=Baloo|Merriweather+Sans" rel="stylesheet">
+<style>
+	body {margin:0px;}
+	canvas {width:100%; height:100%}
+</style>
+<link rel="stylesheet" href="css/master.css">
+</head>
+<body>
+	<audio autoplay controls loop preload="auto" class="hidden">
+		<!-- <source src="horse.ogg" type="audio/ogg"> -->
+		<source src="audio/Get_Outside.mp3" type="audio/mpeg">
+		Your browser does not support the audio tag.
+	</audio>
+	<div id="overlay"></div>
+	<div class="center" id="intro">
+	    <div class="title">P . U . P</div>
+		<div class="subtitle">Personal Uplifting Pal</div>
+		<a href="">Begin</a>
+	</div>
+	<div class="interface" id="controls">
+		<ul class="color-container">
+			<li class="color" id="black">Black</li>
+			<li class="color" id="white">White</li>
+			<li class="color" id="brown">Brown</li>
+			<li class="color" id="gold">Gold</li>
+		</ul>
+		<ul class="mood-container">
+			<li class="mood" id="happy">Happy</li>
+			<li class="mood" id="grumpy">Grumpy</li>
+			<li class="mood" id="wise">Wise</li>
+			<li class="mood" id="uplifting">Uplifting</li>
+		</ul>
+	</div>
+	<div id="quoteDisplay"></div>
+	<div id="toggleInterface">Close controls <</div>
+<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/three.js/r73/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/16.3.5/Tween.min.js"></script>
+<script src="js/orbitControls.js"></script>
+
+<script>
+	// SCENE
+	var scene = new THREE.Scene();
+
+	// CAMERA
+
+	var aspect = window.innerWidth / window.innerHeight;
+	var d = 30;
+	camera = new THREE.OrthographicCamera( - d * aspect, d * aspect, d, - d, 1, 1000 );
+
+	camera.position.set( 20, 5, 50 ); // all components equal
+	camera.lookAt(scene.position); // or the origin
+
+	// RENDERER
+	var renderer = new THREE.WebGLRenderer({antialias:true});
+	renderer.setSize(window.innerWidth, window.innerHeight);
+	document.body.appendChild(renderer.domElement);
+	// renderer.domElement.style.transform = "rotate(90deg)";
+
+	var dog;
+	var room; var btn;
+
+	// array earsTail,headBody,bellyFeet
+	var schemeOne = [0x8f6223, 0xf6d19d, 0x8f6223];
+	var schemeTwo = [0x8f6223, 0x8f6223, 0x8f6223];
+	var schemeThree = [0x8f6223, 0x8f6223, 0x8f6223];
+	makeDog(schemeOne);
+
+
+	$("#brown").click(function(e){
+		dog.earone.material.color.setHex('0x8f6223');
+		dog.eartwo.material.color.setHex('0x8f6223');
+        dog.material.color.setHex('0xdcb275');
+        dog.body.material.color.setHex('0xcea467');
+        dog.tail.material.color.setHex('0x8f6223');
+        dog.belly.material.color.setHex('0xfbd8a8');
+        dog.footLeft.material.color.setHex('0x8f6223');
+        dog.footRight.material.color.setHex('0x8f6223');
+        dog.backLeft.material.color.setHex('0x8f6223');
+        dog.backRight.material.color.setHex('0x8f6223');
+    });
+	//button for black dog scheme
+	$("#black").click(function(e){
+		dog.earone.material.color.setHex('0x56544E');
+		dog.eartwo.material.color.setHex('0x56544E');
+		dog.material.color.setHex('0x56544E');
+		dog.body.material.color.setHex('0x56544E');
+		dog.tail.material.color.setHex('0x56544E');
+		dog.belly.material.color.setHex('0xF7FFFE');
+		dog.footLeft.material.color.setHex('0xF7FFFE');
+		dog.footRight.material.color.setHex('0xF7FFFE');
+		dog.backLeft.material.color.setHex('0xF7FFFE');
+		dog.backRight.material.color.setHex('0xF7FFFE');
+	});
+	//button for white dog scheme
+	$("#white").click(function(e){
+		dog.earone.material.color.setHex('0xDCDCDC');
+		dog.eartwo.material.color.setHex('0xDCDCDC');
+		dog.material.color.setHex('0xF5F1EC');
+		dog.body.material.color.setHex('0xF5F1EC');
+		dog.tail.material.color.setHex('0xDCDCDC');
+		dog.belly.material.color.setHex('0xDCDCDC');
+		dog.footLeft.material.color.setHex('0xF7FFFE');
+		dog.footRight.material.color.setHex('0xF7FFFE');
+		dog.backLeft.material.color.setHex('0xF7FFFE');
+		dog.backRight.material.color.setHex('0xF7FFFE');
+	});
+
+	///gold dog
+
+	$("#gold").click(function(e){
+		dog.earone.material.color.setHex('0xe4c567');
+		dog.eartwo.material.color.setHex('0xe4c567');
+		dog.material.color.setHex('0xf5e2a6');
+		dog.body.material.color.setHex('0xf5e2a6');
+		dog.tail.material.color.setHex('0xe4c567');
+		dog.belly.material.color.setHex('0xd5b759');
+		dog.footLeft.material.color.setHex('0xd5b759');
+		dog.footRight.material.color.setHex('0xd5b759');
+		dog.backLeft.material.color.setHex('0xd5b759');
+		dog.backRight.material.color.setHex('0xd5b759');
+	});
+
+	// 1. Make arrays of sayings
+	var happySayings = [
+	"You’re here! I missed you so much!!! I’m so excited to see you!",
+	"I love you, hooman!",
+	"Happiness is a warm puppy",
+	"Never trust a human who doesn’t love dogs!",
+	"How to have a good day: Wake up, Pet me, Done!",
+	"Anyone who doesn’t know what soap tastes like has never tried to wash me",
+	"I DO want to go outside! How did you know?",
+	"Why do humans harvest my poop?",
+	"I don’t want the ball. But when you ask me “who wants the ball?” I then realize that I want the ball.",
+	"It’s all grey to me!",
+	"Why worry when you can just pet me?",
+	"SQUIRREL? WHERE???",
+	"Everyone stay calm!",
+	"There was a squirrel, I saw it, you gotta believe me!",
+	"Why can’t I pee in the house if you can?",
+	"You are not the boss of me! Oh wait, yes you are.",
+	"If you want the stick back, why do you keep throwing it away?",
+	"Hello there!",
+	"Pets please!",
+	"I’m a heckin’ good boy and so are you!",
+	"On a scale of 1 to 10, you are a 12",
+	"If you do not pet me RIGHT NOW I swear I WILL DIE!",
+	"Where are you going? Take me with you!"
+	];
+
+
+var grumpySayings = [
+	"Are you still there? Leave me alone!",
+	"I’m trying to sleep, do you mind?",
+	"You stop that right now!",
+	"You’re really getting on my nerves",
+	"What if I never find out who’s a good boy?",
+	"If you keep pestering me, things are going to get ruff",
+	"Go away!",
+	"Well if you want to pet me, I guess I won’t hate it.",
+	"You’re leaving already? How could you?",
+	"Excuse me, no pictures! How dare you?"
+]
+
+var wiseSayings = [
+	"When life gives you dog treats, you eat em!",
+	"There are no mistakes, only happy accidents",
+	"As wonderful as we can be, we are famous for missing the point",
+	"The greatest pleasure of a dog is that you may make a fool of yourself with them, but not only will they not scold you, they will make a fool of themselves too",
+	"Dogs are how people would be if the important stuff is all that mattered to them",
+	"What counts is not the size of the dog in the fight - it’s the size of fight in the dog",
+	"Scratch a dog and you’ll have found a permanent job",
+	"Every dog has its day, unless he loses his tail, then he has a weak-end",
+	"Any dog can be a lap dog if you try hard enough",
+	"I’ll have you know I’m at least 35 in dog years!",
+	"I just had a nightmare that the mailman was coming for me",
+	"Speaking of the mailman, I hate him",
+	"I don’t always bark at night. But when I do, it’s for absolutely no reason."
+]
+
+var upliftingSayings = [
+	"You’re my favourite person",
+	"I’m always here to lend a paw if you need",
+	"There is no need to be the best, only good and kind",
+	"I’m so happy you’re here",
+	"You are doing your best, and I’m so proud of you!",
+	"You can do it!",
+	"I believe in you",
+	"I’m glad we met!",
+	"You are a good human",
+	"Did you have a ruff day? You can tell me about it!",
+	"You choose what you become",
+	"You are good enough",
+	"It is okay to set boundaries",
+	"Happiness is within your grasp",
+	"The only person who can defeat you is yourself",
+	"Just take it one day at a time, you will get there",
+	"Pawsitivity is a choice you choose to make",
+	"You deserve love, compassion, and empathy",
+	"There are no failures, just opportunities to grow and learn",
+	"You are not saying “no” to others, you are saying “yes” to yourself",
+	"You can’t change how others treat you, but you can choose how it affects you",
+	"Bow only for treats, not to your fears!",
+	"You are not alone!",
+	"Your feelings are not facts"
+]
+
+	// 2. Display saying on click and ears tween
+	dog.head.callback = function newQuote() {
+		// if ($('.mood').hasClass('selected')) {
+		// 	var mood = $('.mood').val();
+		// }
+		if ($('#happy').hasClass('selected')) {
+			var randomNumber = Math.floor(Math.random() * (happySayings.length));
+			$('#quoteDisplay').html(happySayings[randomNumber]);
+			rotateEar(dog.earone, 15, 15.25, 14.80);
+			rotateEar(dog.eartwo, -15, -15.15, -14.80);
+		} else if ($('#grumpy').hasClass('selected')) {
+			var randomNumber = Math.floor(Math.random() * (grumpySayings.length));
+			$('#quoteDisplay').html(grumpySayings[randomNumber]);
+			rotateEar(dog.earone, 15, 15.25, 14.80);
+			rotateEar(dog.eartwo, -15, -15.15, -14.80);
+		} else if ($('#wise').hasClass('selected')) {
+			var randomNumber = Math.floor(Math.random() * (wiseSayings.length));
+			$('#quoteDisplay').html(wiseSayings[randomNumber]);
+			rotateEar(dog.earone, 15, 15.25, 14.80);
+			rotateEar(dog.eartwo, -15, -15.15, -14.80);
+		} else if ($('#uplifting').hasClass('selected')) {
+			var randomNumber = Math.floor(Math.random() * (upliftingSayings.length));
+			$('#quoteDisplay').html(upliftingSayings[randomNumber]);
+			rotateEar(dog.earone, 15, 15.25, 14.80);
+			rotateEar(dog.eartwo, -15, -15.15, -14.80);
+		}
+		function rotateEar(obj, defaultRot, fromRot, toRot) {
+			var rotation = { z : defaultRot };
+			var tweenHead = new TWEEN.Tween(rotation)
+				.to({z:fromRot}, 500)
+				.delay(50)
+				.easing(TWEEN.Easing.Sinusoidal.InOut)
+				.onUpdate(function(){
+					obj.rotation.z = rotation.z;
+				});
+			var tweenBack = new TWEEN.Tween(rotation)
+				.to({z:toRot}, 500)
+				.delay(50)
+				.easing(TWEEN.Easing.Sinusoidal.InOut)
+				.onUpdate(function(){
+					obj.rotation.z = rotation.z;
+				});
+			// after tweenHead, do tweenBack
+			tweenHead.chain(tweenBack);
+			// And after tweenBack, do tweenHead, so it is cycling
+			tweenBack.chain(tweenHead);
+			tweenHead.start();
+			setTimeout(() => {
+				tweenHead.stop();
+				tweenBack.stop();
+			}, 1500);
+		}
+	}
+
+	var raycaster = new THREE.Raycaster();
+	var mouse = new THREE.Vector2();
+	function onDocumentMouseDown( event ) {
+	    event.preventDefault();
+
+	    mouse.x = ( event.clientX / renderer.domElement.clientWidth ) * 2 - 1;
+	    mouse.y = - ( event.clientY / renderer.domElement.clientHeight ) * 2 + 1;
+
+	    raycaster.setFromCamera( mouse, camera );
+		meshObjects = [dog.head];
+	    var intersects = raycaster.intersectObjects( meshObjects );
+
+	    if ( intersects.length > 0 ) {
+	        intersects[0].object.callback();
+		}
+	}
+	document.addEventListener('mousedown', onDocumentMouseDown, false);
+
+	// 3. Set state for the display saying function
+	// 4. Show different aray depending on state
+
+	makeRoom();
+	// makeButton();
+
+	function makeDog(colorArray) {
+		var headGeom = new THREE.BoxGeometry(11, 11, 11);
+		var bodyMat = new THREE.MeshPhongMaterial({color: 0xdcb275});
+		dog = new THREE.Mesh(headGeom, bodyMat);
+		dog.head = dog;
+		scene.add(dog.head);
+
+		//eyes
+		var eyeGeom = new THREE.BoxGeometry(2, 5.5, 5.5);
+		var eyeMat = new THREE.MeshPhongMaterial({color: 0xFFFFFF});
+		eye = new THREE.Mesh(eyeGeom, eyeMat)
+		eye.position.set(6,2,2);
+		scene.add(eye);
+		var eyeBallGeom = new THREE.BoxGeometry(1, 3, 3);
+		var blackMat = new THREE.MeshPhongMaterial({color: 0x0C1312});
+		eyeballr = new THREE.Mesh(eyeBallGeom, blackMat)
+		eyeballr.position.set(7,2,2);
+		scene.add(eyeballr);
+
+		//left
+		eyel = new THREE.Mesh(eyeGeom, eyeMat)
+		eyel.position.set(-6,2,2);
+		scene.add(eyel);
+		eyebl = new THREE.Mesh(eyeBallGeom, blackMat)
+		eyebl.position.set(-7,2,2);
+		scene.add(eyebl);
+
+		//ears
+		var earGeom = new THREE.BoxGeometry(6,8,2);
+		earGeom.applyMatrix( new THREE.Matrix4().makeTranslation( 0, -4, -1 ) );
+		var earMat = new THREE.MeshPhongMaterial({color: 0x8f6223});
+		dog.earone = earone = new THREE.Mesh(earGeom, earMat);
+		earone.position.set(7,7,-5);
+		earone.rotation.z=15;
+		scene.add(earone)
+		// ear two
+		var earGeom2 = new THREE.BoxGeometry(6,8,2);
+		earGeom2.applyMatrix( new THREE.Matrix4().makeTranslation( 0, -4, -1 ) );
+		var earMat2 = new THREE.MeshPhongMaterial({color: 0x8f6223});
+		dog.eartwo = eartwo = new THREE.Mesh(earGeom2, earMat2);
+		eartwo.position.set(-7,7,-5);
+		eartwo.rotation.z=-15;
+		scene.add(eartwo)
+
+		// var eartwo = earone.clone();
+		// eartwo.position.set(-9,9,-5);
+		// eartwo.rotation.z=95;
+		// scene.add(eartwo)
+
+		//nose
+		var snoutBox = new THREE.BoxGeometry(3,2,3);
+		var line = new THREE.BoxGeometry(0.5,6,0.5)
+		var snout = new THREE.Mesh(snoutBox,blackMat);
+		scene.add(snout);
+		snout.position.set(0,5.20,6);
+		var linee = new THREE.Mesh(line,blackMat)
+		scene.add(linee)
+		linee.position.set(0,2,6)
+
+		//freckles
+		var frecklesGeom = new THREE.BoxGeometry(.5, .5, .5);
+		freckle1 = new THREE.Mesh(frecklesGeom, blackMat)
+		freckle1.position.set(3,3,6);
+		scene.add(freckle1);
+		freckle2 = new THREE.Mesh(frecklesGeom, blackMat)
+		freckle2.position.set(4,1,6);
+		scene.add(freckle2);
+		freckle3 = new THREE.Mesh(frecklesGeom, blackMat)
+		freckle3.position.set(2,1,6);
+		scene.add(freckle3);
+		freckle4 = new THREE.Mesh(frecklesGeom, blackMat)
+		freckle4.position.set(-3,3,6);
+		scene.add(freckle4);
+		freckle5 = new THREE.Mesh(frecklesGeom, blackMat)
+		freckle5.position.set(-4,1,6);
+		scene.add(freckle5);
+		freckle6 = new THREE.Mesh(frecklesGeom, blackMat)
+		freckle6.position.set(-2,1,6);
+		scene.add(freckle6);
+
+		//smile
+		var smileGeom = new THREE.TorusGeometry( 1, 0.35, 6,30, Math.PI );
+		var smile = new THREE.Mesh(smileGeom,blackMat)
+		scene.add(smile)
+		smile.rotation.z=9.45
+		smile.position.set(0,-2,5.8);
+
+		//body
+		var bodyGeom = new THREE.BoxGeometry(12,12,19);
+		var body = dog.body = new THREE.Mesh(bodyGeom, bodyMat);
+		body.position.set(0,-12,-7);
+		scene.add(body)
+
+		//belly
+		var bellyGeom = new THREE.BoxGeometry(9,10,4);
+		var bellyColor = new THREE.MeshPhongMaterial({color: 0xfbd8a8});
+		var belly = dog.belly = new THREE.Mesh(bellyGeom,bellyColor);
+		scene.add(belly);
+		belly.position.set(0,-13,1.09)
+
+		//feets
+		var footFrontGeom = new THREE.BoxGeometry(4, 4, 3);
+		var footRight = dog.footRight = new THREE.Mesh(footFrontGeom, earMat)
+		footRight.position.set(3,-15.75,4.5);
+		scene.add(footRight);
+
+		var footLeft = dog.footLeft = new THREE.Mesh(footFrontGeom, earMat)
+		footLeft.position.set(-3,-15.75,4.5);
+		scene.add(footLeft);
+
+		var footBackGeom = new THREE.BoxGeometry(6, 4, 8);
+		var backRight = dog.backRight = new THREE.Mesh(footBackGeom, earMat)
+		backRight.position.set(6,-15.75,-8);
+		scene.add(backRight);
+
+		var backLeft = dog.backLeft = new THREE.Mesh(footBackGeom, earMat)
+		backLeft.position.set(-6,-15.75,-8);
+		scene.add(backLeft);
+
+		//tail
+		var boxTail = new THREE.BoxGeometry(3,10,2)
+		var tail = dog.tail = new THREE.Mesh(boxTail, earMat);
+		boxTail.applyMatrix( new THREE.Matrix4().makeTranslation( 0, -5,0 ) );
+		tail.position.set(0,-9,-18)
+		tail.rotation.x=3
+		tail.rotation.y=-3
+		scene.add(tail)
+	}
+
+
+    function makeRoom() {
+        var geometry = new THREE.BoxGeometry(170, 150, 150);
+        var roomMaterialArray = [];
+        // order to add materials: x+,x-,y+,y-,z+,z-
+        roomMaterialArray.push(new THREE.MeshBasicMaterial({color: 0xfaf6eb, side: THREE.DoubleSide}));
+        roomMaterialArray.push(new THREE.MeshBasicMaterial({color: 0xfaf6eb, side: THREE.DoubleSide}));
+        roomMaterialArray.push(new THREE.MeshBasicMaterial({color: 0xfaf6eb, side: THREE.DoubleSide}));
+        roomMaterialArray.push(new THREE.MeshBasicMaterial({color: 0xfaf6eb, side: THREE.DoubleSide}));
+        roomMaterialArray.push(new THREE.MeshBasicMaterial({color: 0xfaf6eb, side: THREE.DoubleSide}));
+        roomMaterialArray.push(new THREE.MeshBasicMaterial({color: 0xfaf6eb, side: THREE.DoubleSide}));
+        var material = new THREE.MeshFaceMaterial(roomMaterialArray);
+        var room = new THREE.Mesh(geometry, material);
+        scene.add(room);
+    }
+
+
+	// LIGHT
+    var directionalLight = new THREE.DirectionalLight( 0xffffff, 0.5 );
+	var light = new THREE.AmbientLight(0x404040, 0.1);
+	directionalLight.position.set(5, 5, 10);
+    scene.add( directionalLight );
+	scene.add(light);
+
+	// CONTROLS
+	var controls = new THREE.OrbitControls(camera, renderer.domElement);
+
+	// TWEEN
+
+
+	rotate(dog.tail, 0, -1, 0.5);
+
+	function rotate (obj, defaultRot, fromRot, toRot) {
+		var rotation = { z : defaultRot };
+		var tweenHead = new TWEEN.Tween(rotation)
+			.to({z:fromRot}, 1000)
+			.delay(50)
+			.easing(TWEEN.Easing.Sinusoidal.InOut)
+			.onUpdate(function(){
+				obj.rotation.z = rotation.z;
+			});
+		var tweenBack = new TWEEN.Tween(rotation)
+			.to({z:toRot}, 1000)
+			.delay(50)
+			.easing(TWEEN.Easing.Sinusoidal.InOut)
+			.onUpdate(function(){
+				obj.rotation.z = rotation.z;
+			});
+		// after tweenHead, do tweenBack
+		tweenHead.chain(tweenBack);
+		// And after tweenBack, do tweenHead, so it is cycling
+		tweenBack.chain(tweenHead);
+		tweenHead.start();
+	}
+	// window.addEventListener( 'resize', onWindowResize, false );
+	// onWindowResize();
+	// function onWindowResize() {
+	//
+	// 	camera.aspect = window.innerWidth / window.innerHeight;
+	// 	camera.updateProjectionMatrix();
+	//
+	// 	renderer.setSize( window.innerWidth, window.innerHeight );
+	//
+	// }
+
+	// ANIMATION
+	function render() {
+		// animate mesh or camera (or lights)
+		requestAnimationFrame(render);
+    	TWEEN.update();
+		renderer.render(scene, camera);
+	}
+	render();
+
+</script>
+<script src="js/master.js"></script>
+</body></html>

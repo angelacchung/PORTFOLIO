@@ -8,7 +8,7 @@
                 <h4 class="category punchine">UX / UI / Web Development</h4>
             </div>
             <div class="col-md-7">
-            <img src="img/customhighze/chfront.png" class="img-fluid headline mt-3">
+            <img src="img/customhighze/chfront3.png" class="img-fluid headline mt-3">
 
             </div>
         </div>

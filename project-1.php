@@ -8,7 +8,7 @@
                 <h4 class="category punchline">UX/UI</h4>
                 </div>
                 <div class="col-md-6">
-                    <img src="img/ecom/Frame 4.png" class="img-fluid headline mt-3">
+                    <img src="img/ecom/front.png" class="img-fluid headline mt-3">
                 </div>
                
             </div>
