@@ -1,0 +1,100 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+  integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+</head>
+
+<body>
+ <div class="container">
+  <div id="header">Spring</div>
+  <div>
+    <img id="img" src='full.png'/>
+    <p>
+      words,
+      consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
+      classical
+      literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+      1.10.33
+      of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
+      BC. This
+      book is a treatise on the theory of ethics, very popular during the Renaissance. The first
+      line of
+      Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+      interested.
+      Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+      reproduced in
+    </p>
+    <p>
+      words,
+      consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
+      classical
+      literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+      1.10.33
+      of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45
+      BC. This
+      book is a treatise on the theory of ethics, very popular during the Renaissance. The first
+      line of
+      Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+      The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those
+      interested.
+      Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also
+      reproduced in
+    </p>
+  </div>
+ </div>
+
+</body>
+<style>
+  #header {
+    background-color:white;
+    color: black;
+    /* text-align: center; */
+    /* Centered text */
+    font-size: 90px;
+    /* Big font size */
+    font-weight: bold;
+    position:sticky;/* Fixed position - sit on top of the page */
+    top: 0;
+    width: 100%;
+    /* Full width */
+    transition: 0.5s;
+    /* Add a transition effect (when scrolling - and font size is decreased) */
+  }
+  /* custom scroll bar */
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(14, 117, 236);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+</style>
+
+<script>
+  window.onscroll = function () { scrollFunction() };
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+      document.getElementById("header").style.fontSize = "30px";
+    } else {
+      document.getElementById("header").style.fontSize = "90px";
+
+    }
+  }</script>

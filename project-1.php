@@ -1,42 +1,55 @@
 <!-- ECOMMERCE -->
 <?php include 'nav.php' ?>
 <main class="mainMargin">
-        <div class="container">
-            <div class="row">
+    <div class="container">
+        <div class="row">
             <div class="col-md-6">
-            <h1 class="outlineTitle mt-2 tagline">Ecommerce Website</h1>
+                <h1 class="outlineTitle mt-2 tagline">Ecommerce Website</h1>
                 <h4 class="category punchline">UX/UI</h4>
-                </div>
-                <div class="col-md-6">
-                    <img src="img/ecom/front.png" class="img-fluid headline mt-3">
-                </div>
-               
+                <p class="punchline">Designing a responsive ecommerce website where you can view and learn about new
+                    tech-based products in a 3D home.</p>
             </div>
-            <!-- END OF TOP INFO -->
-            <div class="mt-5">
-                <div class="row">
-                    <div class="col-sm-4">
-                        <p class="subtitle">ROLE</p>
-                        <p>UI Design, Wireframing, Wireflows, Sitemapping, Prototyping, User Personas, User Journey Mapping</p>
-                    </div>
+            <div class="col-md-6">
+                <img src="img/ecom/clay1.png" class="img-fluid headline mt-3">
+            </div>
 
-                    <div class="col-sm-4">
-                        <p class="subtitle">TOOLS</p>
-                        <p>Sketch, Whimsical, Invision, Craft Invision</p>
-                    </div>
-                    <div class="col-sm-4">
-                        <p class="subtitle">DURATION</p>
-                        <p>4 weeks</p>
-                    </div>
+        </div>
+        <!-- END OF TOP INFO -->
+        <div class="container mt-5" style="max-width:820px;">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="subtitle">ROLE</p>
+                    <p>UI Design, Wireflows, Sitemapping, Prototyping, User Personas, User Journey Mapping
+                    </p>
                 </div>
 
+                <div class="col-sm-4">
+                    <p class="subtitle">TOOLS</p>
+                    <p>Sketch, Whimsical, Invision, Craft Invision</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="subtitle">DURATION</p>
+                    <p>4 weeks</p>
+                </div>
             </div>
             <!-- SUMMARY PROBLEM SOLUTION -->
             <div>
                 <div class="section">
                     <p class="subtitle">SUMMARY</p>
-                    <p> 
-                      I designed an ecommerce site for a client where I took the project from 
+                    <p>A responsive ecommerce site that a client was looking to bring to life. As the UX/UI Designer, I
+                        was
+                        <strong>responsible for this project</strong> and took it from the conceptual stages through the
+                        end
+                        into a finalized
+                        prototype. The final deliverables were prototypes of the mobile and desktop designs, made with
+                        InVision.
+                    </p>
+                </div>
+                <div class="section">
+                    <p class="subtitle">THE CHALLENGE</p>
+                    <p>The client wanted to integrate <strong>3-D rooms into the shopping experience.</strong> This
+                        3-D feature would not be the primary shopping experience, but rather to let
+                        users browse new technology, learn more about them and then make a purchase.
                     </p>
                 </div>
                 <div class="section headline">
@@ -78,14 +91,7 @@
                 <p class="subtitle">THE TIMELINE</p>
                 <img class="img-fluid card headline" src="img/ecom/timeline.png">
                 </div> -->
-                <div class="section">
-                    <p class="subtitle">THE CHALLENGE</p>
-                    <p>The client wanted to integrate a <strong>3-D house or 3-D rooms into the shopping experience.</strong> This
-                        3-D feature would not be the primary shopping experience, but rather for the purpose of letting
-                        users browse new technology, learn more about them and make a purchase. This project was a
-                        huge challenge for me, as I’ve never designed a project at this scale alone.
-                    </p>
-                </div>
+
             </div>
             <!-- <h2 class="storyTitle my-5"><span class="outline outlineTitle">In The Beginning</span></h2>
             <div class="section">
@@ -113,9 +119,11 @@
                 <div class="row">
                     <div class="col-lg-6">
                         <p class="subtitle">THE TONE</p>
-                        <p>The aim for this ecommerce website was to have a tone that reflected a <strong>comfortable, welcoming
-                            and
-                            warm feel.</strong> I made sure to reflect this tone and also implemented moments that showed the
+                        <p>The aim for this ecommerce website was to have a tone that reflected a <strong>comfortable,
+                                welcoming
+                                and
+                                warm feel.</strong> I made sure to reflect this tone and also implemented moments that
+                            showed the
                             organization that they were 'curators'.
                         </p>
                     </div>
@@ -158,7 +166,7 @@
                 <p class="subtitle">UI DESIGNS</p>
 
                 <p>
-                   <!--  -->
+                    <!--  -->
                 </p>
                 <img src="img/ecom/Frame 22.png" class="img-fluid card headline">
                 <!-- <img src="img/ecom/Frame 2.png" class="img-fluid card"> -->
@@ -216,10 +224,10 @@
             <div class="section">
                 <p class="subtitle">THE STUMBLES</p>
                 <p>
-                    A problem that I faced in this project was that user research was not properly conducted.
-                    The information that I gathered for my user personas was based off of what the client
-                    provided, as well as research that I did online. Other stumbles included keeping track of the
-                    designed screens since I was working on this alone.
+                    A stumble that I faced for this project was that due to the restrictions of the project, user
+                    research was not properly conducted. The information that I gathered for my user personas was based
+                    off of what the client provided, as well as research that I did online. Ideally, I would’ve wanted
+                    to interview real users.
 
                 </p>
             </div>
@@ -228,12 +236,14 @@
                 <p>At the end of this project, I further developed my skills and
                     understanding on how to work with Invision. Something new that I
                     learned was how to work with a client on further ideating the
-                    idea and changing the project outlines mid-way.  This was also a good challenge for me to take on since this is the first
+                    idea and changing the project outlines mid-way. This was also a good challenge for me to take on
+                    since
+                    this is the first
                     time that I've ever worked on a project at this scale.
                 </p>
-                <p><strong>I also learned that 
-                    exporting over 300 artboards onto Invision is not a good idea. </strong>
-                    </p>
+                <p><strong>I also learned that
+                        exporting over 300 artboards onto Invision is not a good idea. </strong>
+                </p>
             </div>
             <!-- END STUMBLES -->
 
@@ -257,8 +267,9 @@
                 </a>
             </div>
         </div>
-        <!-- FOOTER -->
-        <!-- END CONTAINER -->
-        </div>
-    </main>
-    <?php include 'footer.php' ?>
+    </div>
+    <!-- FOOTER -->
+    <!-- END CONTAINER -->
+    </div>
+</main>
+<?php include 'footer.php' ?>

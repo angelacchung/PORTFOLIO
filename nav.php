@@ -19,8 +19,13 @@ $stmt->execute();
 ?>
 <!--  -->
 <!DOCTYPE html>
-<html lang="en">
-
+<!-- border -->
+<!-- <html lang="en">
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div> -->
+<!--  -->
 <head>
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
@@ -38,7 +43,7 @@ $stmt->execute();
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+
 
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/new_css.css">
@@ -72,12 +77,17 @@ mediaqueries.js"></script>
 
     <!-- for Facebook -->
     <meta property="og:title" content="Angela Chung - UX Designer" />
-    <meta property="og:url" content="file:///D:/IMM/RESP-RESUME/angelachung-resume.html" />
+    <meta property="og:url" content="https://www.angelachung.me/img/sm_cards/twitter.png/" />
     <meta property="og:type" content="UX Design portfolio website" />
     <meta property="og:description" content="Angela Chung is a UX Designer + Illustrator based near the Toronto area" />
-    <meta property="og:image"
-        content="http://chunmini.dev.fast.sheridanc.on.ca/responsive-resume/RESP-RESUME/RESP-RESUME/images/fb.png" />
+    <meta property="og:image" content="https://www.angelachung.me/img/sm_cards/twitter.png" />
     <!-- Facebook recommended: 1200 x 630 - ideal: 1200 x 1200 square image -->
+
+    <!-- FOR LINKEDIN -->
+    <!-- <meta property="linkedin:title" content="Angela Chung - UX Designer"/>
+<meta property='linkedin:image' content="https://www.angelachung.me/img/sm_cards/twitter.png"/>
+<meta property='linkedin:description' content="UX Design portfolio website"/>
+<meta property='linkedin:url' content="https://www.angelachung.me/img/sm_cards/twitter.png" /> -->
 
 
     <!-- for Twitter -->
@@ -89,12 +99,10 @@ and graphic design; a skillset that she developed from her undergraduate educati
 post-graduate education at Sheridan College, where she is learning about UX/UI design and full-stack web development. She is currently looking for an internship
 or junior position in UX design. Angela is passionate about design and is a fan of coffee and tacos, though she would not eat them together.  " />
     <meta name="twitter:url" content="https://twitter.com/_angelachung" />
-    <meta name="twitter:image"
-        content="http://chunmini.dev.fast.sheridanc.on.ca/responsive-resume/RESP-RESUME/RESP-RESUME/images/twit.png" />
+    <meta name="twitter:image" content="https://www.angelachung.me/img/sm_cards/twitter.png" />
 </head>
 
-
-<body>
+<body> 
     <!-- Garbage code made by Angela Chung  -->
     <header id="navbar" class=" p-1 sticky-top">
         <div class="container mt-0">
@@ -103,9 +111,9 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                     <svg id="logo" class="m-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.04 123.54">
                         <defs>
                             <style>
-                                .cls-1 {
-                                    fill: #2b2b2b;
-                                }
+                            .cls-1 {
+                                fill: #2b2b2b;
+                            }
                             </style>
                         </defs>
                         <title>Homepage</title>
@@ -126,12 +134,12 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                 </a>
 
                 <button class="navbar-toggler border-0" type="button" data-toggle="collapse"
-                data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon" id="bt-burg-icon"><i class="material-icons">
-                        menu
-                    </i></span>
-            </button>
+                    data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" id="bt-burg-icon"><i class="material-icons">
+                            menu
+                        </i></span>
+                </button>
 
                 <div class="justify-content-end collapse navbar-collapse navSize" id="navbarTogglerDemo02">
                     <ul class="navbar-nav ">
@@ -139,14 +147,17 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                             <a class="nav-link" href="https://www.angelachung.me">UX/UI</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="about.php">About</a>
+                            <a class="nav-link" href="playground.php">Playground</a>
                         </li>
-                        <!-- <li class="nav-item">
-                            <a class="nav-link" href="resume.html">Resume</a>
-                        </li> -->
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.instagram.com/mini.juung/"
-                                target="_blank">Illustrations</a>
+                                target="_blank">Illustrations<span class="material-icons launch">
+                                    launch
+                                </span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.php">About</a>
                         </li>
                     </ul>
                 </div>

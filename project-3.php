@@ -4,15 +4,21 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-            <h1 class="outlineTitle mt-2 tagline">Custom Highze</h1>
-                <h4 class="category punchine">UX / UI / Web Development</h4>
+                <h1 class="outlineTitle mt-2 tagline">Custom Highze</h1>
+                <h4 class="category punchline">UX / UI / Web Development</h4>
+                <p class="punchline">Designing to match a user with a cannabis strain that is best suited for their
+                    needs.</p>
+                    <p class="punchline">This project was accepted into Sheridan College's entrepreneurship incubator program and is
+                    <strong>currently undergoing a re-design.</strong></p>
             </div>
             <div class="col-md-7">
-            <img src="img/customhighze/chfront3.png" class="img-fluid headline mt-3">
+                <img src="img/customhighze/clay1.png" class="img-fluid headline mt-3">
 
             </div>
         </div>
         <!-- END OF TOP INFO -->
+        <div class="container" style="max-width:820px">
+
         <div class="mt-5">
             <div class="row">
                 <div class="col-md-4">
@@ -33,7 +39,6 @@
 
         </div>
         <!-- SUMMARY PROBLEM SOLUTION -->
-        <div>
             <div class="section">
                 <p class="subtitle">SUMMARY</p>
                 <p> CustomHighze is a collaborative project that helps the user find the most appropriate
@@ -194,10 +199,10 @@
                     sure that the colors used - especially for text, are clearly legible and are accessible for
                     color blindness.
                 </p>
-                <div class="text-center">
+                <!-- <div class="text-center">
                     <a href="https://drive.google.com/open?id=1e5OgX3BKZgMssdGBR_pLEFLn1a-YIHW6" target="_blank"
                         class="link text-center">View images in Google Drive <img src="img/icons/google-drive.png"></a>
-                </div>
+                </div> -->
             </div>
             <!-- LEARNED OUTCOMES -->
             <div class="mt-4">

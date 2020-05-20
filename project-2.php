@@ -6,39 +6,43 @@
             <div class="col-md-5">
                 <h2 class="outlineTitle tagline">UX Audit - Mobile App</h2>
                 <h4 class="category punchline">UX / Audit / UI</h4>
-
+                <p class="punchline">
+                    Assessing a women's health mobile app for pain points and areas of improvements in order to offer a
+                    better experience for the customers.
+                </p>
             </div>
             <div class="col-md-7">
-                <img src="img/YDO/pink2.png" class="img-fluid headline mt-3">
+                <img src="img/YDO/front1.png" class="img-fluid headline mt-3">
             </div>
-
         </div>
         <!-- END OF TOP INFO -->
-        <div class="mt-5">
-            <div class="row">
-                <div class="col-lg-4">
-                    <p class="subtitle">ROLE</p>
-                    <p>Research, Visual Design, Data analysis, UX analysis, Userflows</p>
+        <div class="container mt-5" style="max-width:820px;">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <p class="subtitle">ROLE</p>
+                        <p>Research, Data analysis, UX analysis, Userflows</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="subtitle">TOOLS</p>
+                        <p>UX Cam, Google Analytics, Whimsical</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="subtitle">DURATION</p>
+                        <p>3 weeks</p>
+                    </div>
                 </div>
-                <div class="col-lg-4">
-                    <p class="subtitle">TOOLS</p>
-                    <p>UX Cam, Google Analytics, Sketch, Whimsical</p>
-                </div>
-                <div class="col-lg-4">
-                    <p class="subtitle">DURATION</p>
-                    <p>3 weeks</p>
-                </div>
-            </div>
             <div class="section">
                 <p class="subtitle">SUMMARY</p>
-                <p>I had the opportunity to <strong> lead a UX audit of a mobile app</strong> which focused on
+                <p>I had the opportunity to <strong> lead a UX audit of a mobile app</strong> which focused on women's
+                    health and
                     connecting women to general health practitioners. My process consisted of analyzing the app’s google
                     analytics data, the UX cam recordings, researching competitors and making recommendations on how
                     they
                     could improve their app. The client particularly wanted to get <strong>emphasis on how to increase
                         user retention.</strong></p>
                 <p>The scope for this audit was to analyze the app on both Android and iOS mobile devices within a 3
-                    week period with a final presentation to the client.</p>
+                    week period with a final presentation to the client, which included a userflow with the recommended
+                    features that could be added into the app.</p>
             </div>
 
             <div class="section">
@@ -46,19 +50,21 @@
                 <p>
                     <strong> The app was experiencing issues with user retention rates as well as high drop off rates
                         from some of their screens.
-                    </strong>The app also had UX/UI issues that were causing users confusion and frustration that called
-                    for solutions.
+                    </strong>The app also had UX/UI issues that were causing users confusion and frustration, which was
+                    evident in the UX cam recordings.
                 </p>
             </div>
 
             <div class="section">
                 <p class="subtitle">SOLUTION</p>
                 <p>
+                    The app was in need of a thoroughly conducted UX audit in order to pinpoint issues and how the app
+                    could improve.
                     In order to improve the overall experience of the app, I made recommendations that resolved the
                     general UX/UI issues found
                     as well as suggest new features that could be implemented. These recommendations are based off of
                     analyzing user frustrations,
-                    best UX practices and my research into competitors.
+                    best UX practices and my research into other competitors.
                 </p>
             </div>
 
@@ -91,18 +97,9 @@
                             <img src="img/icons/computer.svg">
                             <p>4. Recommendations</p>
                         </div>
-                        <!-- <div class="col-sm-4 text-center">
-                                    <img src="img/icons/prototype.svg">
-                                    <p>5. Mockup</p>
-                                </div> -->
                     </div>
                 </div>
             </div>
-            <!-- <div class="section">
-                    <p class="subtitle">THE TIMELINE</p>
-                    <img class="img-fluid card headline" src="img/YDO/timeline.png">
-                    </div> -->
-            <!--  -->
             <h2 class="storyTitle my-5"><span class="outline outlineTitle">Research</span></h2>
             <div class="section">
                 <p class="subtitle">ANALYZING USER BEHAVIOR</p>
@@ -142,7 +139,7 @@
 
             <!--  -->
             </p>
-        </div>
+        <!-- </div> -->
         <!-- end UX cam -->
         <div class="section">
             <p class="subtitle">ANALYZING FOR UX ISSUES</p>
@@ -150,18 +147,6 @@
                     devices.</strong> I
                 found that:
             </p>
-            <!-- <ul class="bulleted">
-                                    <li>
-                                        The app lacks a sense of progress being made when on the queue screen
-                                    </li>
-                                    <li>
-                                        There is no clear indication that the user is being onboarded to connect with a doctor, when
-                                        going through the account registration process
-                                    </li>
-                                    <li>
-                                       The form to add a medication is confusing and not intuitive
-                                    </li>
-                                </ul> -->
             <div class="row mt-5">
                 <div class="col-sm-6">
                     <ul class="bulleted">
@@ -213,7 +198,7 @@
             <!-- END OF MAPLE -->
         </div>
         <div>
-            <h2 class="storyTitle my-5"><span class="outline outlineTitle">My Solutions</span></h2>
+            <h2 class="storyTitle my-5"><span class="outline outlineTitle">Improvements To Make</span></h2>
         </div>
         <div class="section">
             <p class="mb-0 subtitle">TO IMPROVE USER RETENTION</p>
@@ -268,8 +253,12 @@
             <div class="row mt-5 mb-2">
                 <div class="col-sm-6">
                     <p class="bold">Include user personalization to create a more unique
-                        and relevant experience. By including personalization, the <strong> user can invest themselves in the
-                        app.</strong> This also provides more options for the user on how the app can be used in their life.
+                        and relevant experience.
+                    </p>
+
+                    <p>
+                        By including personalization, the user can invest themselves in the
+                        app. This also provides more options for the user on how the app can be used in their life.
                         Some recommended features to implement are:
                     </p>
                     <ul class="bulleted">
@@ -299,7 +288,7 @@
                     register
                 </li>
                 <li>
-                   Recommend 
+                    Recommend
                 </li>
                 <li>
                     Ability to let users stay in queue when they exit the popup </li>
@@ -310,24 +299,6 @@
                 </li>
             </ul>
         </div>
-        <!-- END OTHER RECOMMENDATIONS -->
-        <!-- <div class="section">
-                        <div class="row mt-5">
-                            <div class="col-sm-6">
-                                <p class="subtitle">THE MOCKUP</p>
-                                <p>The last deliverable for the client was a mockup design that I created to show
-                                    what the mobile app could look like in the future.
-                                </p>
-                            </div>
-                            <div class="col-sm-6">
-                                <img class="img-fluid headline" src="img/YDO/ydo_png.png">
-                            </div>
-                        </div>
-                    </div> -->
-
-        <!--  -->
-
-        <!--  -->
         <div class="section">
             <p class="subtitle">THE STRUGGLES</p>
             <p>It was challenging to conduct an analysis of the mobile app when I could not talk to
@@ -346,12 +317,7 @@
                 state why I think these solutions can work.
             </p>
         </div>
-
         <div class="text-center">
-            <!-- <a class="link" href="#">
-                                Read Full Report <img src="https://img.icons8.com/office/30/000000/pdf-2.png">
-                            </a> -->
-            <!-- END OF COMPETITOR'S ANALYSIS -->
         </div>
         <div class="mt-4">
             <h2 class="storyTitle my-5"><span class="outline outlineTitle">Thanks for reading!</span>✌️</h2>
@@ -365,10 +331,9 @@
                     <p class="nextarrow">Next project <i class="material-icons">
                             arrow_forward</i></p>
                 </a>
-
             </div>
         </div>
-        <div>
-
+    </div>
+    <div>
 </main>
 <?php include 'footer.php'?>
