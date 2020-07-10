@@ -38,7 +38,7 @@ body {
 li{
     font-size:18px;
     line-height: 1.20rem;
-    // margin-top:.5rem;
+    margin-top:.5rem;
 }
 p {margin-bottom: 1em;
 color:$black;
@@ -183,7 +183,7 @@ strong{
 }
 #header{
 .pitchMargin{
-    margin-top:6rem;
+    margin-top:30%;
 }
     #tagline{
         color:$black;
@@ -192,9 +192,6 @@ strong{
         line-height: 1.65rem;
     }
    
-}
-.tagline{
-    margin-top:1rem;
 }
 
 .button{
@@ -265,7 +262,6 @@ strong{
 }
 #navbar {
     background-color:white;
-    z-index:1;
     // box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.10);
     position: fixed;
     /* Make it stick/fixed */
@@ -419,40 +415,20 @@ footer{
 }
 // border
 #top, #bottom, #left, #right {
-	background:$darkblue;
+	background:$blue;
     position: fixed;
-    z-index:2;
+    z-index:1;
 	}
 	#left, #right {
 		top: 0; bottom: 0;
-		width: 8px;
+		width: 15px;
 		}
 		#left { left: 0; }
 		#right { right: 0; }
 		
 	#top, #bottom {
 		left: 0; right: 0;
-		height: 8px;
+		height: 15px;
 		}
 		#top { top: 0; }
-        #bottom { bottom: 0; }
-// scrollbar
-/* width */
-::-webkit-scrollbar {
-    width: 8px;
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
-    background: #f1f1f1; 
-  }
-   
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
-    background:$grey; 
-  }
-  
-  /* Handle on hover */
-  ::-webkit-scrollbar-thumb:hover {
-    background:$black 
-  }
+		#bottom { bottom: 0; }

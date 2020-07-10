@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-5">
-                <h1 class="outlineTitle mt-2 tagline">Custom Highze</h1>
+                <h1 class="outlineTitle tagline">Custom Highze</h1>
                 <h4 class="category punchline">UX / UI / Web Development</h4>
                 <p class="punchline">Designing to match a user with a cannabis strain that is best suited for their
                     needs.</p>

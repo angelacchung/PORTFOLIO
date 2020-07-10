@@ -19,19 +19,13 @@ $stmt->execute();
 ?>
 <!--  -->
 <!DOCTYPE html>
-<!-- border -->
-<!-- <html lang="en">
-<div id="left"></div>
-<div id="right"></div>
-<div id="top"></div>
-<div id="bottom"></div> -->
-<!--  -->
+<html lang="en">
 <head>
     <!-- favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+    <!-- <link rel="manifest" href="/site.webmanifest"> -->
     <!--  -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -64,7 +58,7 @@ mediaqueries.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- put this instead your html document head tags -->
 
-    <link rel="shortcut icon" href="images/profile_icon.ico" type="image/x-icon" />
+    <!-- <link rel="shortcut icon" href="images/profile_icon.ico" type="image/x-icon" /> -->
 
     <!-- for Google -->
     <meta name="description" content="Angela is a UX Designer + Illustrator based near the Toronto area" />
@@ -104,7 +98,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
 
 <body> 
     <!-- Garbage code made by Angela Chung  -->
-    <header id="navbar" class=" p-1 sticky-top">
+    <!-- <header id="navbar" class=" p-1 sticky-top">
         <div class="container mt-0">
             <nav class="navbar navbar-expand-lg  p-1 navbar-light">
                 <a href="https://www.angelachung.me">
@@ -151,7 +145,7 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://www.instagram.com/mini.juung/"
-                                target="_blank">Illustrations<span class="material-icons launch">
+                                target="_blank">Illustrations<span class="material-icons pl-1 launch">
                                     launch
                                 </span>
                             </a>
@@ -163,4 +157,70 @@ or junior position in UX design. Angela is passionate about design and is a fan 
                 </div>
             </nav>
         </div>
-    </header>
+    </header> -->
+    <!-- borders -->
+    <div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div>
+    <!-- borders -->
+    <header id="navbar">
+            <div class="container mt-0">
+                <nav class="navbar navbar-expand-lg p-1 navbar-light">
+                    <a href="https://www.angelachung.me">
+                        <svg id="logo" class="m-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 60.04 123.54">
+                            <defs>
+                                <style>
+                                    .cls-1 {
+                                        fill: #2b2b2b;
+                                    }
+                                </style>
+                            </defs>
+                            <title>Homepage</title>
+                            <g id="Layer_2" data-name="Layer 2">
+                                <g id="Layer_1-2" data-name="Layer 1">
+                                    <path class="cls-1"
+                                        d="M49.63,63.13,42.74,47.49H18.68l-7,15.64H1.26L30.67,0,60,63.13ZM22.33,39.28H39.26L33,25.43c-.36-.89-.74-1.9-1.12-3.05s-.78-2.43-1.17-3.84c-.33,1.33-.68,2.57-1.05,3.71s-.76,2.21-1.14,3.18Z" />
+                                    <path class="cls-1"
+                                        d="M51.39,76a30.31,30.31,0,0,0-8.85-5.35,27.21,27.21,0,0,0-9.81-1.78q-10,0-16.2,6.38T10.29,91.76q0,9.84,6.07,16.22a20.25,20.25,0,0,0,15.33,6.39A28,28,0,0,0,42,112.46a32.67,32.67,0,0,0,9.35-5.76v11.15a29.11,29.11,0,0,1-8.67,4.28,35.09,35.09,0,0,1-10.16,1.41,35.48,35.48,0,0,1-12.88-2.28,30.3,30.3,0,0,1-17.21-17,34.25,34.25,0,0,1,0-25.14,30.16,30.16,0,0,1,6.9-10.3A30.53,30.53,0,0,1,19.66,62a34.35,34.35,0,0,1,12.65-2.3A33.19,33.19,0,0,1,42.52,61.3,35.61,35.61,0,0,1,51.93,66Z" />
+                                    <path class="cls-1"
+                                        d="M33.54,105a6,6,0,0,1-6-6h2.8a3.19,3.19,0,0,0,6.38,0h2.8A6,6,0,0,1,33.54,105Z" />
+                                    <rect class="cls-1" x="31.78" y="90.52" width="2.8" height="3.89" />
+                                    <circle class="cls-1" cx="21.02" cy="89.11" r="4.22" />
+                                    <circle class="cls-1" cx="46.34" cy="89.11" r="4.22" />
+                                </g>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <button class="navbar-toggler p-0 border-0" type="button" data-toggle="collapse"
+                        data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon" id="bt-burg-icon"><i class="material-icons">
+                                menu
+                            </i></span>
+                    </button>
+
+                    <div class="justify-content-end collapse navbar-collapse navSize" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="https://www.angelachung.me">UX/UI</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="playground.php">Playground</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="https://www.instagram.com/mini.juung/"
+                                    target="_blank">Illustrations<span class="material-icons pl-1 launch">
+                                        launch
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.php">About</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </header>

@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h1 class="outlineTitle mt-2 tagline">Ecommerce Website</h1>
+                <h1 class="outlineTitle tagline">Ecommerce Website</h1>
                 <h4 class="category punchline">UX/UI</h4>
                 <p class="punchline">Designing a responsive ecommerce website where you can view and learn about new
                     tech-based products in a 3D home.</p>

@@ -18,6 +18,7 @@ body {
 li {
   font-size: 18px;
   line-height: 1.20rem;
+  margin-top: .5rem;
 }
 
 p {
@@ -196,17 +197,13 @@ strong {
 }
 
 #header .pitchMargin {
-  margin-top: 6rem;
+  margin-top: 30%;
 }
 
 #header #tagline {
   color: #1e1e1e;
   font-size: 1.2em;
   line-height: 1.65rem;
-}
-
-.tagline {
-  margin-top: 1rem;
 }
 
 .button {
@@ -287,7 +284,6 @@ strong {
 
 #navbar {
   background-color: white;
-  z-index: 1;
   position: fixed;
   /* Make it stick/fixed */
   top: 0;
@@ -452,15 +448,15 @@ footer img {
 }
 
 #top, #bottom, #left, #right {
-  background: #0846A6;
+  background: #2d54ff;
   position: fixed;
-  z-index: 2;
+  z-index: 1;
 }
 
 #left, #right {
   top: 0;
   bottom: 0;
-  width: 8px;
+  width: 15px;
 }
 
 #left {
@@ -474,7 +470,7 @@ footer img {
 #top, #bottom {
   left: 0;
   right: 0;
-  height: 8px;
+  height: 15px;
 }
 
 #top {
@@ -484,24 +480,4 @@ footer img {
 #bottom {
   bottom: 0;
 }
-
-/* width */
-::-webkit-scrollbar {
-  width: 8px;
-}
-
-/* Track */
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-/* Handle */
-::-webkit-scrollbar-thumb {
-  background: #9E9E9E;
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #1e1e1e;
-}
-/*# sourceMappingURL=new_css.css.map */
+/*# sourceMappingURL=newlayout.css.map */

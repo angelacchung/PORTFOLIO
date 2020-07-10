@@ -1,0 +1,127 @@
+<?php
+
+//perform a delete on a record
+//receive id of record to delete.
+
+$id = $_POST["id"];
+
+//perform database delete using form values;
+$dsn = "mysql:host=localhost;dbname=angetqwk_portfolio;charset=utf8mb4";
+$dbusername = "angetqwk_mc13md";
+$dbpassword = "*;h1g7yo66xp";
+
+
+$pdo = new PDO($dsn, $dbusername, $dbpassword);
+
+$stmt = $pdo->prepare("SELECT * FROM `projects`");
+
+$stmt->execute();
+?>
+<!--  -->
+<!DOCTYPE html>
+<!-- border -->
+<!-- <html lang="en">
+<div id="left"></div>
+<div id="right"></div>
+<div id="top"></div>
+<div id="bottom"></div> -->
+<!--  -->
+
+<head>
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon_io/favicon-16x16.png">
+    <!--  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- css -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!-- my css -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/newlayout.css">
+    <link rel="stylesheet" href="css/mq.css">
+    <title>UX/UI Designer Angela Chung👋</title>
+    <!-- - -- - html5.js for IE less than 9 -- - -- - >
+<!-- - -- - [if lt IE 9]>
+<script
+src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-- - -- - >
+<!-- - -- - css3-- - mediaqueries.js for IE less than 9 -- - -- - >
+<!-- - -- - [if lt IE 9]>
+<script src="http://css3-- - mediaqueries-- - js.googlecode.com/svn/trunk/css3-- -
+mediaqueries.js"></script>
+<![endif]-- - --->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- put this instead your html document head tags -->
+    <!-- for Google -->
+    <meta name="description" content="Angela is a UX Designer + Illustrator based near the Toronto area" />
+    <meta name="keywords"
+        content="UX Designer, User Experience, Illustrator, Designer, Toronto, UX/UI, UX/UI Designer, Visual Designers" />
+    <meta name="author" content="Angela Chung" />
+    <link rel="author" href="https://plus.google.com/u/0/115117216892268610399">
+    <meta name="copyright" content="2019" />
+    <!-- for Facebook -->
+    <meta property="og:title" content="Angela Chung - UX Designer" />
+    <meta property="og:url" content="https://www.angelachung.me/img/sm_cards/twitter.png/" />
+    <meta property="og:type" content="UX Design portfolio website" />
+    <meta property="og:description" content="Angela Chung is a UX Designer + Illustrator based near the Toronto area" />
+    <meta property="og:image" content="https://www.angelachung.me/img/sm_cards/twitter.png" />
+    <!-- Facebook recommended: 1200 x 630 - ideal: 1200 x 1200 square image -->
+
+    <!-- FOR LINKEDIN -->
+    <!-- <meta property="linkedin:title" content="Angela Chung - UX Designer"/>
+<meta property='linkedin:image' content="https://www.angelachung.me/img/sm_cards/twitter.png"/>
+<meta property='linkedin:description' content="UX Design portfolio website"/>
+<meta property='linkedin:url' content="https://www.angelachung.me/img/sm_cards/twitter.png" /> -->
+
+    <!-- for Twitter -->
+    <meta name="twitter:card" content="Angela Chung is a UX Designer + Illustrator based near the Toronto area" />
+    <meta name="twitter:title" content="Angela Chung UX Designer" />
+    <meta name="twitter:description"
+        content="Angela Chung is a UX Designer and Illustrator based near the Toronto area. She has a solid background in illustration
+and graphic design; a skillset that she developed from her undergraduate education at OCAD University. She is currently working towards a 
+post-graduate education at Sheridan College, where she is learning about UX/UI design and full-stack web development. She is currently looking for an internship
+or junior position in UX design. Angela is passionate about design and is a fan of coffee and tacos, though she would not eat them together.  " />
+    <meta name="twitter:url" content="https://twitter.com/_angelachung" />
+    <meta name="twitter:image" content="https://www.angelachung.me/img/sm_cards/twitter.png" />
+</head>
+
+<!-- Garbage code made by Angela Chung  -->
+<body>
+ 
+        <main class="mainMargin">
+
+            <div class="container">
+
+                <h1>Hello</h1>
+                <p>Angela Chung is a UX Designer and Illustrator based near the Toronto area. She has a solid background
+                    in illustration
+                    and graphic design; a skillset that she developed from her undergraduate education at OCAD
+                    University. She is currently working towards a
+                    post-graduate education at Sheridan College, where she is learning about UX/UI design and full-stack
+                    web development. She is currently looking for an internship
+                    or junior position in UX design. Angela is passionate about design and is a fan of coffee and tacos,
+                    though she would not eat them together. </p>
+            </div>
+        </main>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+</script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script src="js/main.js"></script>
+</body>
+
+</html>
